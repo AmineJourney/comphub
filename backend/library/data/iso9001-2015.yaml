@@ -1,0 +1,1467 @@
+# ISO 9001:2015 - COMPLETE BILINGUAL FRAMEWORK
+# Version complète bilingue avec toutes les traductions françaises
+
+framework:
+  name:
+    en: "ISO 9001"
+    fr: "ISO 9001"
+  structure: "iso_management_system"
+
+version:
+  name: "2015"
+  release_year: 2015
+  description:
+    en: "Quality management systems — Requirements (Complete: Clauses 4-10)"
+    fr: "Systèmes de management de la qualité — Exigences (Complet : Clauses 4-10)"
+
+domains:
+  # ═══════════════════════════════════════════════════════════════════════════
+  # MANAGEMENT SYSTEM CLAUSES (MANDATORY)
+  # CLAUSES DU SYSTÈME DE MANAGEMENT (OBLIGATOIRE)
+  # ═══════════════════════════════════════════════════════════════════════════
+
+  - code: "CLAUSE-4"
+    name:
+      en: "Context of the Organization"
+      fr: "Contexte de l'organisme"
+    description:
+      en: "Understand organization and stakeholder needs, determine QMS scope"
+      fr: "Comprendre l'organisme et les besoins des parties prenantes, déterminer le périmètre du SMQ"
+    domain_type: "management_clause"
+
+  - code: "CLAUSE-5"
+    name:
+      en: "Leadership"
+      fr: "Leadership"
+    description:
+      en: "Leadership commitment, policy, roles and responsibilities"
+      fr: "Engagement du leadership, politique, rôles et responsabilités"
+    domain_type: "management_clause"
+
+  - code: "CLAUSE-6"
+    name:
+      en: "Planning"
+      fr: "Planification"
+    description:
+      en: "Risk assessment, quality objectives, and planning for changes"
+      fr: "Évaluation des risques, objectifs qualité et planification des modifications"
+    domain_type: "management_clause"
+
+  - code: "CLAUSE-7"
+    name:
+      en: "Support"
+      fr: "Support"
+    description:
+      en: "Resources, competence, awareness, communication, documentation"
+      fr: "Ressources, compétences, sensibilisation, communication, documentation"
+    domain_type: "management_clause"
+
+  - code: "CLAUSE-8"
+    name:
+      en: "Operation"
+      fr: "Réalisation des activités opérationnelles"
+    description:
+      en: "Operational planning and control, product/service requirements, design, production"
+      fr: "Planification et maîtrise opérationnelles, exigences produits/services, conception, production"
+    domain_type: "management_clause"
+
+  - code: "CLAUSE-9"
+    name:
+      en: "Performance Evaluation"
+      fr: "Évaluation des performances"
+    description:
+      en: "Monitoring, measurement, analysis, internal audit, management review"
+      fr: "Surveillance, mesure, analyse, audit interne, revue de direction"
+    domain_type: "management_clause"
+
+  - code: "CLAUSE-10"
+    name:
+      en: "Improvement"
+      fr: "Amélioration"
+    description:
+      en: "Nonconformity, corrective action, continual improvement"
+      fr: "Non-conformité, action corrective, amélioration continue"
+    domain_type: "management_clause"
+
+controls:
+  # ═══════════════════════════════════════════════════════════════════════════
+  # CLAUSE 4: CONTEXT OF THE ORGANIZATION
+  # CLAUSE 4: CONTEXTE DE L'ORGANISME
+  # ═══════════════════════════════════════════════════════════════════════════
+
+  - code: "4.1"
+    domain: "CLAUSE-4"
+    title:
+      en: "Understanding the organization and its context"
+      fr: "Compréhension de l'organisme et de son contexte"
+    description:
+      en: "Determine external and internal issues relevant to the QMS"
+      fr: "Déterminer les enjeux externes et internes pertinents pour le SMQ"
+    guidance:
+      en: "Conduct context analysis: regulatory requirements, market trends, organizational capabilities, stakeholder expectations, competitive environment"
+      fr: "Effectuer une analyse du contexte : exigences réglementaires, tendances du marché, capacités organisationnelles, attentes des parties prenantes, environnement concurrentiel"
+    evidence_required:
+      - context_analysis_document
+      - swot_analysis
+      - external_internal_issues_register
+    requirements:
+      - id: "4.1.1"
+        control: "4.1"
+        text:
+          en: "External and internal issues affecting QMS and strategic direction must be identified and monitored"
+          fr: "Les enjeux externes et internes affectant le SMQ et l'orientation stratégique doivent être identifiés et surveillés"
+        evidence:
+          - context_analysis_document
+
+  - code: "4.2"
+    domain: "CLAUSE-4"
+    title:
+      en: "Understanding the needs and expectations of interested parties"
+      fr: "Compréhension des besoins et attentes des parties intéressées"
+    description:
+      en: "Determine interested parties and their quality management requirements"
+      fr: "Déterminer les parties intéressées et leurs exigences en matière de management de la qualité"
+    guidance:
+      en: "Identify stakeholders: customers, regulators, employees, suppliers, shareholders; document their requirements and monitor changes"
+      fr: "Identifier les parties prenantes : clients, régulateurs, employés, fournisseurs, actionnaires ; documenter leurs exigences et surveiller les changements"
+    evidence_required:
+      - stakeholder_register
+      - requirements_register
+      - stakeholder_requirements_matrix
+    requirements:
+      - id: "4.2.1"
+        control: "4.2"
+        text:
+          en: "Interested parties relevant to the QMS and their requirements must be determined and monitored"
+          fr: "Les parties intéressées pertinentes pour le SMQ et leurs exigences doivent être déterminées et surveillées"
+        evidence:
+          - stakeholder_register
+
+  - code: "4.3"
+    domain: "CLAUSE-4"
+    title:
+      en: "Determining the scope of the quality management system"
+      fr: "Détermination du domaine d'application du système de management de la qualité"
+    description:
+      en: "Define boundaries and applicability of the QMS"
+      fr: "Définir les limites et l'applicabilité du SMQ"
+    guidance:
+      en: "Document what's in scope (departments, locations, products, services) and exclusions with justifications based on 4.1 and 4.2 outputs"
+      fr: "Documenter ce qui est inclus dans le périmètre (départements, sites, produits, services) et les exclusions avec justifications basées sur les sorties de 4.1 et 4.2"
+    evidence_required:
+      - qms_scope_statement
+      - scope_justification_document
+    requirements:
+      - id: "4.3.1"
+        control: "4.3"
+        text:
+          en: "QMS scope must be documented, maintained as documented information, and available to interested parties"
+          fr: "Le périmètre du SMQ doit être documenté, tenu à jour comme information documentée et disponible pour les parties intéressées"
+        evidence:
+          - qms_scope_statement
+
+  - code: "4.4"
+    domain: "CLAUSE-4"
+    title:
+      en: "Quality management system and its processes"
+      fr: "Système de management de la qualité et ses processus"
+    description:
+      en: "Establish, implement, maintain and continually improve QMS including needed processes and their interactions"
+      fr: "Établir, mettre en œuvre, tenir à jour et améliorer en continu le SMQ incluant les processus nécessaires et leurs interactions"
+    guidance:
+      en: "Implement process approach with PDCA cycle, determine process inputs/outputs, sequence and interaction, criteria and methods, assign responsibilities, address risks and opportunities, evaluate and improve"
+      fr: "Mettre en œuvre l'approche processus avec cycle PDCA, déterminer les entrées/sorties des processus, la séquence et l'interaction, les critères et méthodes, attribuer les responsabilités, traiter les risques et opportunités, évaluer et améliorer"
+    evidence_required:
+      - process_map
+      - process_documentation
+      - process_interaction_matrix
+      - qms_procedures
+    requirements:
+      - id: "4.4.1"
+        control: "4.4"
+        text:
+          en: "Organization must establish, implement, maintain and continually improve a QMS including processes and their interactions"
+          fr: "L'organisme doit établir, mettre en œuvre, tenir à jour et améliorer en continu un SMQ incluant les processus et leurs interactions"
+        evidence:
+          - process_map
+      - id: "4.4.2"
+        control: "4.4"
+        text:
+          en: "Organization must determine inputs, outputs, sequence, interaction, criteria, methods, resources, responsibilities, risks/opportunities, monitoring, and improvement for processes"
+          fr: "L'organisme doit déterminer les entrées, sorties, séquence, interaction, critères, méthodes, ressources, responsabilités, risques/opportunités, surveillance et amélioration des processus"
+        evidence:
+          - process_documentation
+
+  # ═══════════════════════════════════════════════════════════════════════════
+  # CLAUSE 5: LEADERSHIP
+  # CLAUSE 5: LEADERSHIP
+  # ═══════════════════════════════════════════════════════════════════════════
+
+  - code: "5.1"
+    domain: "CLAUSE-5"
+    title:
+      en: "Leadership and commitment"
+      fr: "Leadership et engagement"
+    description:
+      en: "Top management demonstrates leadership and commitment to QMS and customer focus"
+      fr: "La direction démontre son leadership et son engagement envers le SMQ et l'orientation client"
+    guidance:
+      en: "Top management takes accountability, establishes policy and objectives, ensures integration into business processes, promotes process approach and risk-based thinking, provides resources, communicates importance"
+      fr: "La direction assume la responsabilité, établit la politique et les objectifs, assure l'intégration dans les processus métier, promeut l'approche processus et la pensée basée sur les risques, fournit les ressources, communique l'importance"
+    evidence_required:
+      - management_commitment_evidence
+      - policy_statement
+      - objectives_documentation
+      - resource_allocation_records
+    requirements:
+      - id: "5.1.1"
+        control: "5.1"
+        text:
+          en: "Top management must demonstrate leadership and commitment with respect to the QMS"
+          fr: "La direction doit démontrer son leadership et son engagement vis-à-vis du SMQ"
+        evidence:
+          - management_commitment_evidence
+      - id: "5.1.2"
+        control: "5.1"
+        text:
+          en: "Top management must demonstrate customer focus by ensuring customer requirements and applicable legal/regulatory requirements are determined, met, and customer satisfaction enhanced"
+          fr: "La direction doit démontrer l'orientation client en s'assurant que les exigences des clients et les exigences légales/réglementaires applicables sont déterminées, satisfaites et que la satisfaction client est améliorée"
+        evidence:
+          - customer_requirements_register
+
+  - code: "5.2"
+    domain: "CLAUSE-5"
+    title:
+      en: "Policy"
+      fr: "Politique"
+    description:
+      en: "Establish, implement and maintain a quality policy"
+      fr: "Établir, mettre en œuvre et tenir à jour une politique qualité"
+    guidance:
+      en: "Quality policy must be appropriate to purpose and context, provide framework for quality objectives, include commitment to satisfy requirements and continual improvement"
+      fr: "La politique qualité doit être appropriée à la finalité et au contexte, fournir un cadre pour les objectifs qualité, inclure l'engagement à satisfaire les exigences et à l'amélioration continue"
+    evidence_required:
+      - quality_policy_document
+      - policy_communication_records
+      - policy_approval_signature
+    requirements:
+      - id: "5.2.1"
+        control: "5.2"
+        text:
+          en: "Quality policy must be appropriate, provide framework for objectives, include commitment to requirements and improvement, be documented, communicated, and available"
+          fr: "La politique qualité doit être appropriée, fournir un cadre pour les objectifs, inclure l'engagement envers les exigences et l'amélioration, être documentée, communiquée et disponible"
+        evidence:
+          - quality_policy_document
+
+  - code: "5.3"
+    domain: "CLAUSE-5"
+    title:
+      en: "Organizational roles, responsibilities and authorities"
+      fr: "Rôles, responsabilités et autorités au sein de l'organisme"
+    description:
+      en: "Assign and communicate responsibilities and authorities for relevant roles"
+      fr: "Attribuer et communiquer les responsabilités et autorités pour les rôles pertinents"
+    guidance:
+      en: "Define roles for QMS conformity, process performance, customer focus, QMS integrity, reporting to top management, promoting customer awareness"
+      fr: "Définir les rôles pour la conformité du SMQ, la performance des processus, l'orientation client, l'intégrité du SMQ, le reporting à la direction, la promotion de la sensibilisation client"
+    evidence_required:
+      - responsibility_matrix
+      - job_descriptions
+      - authority_delegation_records
+      - organizational_chart
+    requirements:
+      - id: "5.3.1"
+        control: "5.3"
+        text:
+          en: "Roles, responsibilities and authorities must be assigned, communicated, and understood including ensuring QMS conformity, process performance, customer focus, QMS integrity, and reporting"
+          fr: "Les rôles, responsabilités et autorités doivent être attribués, communiqués et compris incluant la conformité du SMQ, la performance des processus, l'orientation client, l'intégrité du SMQ et le reporting"
+        evidence:
+          - responsibility_matrix
+
+  # ═══════════════════════════════════════════════════════════════════════════
+  # CLAUSE 6: PLANNING
+  # CLAUSE 6: PLANIFICATION
+  # ═══════════════════════════════════════════════════════════════════════════
+
+  - code: "6.1"
+    domain: "CLAUSE-6"
+    title:
+      en: "Actions to address risks and opportunities"
+      fr: "Actions à mettre en œuvre face aux risques et opportunités"
+    description:
+      en: "Determine risks and opportunities and plan actions to address them"
+      fr: "Déterminer les risques et opportunités et planifier les actions pour les traiter"
+    guidance:
+      en: "Consider issues from 4.1 and requirements from 4.2, determine risks/opportunities, plan actions to address them, integrate into QMS processes, evaluate effectiveness"
+      fr: "Considérer les enjeux de 4.1 et les exigences de 4.2, déterminer les risques/opportunités, planifier les actions pour les traiter, intégrer dans les processus du SMQ, évaluer l'efficacité"
+    evidence_required:
+      - risk_register
+      - opportunity_register
+      - risk_assessment_methodology
+      - risk_treatment_plan
+    requirements:
+      - id: "6.1.1"
+        control: "6.1"
+        text:
+          en: "Organization must determine risks and opportunities that need to be addressed to ensure QMS achieves intended results, prevent/reduce undesired effects, and achieve improvement"
+          fr: "L'organisme doit déterminer les risques et opportunités qui doivent être traités pour s'assurer que le SMQ atteint ses résultats escomptés, prévenir/réduire les effets indésirables et réaliser l'amélioration"
+        evidence:
+          - risk_register
+      - id: "6.1.2"
+        control: "6.1"
+        text:
+          en: "Organization must plan actions to address risks and opportunities, integrate into QMS processes, and evaluate effectiveness"
+          fr: "L'organisme doit planifier les actions pour traiter les risques et opportunités, les intégrer dans les processus du SMQ et évaluer leur efficacité"
+        evidence:
+          - risk_treatment_plan
+
+  - code: "6.2"
+    domain: "CLAUSE-6"
+    title:
+      en: "Quality objectives and planning to achieve them"
+      fr: "Objectifs qualité et planification pour les atteindre"
+    description:
+      en: "Establish quality objectives at relevant functions and levels, and plan how to achieve them"
+      fr: "Établir des objectifs qualité aux fonctions et niveaux pertinents, et planifier comment les atteindre"
+    guidance:
+      en: "Objectives must be consistent with quality policy, measurable, monitored, communicated, updated; planning must include what will be done, resources needed, responsibilities, timelines, how results evaluated"
+      fr: "Les objectifs doivent être cohérents avec la politique qualité, mesurables, surveillés, communiqués, mis à jour ; la planification doit inclure ce qui sera fait, les ressources nécessaires, les responsabilités, les délais, comment les résultats seront évalués"
+    evidence_required:
+      - quality_objectives_document
+      - objective_action_plans
+      - objective_monitoring_reports
+    requirements:
+      - id: "6.2.1"
+        control: "6.2"
+        text:
+          en: "Quality objectives must be established at relevant functions/levels, be consistent with policy, measurable, monitored, communicated, and updated"
+          fr: "Les objectifs qualité doivent être établis aux fonctions/niveaux pertinents, être cohérents avec la politique, mesurables, surveillés, communiqués et mis à jour"
+        evidence:
+          - quality_objectives_document
+      - id: "6.2.2"
+        control: "6.2"
+        text:
+          en: "Planning must determine what will be done, resources needed, who is responsible, when completed, and how results will be evaluated"
+          fr: "La planification doit déterminer ce qui sera fait, les ressources nécessaires, qui est responsable, quand ce sera terminé et comment les résultats seront évalués"
+        evidence:
+          - objective_action_plans
+
+  - code: "6.3"
+    domain: "CLAUSE-6"
+    title:
+      en: "Planning of changes"
+      fr: "Planification des modifications"
+    description:
+      en: "When changes to QMS are needed, they must be carried out in a planned manner"
+      fr: "Lorsque des modifications du SMQ sont nécessaires, elles doivent être effectuées de manière planifiée"
+    guidance:
+      en: "Consider purpose of changes, potential consequences, QMS integrity, resource availability, allocation/reallocation of responsibilities and authorities"
+      fr: "Considérer la finalité des modifications, les conséquences potentielles, l'intégrité du SMQ, la disponibilité des ressources, l'attribution/réattribution des responsabilités et autorités"
+    evidence_required:
+      - change_management_procedure
+      - change_requests
+      - change_impact_assessments
+      - change_implementation_plans
+    requirements:
+      - id: "6.3.1"
+        control: "6.3"
+        text:
+          en: "Changes to QMS must be planned considering purpose, consequences, integrity, resources, and responsibilities"
+          fr: "Les modifications du SMQ doivent être planifiées en considérant la finalité, les conséquences, l'intégrité, les ressources et les responsabilités"
+        evidence:
+          - change_management_procedure
+
+  # ═══════════════════════════════════════════════════════════════════════════
+  # CLAUSE 7: SUPPORT
+  # CLAUSE 7: SUPPORT
+  # ═══════════════════════════════════════════════════════════════════════════
+
+  - code: "7.1.1"
+    domain: "CLAUSE-7"
+    title:
+      en: "Resources - General"
+      fr: "Ressources - Généralités"
+    description:
+      en: "Determine and provide resources needed for QMS establishment, implementation, maintenance and continual improvement"
+      fr: "Déterminer et fournir les ressources nécessaires pour l'établissement, la mise en œuvre, la tenue à jour et l'amélioration continue du SMQ"
+    guidance:
+      en: "Consider capabilities and constraints of existing internal resources, and what needs to be obtained from external providers"
+      fr: "Considérer les capacités et contraintes des ressources internes existantes, et ce qui doit être obtenu auprès de prestataires externes"
+    evidence_required:
+      - resource_planning_document
+      - resource_allocation_records
+      - budget_documentation
+    requirements:
+      - id: "7.1.1.1"
+        control: "7.1.1"
+        text:
+          en: "Organization must determine and provide resources needed for QMS considering capabilities/constraints of internal resources and needs from external providers"
+          fr: "L'organisme doit déterminer et fournir les ressources nécessaires pour le SMQ en considérant les capacités/contraintes des ressources internes et les besoins des prestataires externes"
+        evidence:
+          - resource_planning_document
+
+  - code: "7.1.2"
+    domain: "CLAUSE-7"
+    title:
+      en: "People"
+      fr: "Ressources humaines"
+    description:
+      en: "Determine and provide persons necessary for effective implementation of QMS and operation of processes"
+      fr: "Déterminer et fournir les personnes nécessaires pour la mise en œuvre efficace du SMQ et le fonctionnement des processus"
+    guidance:
+      en: "Ensure adequate staffing levels with appropriate competencies for QMS processes and operations"
+      fr: "Assurer des niveaux de personnel adéquats avec les compétences appropriées pour les processus et opérations du SMQ"
+    evidence_required:
+      - staffing_plan
+      - headcount_records
+      - competency_matrix
+    requirements:
+      - id: "7.1.2.1"
+        control: "7.1.2"
+        text:
+          en: "Organization must determine and provide persons necessary for effective QMS implementation and process operation"
+          fr: "L'organisme doit déterminer et fournir les personnes nécessaires pour la mise en œuvre efficace du SMQ et le fonctionnement des processus"
+        evidence:
+          - staffing_plan
+
+  - code: "7.1.3"
+    domain: "CLAUSE-7"
+    title:
+      en: "Infrastructure"
+      fr: "Infrastructure"
+    description:
+      en: "Determine, provide and maintain infrastructure needed for process operation and conformity of products/services"
+      fr: "Déterminer, fournir et tenir à jour l'infrastructure nécessaire pour le fonctionnement des processus et la conformité des produits/services"
+    guidance:
+      en: "Infrastructure includes buildings, equipment, hardware, software, transportation resources, ICT"
+      fr: "L'infrastructure inclut les bâtiments, équipements, matériel, logiciels, ressources de transport, TIC"
+    evidence_required:
+      - infrastructure_inventory
+      - maintenance_schedule
+      - infrastructure_adequacy_assessment
+    requirements:
+      - id: "7.1.3.1"
+        control: "7.1.3"
+        text:
+          en: "Organization must determine, provide and maintain infrastructure needed including buildings, equipment, software, transportation, ICT"
+          fr: "L'organisme doit déterminer, fournir et tenir à jour l'infrastructure nécessaire incluant bâtiments, équipements, logiciels, transport, TIC"
+        evidence:
+          - infrastructure_inventory
+
+  - code: "7.1.4"
+    domain: "CLAUSE-7"
+    title:
+      en: "Environment for the operation of processes"
+      fr: "Environnement pour la mise en œuvre des processus"
+    description:
+      en: "Determine, provide and maintain environment necessary for process operation and conformity"
+      fr: "Déterminer, fournir et tenir à jour l'environnement nécessaire pour le fonctionnement des processus et la conformité"
+    guidance:
+      en: "Environment can include social, psychological and physical factors (temperature, humidity, lighting, cleanliness, noise, ergonomics)"
+      fr: "L'environnement peut inclure des facteurs sociaux, psychologiques et physiques (température, humidité, éclairage, propreté, bruit, ergonomie)"
+    evidence_required:
+      - work_environment_assessment
+      - environmental_monitoring_records
+      - workplace_safety_documentation
+    requirements:
+      - id: "7.1.4.1"
+        control: "7.1.4"
+        text:
+          en: "Organization must determine, provide and maintain environment for processes including social, psychological and physical factors"
+          fr: "L'organisme doit déterminer, fournir et tenir à jour l'environnement pour les processus incluant les facteurs sociaux, psychologiques et physiques"
+        evidence:
+          - work_environment_assessment
+
+  - code: "7.1.5"
+    domain: "CLAUSE-7"
+    title:
+      en: "Monitoring and measuring resources"
+      fr: "Ressources pour la surveillance et la mesure"
+    description:
+      en: "Determine and provide resources needed to ensure valid and reliable monitoring and measurement results"
+      fr: "Déterminer et fournir les ressources nécessaires pour assurer des résultats de surveillance et de mesure valables et fiables"
+    guidance:
+      en: "Ensure monitoring/measuring equipment is suitable for purpose, maintained, calibrated/verified at specified intervals, identified to determine status, safeguarded from adjustments"
+      fr: "Assurer que les équipements de surveillance/mesure sont appropriés, maintenus, étalonnés/vérifiés à intervalles spécifiés, identifiés pour déterminer le statut, protégés contre les réglages"
+    evidence_required:
+      - measurement_equipment_list
+      - calibration_schedule
+      - calibration_certificates
+      - measurement_traceability_records
+    requirements:
+      - id: "7.1.5.1"
+        control: "7.1.5"
+        text:
+          en: "Organization must ensure monitoring/measuring resources are suitable, maintained, and verified/calibrated for validity and reliability"
+          fr: "L'organisme doit s'assurer que les ressources de surveillance/mesure sont appropriées, maintenues et vérifiées/étalonnées pour la validité et la fiabilité"
+        evidence:
+          - calibration_certificates
+      - id: "7.1.5.2"
+        control: "7.1.5"
+        text:
+          en: "Documented information must be retained as evidence of fitness for purpose including basis for calibration, identification, status safeguarding, and actions when found unfit"
+          fr: "Les informations documentées doivent être conservées comme preuves de l'aptitude à l'emploi incluant la base pour l'étalonnage, l'identification, la protection du statut et les actions lorsque jugé inapte"
+        evidence:
+          - measurement_traceability_records
+
+  - code: "7.1.6"
+    domain: "CLAUSE-7"
+    title:
+      en: "Organizational knowledge"
+      fr: "Connaissances organisationnelles"
+    description:
+      en: "Determine knowledge needed for process operation and conformity of products/services"
+      fr: "Déterminer les connaissances nécessaires pour le fonctionnement des processus et la conformité des produits/services"
+    guidance:
+      en: "Knowledge can be based on internal sources (intellectual property, lessons learned, experience) and external sources (standards, conferences, academia, customers)"
+      fr: "Les connaissances peuvent être basées sur des sources internes (propriété intellectuelle, leçons apprises, expérience) et externes (normes, conférences, milieu universitaire, clients)"
+    evidence_required:
+      - knowledge_management_system
+      - lessons_learned_database
+      - knowledge_transfer_processes
+      - training_materials
+    requirements:
+      - id: "7.1.6.1"
+        control: "7.1.6"
+        text:
+          en: "Organization must determine, maintain and make available knowledge needed, and consider current knowledge and how to acquire additional knowledge when addressing changing needs and trends"
+          fr: "L'organisme doit déterminer, tenir à jour et mettre à disposition les connaissances nécessaires, et considérer les connaissances actuelles et comment acquérir des connaissances supplémentaires face aux besoins et tendances changeants"
+        evidence:
+          - knowledge_management_system
+
+  - code: "7.2"
+    domain: "CLAUSE-7"
+    title:
+      en: "Competence"
+      fr: "Compétences"
+    description:
+      en: "Determine, ensure and maintain necessary competence of persons affecting QMS performance and effectiveness"
+      fr: "Déterminer, assurer et tenir à jour les compétences nécessaires des personnes affectant la performance et l'efficacité du SMQ"
+    guidance:
+      en: "Determine competence needed, ensure persons are competent based on education/training/experience, take actions to acquire competence, evaluate effectiveness, retain documented information"
+      fr: "Déterminer les compétences nécessaires, assurer que les personnes sont compétentes sur la base de l'éducation/formation/expérience, prendre des actions pour acquérir les compétences, évaluer l'efficacité, conserver les informations documentées"
+    evidence_required:
+      - competency_matrix
+      - training_records
+      - education_certificates
+      - competency_evaluation_records
+    requirements:
+      - id: "7.2.1"
+        control: "7.2"
+        text:
+          en: "Organization must determine competence, ensure competence based on education/training/experience, take actions to acquire competence, evaluate effectiveness, and retain documented information"
+          fr: "L'organisme doit déterminer les compétences, assurer les compétences basées sur éducation/formation/expérience, prendre des actions pour acquérir les compétences, évaluer l'efficacité et conserver les informations documentées"
+        evidence:
+          - competency_matrix
+
+  - code: "7.3"
+    domain: "CLAUSE-7"
+    title:
+      en: "Awareness"
+      fr: "Sensibilisation"
+    description:
+      en: "Ensure persons are aware of quality policy, objectives, their contribution, and implications of nonconformity"
+      fr: "Assurer que les personnes sont sensibilisées à la politique qualité, aux objectifs, à leur contribution et aux implications de la non-conformité"
+    guidance:
+      en: "Conduct awareness programs to ensure understanding of quality policy, relevant quality objectives, personal contribution to QMS effectiveness including benefits of improved performance, and implications of not conforming"
+      fr: "Mener des programmes de sensibilisation pour assurer la compréhension de la politique qualité, des objectifs qualité pertinents, de la contribution personnelle à l'efficacité du SMQ incluant les bénéfices d'une performance améliorée, et des implications de la non-conformité"
+    evidence_required:
+      - awareness_training_records
+      - communication_records
+      - awareness_assessments
+    requirements:
+      - id: "7.3.1"
+        control: "7.3"
+        text:
+          en: "Persons must be aware of quality policy, relevant objectives, their contribution to QMS effectiveness, and implications of not conforming"
+          fr: "Les personnes doivent être sensibilisées à la politique qualité, aux objectifs pertinents, à leur contribution à l'efficacité du SMQ et aux implications de la non-conformité"
+        evidence:
+          - awareness_training_records
+
+  - code: "7.4"
+    domain: "CLAUSE-7"
+    title:
+      en: "Communication"
+      fr: "Communication"
+    description:
+      en: "Determine internal and external communications relevant to the QMS"
+      fr: "Déterminer les communications internes et externes pertinentes pour le SMQ"
+    guidance:
+      en: "Determine what to communicate, when, with whom, how, and who communicates; establish communication processes"
+      fr: "Déterminer quoi communiquer, quand, avec qui, comment et qui communique ; établir les processus de communication"
+    evidence_required:
+      - communication_plan
+      - communication_procedures
+      - communication_records
+    requirements:
+      - id: "7.4.1"
+        control: "7.4"
+        text:
+          en: "Organization must determine internal and external communications including what, when, with whom, how, and who communicates"
+          fr: "L'organisme doit déterminer les communications internes et externes incluant quoi, quand, avec qui, comment et qui communique"
+        evidence:
+          - communication_plan
+
+  - code: "7.5.1"
+    domain: "CLAUSE-7"
+    title:
+      en: "Documented information - General"
+      fr: "Informations documentées - Généralités"
+    description:
+      en: "QMS must include documented information required by the standard and determined as necessary by the organization"
+      fr: "Le SMQ doit inclure les informations documentées exigées par la norme et déterminées comme nécessaires par l'organisme"
+    guidance:
+      en: "Extent of documented information can differ based on organization size, type, complexity, competence of persons, and need to demonstrate conformity"
+      fr: "L'étendue des informations documentées peut différer selon la taille de l'organisme, le type, la complexité, les compétences des personnes et le besoin de démontrer la conformité"
+    evidence_required:
+      - qms_documentation_list
+      - mandatory_procedures
+      - process_documentation
+    requirements:
+      - id: "7.5.1.1"
+        control: "7.5.1"
+        text:
+          en: "QMS must include documented information required by ISO 9001 and determined necessary for QMS effectiveness"
+          fr: "Le SMQ doit inclure les informations documentées exigées par ISO 9001 et déterminées nécessaires pour l'efficacité du SMQ"
+        evidence:
+          - qms_documentation_list
+
+  - code: "7.5.2"
+    domain: "CLAUSE-7"
+    title:
+      en: "Creating and updating documented information"
+      fr: "Création et mise à jour des informations documentées"
+    description:
+      en: "When creating and updating documented information ensure appropriate identification, format, review and approval"
+      fr: "Lors de la création et mise à jour des informations documentées, assurer une identification, un format, une revue et une approbation appropriés"
+    guidance:
+      en: "Ensure proper identification and description, format and media, review and approval for suitability and adequacy"
+      fr: "Assurer une identification et description appropriées, un format et support, une revue et approbation pour la pertinence et l'adéquation"
+    evidence_required:
+      - document_creation_procedure
+      - document_templates
+      - approval_records
+    requirements:
+      - id: "7.5.2.1"
+        control: "7.5.2"
+        text:
+          en: "When creating/updating documented information, ensure appropriate identification, format, review and approval"
+          fr: "Lors de la création/mise à jour des informations documentées, assurer une identification, un format, une revue et une approbation appropriés"
+        evidence:
+          - document_creation_procedure
+
+  - code: "7.5.3"
+    domain: "CLAUSE-7"
+    title:
+      en: "Control of documented information"
+      fr: "Maîtrise des informations documentées"
+    description:
+      en: "Documented information must be controlled to ensure it is available, suitable for use, and adequately protected"
+      fr: "Les informations documentées doivent être maîtrisées pour s'assurer qu'elles sont disponibles, appropriées à l'utilisation et protégées de manière adéquate"
+    guidance:
+      en: "Address distribution, access, retrieval, use, storage, preservation, version control, retention, and disposition; control external documented information"
+      fr: "Traiter la distribution, l'accès, la récupération, l'utilisation, le stockage, la préservation, le contrôle des versions, la conservation et la disposition ; maîtriser les informations documentées externes"
+    evidence_required:
+      - document_control_procedure
+      - document_register
+      - version_control_records
+      - access_control_matrix
+    requirements:
+      - id: "7.5.3.1"
+        control: "7.5.3"
+        text:
+          en: "Documented information must be controlled for availability, protection, distribution, access, retrieval, use, storage, preservation, version control, retention and disposition"
+          fr: "Les informations documentées doivent être maîtrisées pour la disponibilité, la protection, la distribution, l'accès, la récupération, l'utilisation, le stockage, la préservation, le contrôle des versions, la conservation et la disposition"
+        evidence:
+          - document_control_procedure
+
+  # ═══════════════════════════════════════════════════════════════════════════
+  # CLAUSE 8: OPERATION
+  # CLAUSE 8: RÉALISATION DES ACTIVITÉS OPÉRATIONNELLES
+  # ═══════════════════════════════════════════════════════════════════════════
+
+  - code: "8.1"
+    domain: "CLAUSE-8"
+    title:
+      en: "Operational planning and control"
+      fr: "Planification et maîtrise opérationnelles"
+    description:
+      en: "Plan, implement and control processes needed to meet requirements for product/service provision"
+      fr: "Planifier, mettre en œuvre et maîtriser les processus nécessaires pour satisfaire les exigences relatives à la fourniture de produits/services"
+    guidance:
+      en: "Determine requirements, establish criteria, implement process control, determine/retain documented information, control planned changes, review consequences of unintended changes, control outsourced processes"
+      fr: "Déterminer les exigences, établir les critères, mettre en œuvre la maîtrise des processus, déterminer/conserver les informations documentées, maîtriser les modifications planifiées, examiner les conséquences des modifications non prévues, maîtriser les processus externalisés"
+    evidence_required:
+      - operational_planning_documentation
+      - process_control_procedures
+      - change_control_records
+      - outsourcing_control_documentation
+    requirements:
+      - id: "8.1.1"
+        control: "8.1"
+        text:
+          en: "Organization must plan, implement and control processes to meet requirements by determining requirements, establishing criteria, implementing control, and determining/retaining documented information"
+          fr: "L'organisme doit planifier, mettre en œuvre et maîtriser les processus pour satisfaire les exigences en déterminant les exigences, établissant les critères, mettant en œuvre la maîtrise et déterminant/conservant les informations documentées"
+        evidence:
+          - operational_planning_documentation
+
+  - code: "8.2.1"
+    domain: "CLAUSE-8"
+    title:
+      en: "Customer communication"
+      fr: "Communication avec les clients"
+    description:
+      en: "Communication with customers must include information about products/services, inquiries/contracts/orders, feedback, and property"
+      fr: "La communication avec les clients doit inclure les informations sur les produits/services, les demandes/contrats/commandes, les retours d'information et les biens"
+    guidance:
+      en: "Establish processes for providing information, handling inquiries and contracts, obtaining customer feedback including complaints, handling customer property, establishing contingency actions"
+      fr: "Établir des processus pour fournir des informations, traiter les demandes et contrats, obtenir les retours clients incluant les réclamations, gérer les biens des clients, établir les actions d'urgence"
+    evidence_required:
+      - customer_communication_procedures
+      - inquiry_handling_records
+      - contract_review_records
+      - customer_feedback_system
+    requirements:
+      - id: "8.2.1.1"
+        control: "8.2.1"
+        text:
+          en: "Communication with customers must include product/service information, inquiries/contracts/orders, customer feedback/complaints, customer property handling, and contingency actions"
+          fr: "La communication avec les clients doit inclure les informations produits/services, demandes/contrats/commandes, retours/réclamations clients, gestion des biens clients et actions d'urgence"
+        evidence:
+          - customer_communication_procedures
+
+  - code: "8.2.2"
+    domain: "CLAUSE-8"
+    title:
+      en: "Determining requirements related to products and services"
+      fr: "Détermination des exigences relatives aux produits et services"
+    description:
+      en: "Determine customer requirements, legal/regulatory requirements, and organization's own requirements"
+      fr: "Déterminer les exigences des clients, les exigences légales/réglementaires et les propres exigences de l'organisme"
+    guidance:
+      en: "Identify customer requirements including delivery and post-delivery, requirements not stated by customer but necessary, legal/regulatory requirements, and organization's additional requirements"
+      fr: "Identifier les exigences des clients incluant la livraison et l'après-livraison, les exigences non énoncées mais nécessaires, les exigences légales/réglementaires et les exigences supplémentaires de l'organisme"
+    evidence_required:
+      - requirements_determination_procedure
+      - customer_requirements_register
+      - legal_requirements_register
+      - product_specifications
+    requirements:
+      - id: "8.2.2.1"
+        control: "8.2.2"
+        text:
+          en: "Requirements must include customer-specified, necessary but unstated, legal/regulatory, and organization-determined requirements"
+          fr: "Les exigences doivent inclure celles spécifiées par le client, nécessaires mais non énoncées, légales/réglementaires et déterminées par l'organisme"
+        evidence:
+          - customer_requirements_register
+
+  - code: "8.2.3"
+    domain: "CLAUSE-8"
+    title:
+      en: "Review of requirements related to products and services"
+      fr: "Revue des exigences relatives aux produits et services"
+    description:
+      en: "Review requirements before committing to supply products/services to customers"
+      fr: "Examiner les exigences avant de s'engager à fournir des produits/services aux clients"
+    guidance:
+      en: "Ensure ability to meet requirements, resolve differences, confirm customer requirements when not documented, review contracts and orders, address changes, retain documented information"
+      fr: "Assurer la capacité à satisfaire les exigences, résoudre les différences, confirmer les exigences clients lorsque non documentées, examiner les contrats et commandes, traiter les modifications, conserver les informations documentées"
+    evidence_required:
+      - contract_review_procedure
+      - contract_review_records
+      - order_review_records
+      - change_documentation
+    requirements:
+      - id: "8.2.3.1"
+        control: "8.2.3"
+        text:
+          en: "Organization must ensure ability to meet requirements, resolve differences, confirm customer requirements when not documented, review contract/order requirements, and address changes"
+          fr: "L'organisme doit s'assurer de la capacité à satisfaire les exigences, résoudre les différences, confirmer les exigences clients lorsque non documentées, examiner les exigences de contrat/commande et traiter les modifications"
+        evidence:
+          - contract_review_records
+
+  - code: "8.2.4"
+    domain: "CLAUSE-8"
+    title:
+      en: "Changes to requirements for products and services"
+      fr: "Modifications des exigences relatives aux produits et services"
+    description:
+      en: "When requirements change, ensure documented information is amended and relevant persons are aware"
+      fr: "Lorsque les exigences changent, s'assurer que les informations documentées sont modifiées et que les personnes concernées sont sensibilisées"
+    guidance:
+      en: "Establish change control process to update documentation and communicate changes to affected parties"
+      fr: "Établir un processus de maîtrise des modifications pour mettre à jour la documentation et communiquer les changements aux parties concernées"
+    evidence_required:
+      - change_control_procedure
+      - change_notifications
+      - updated_documentation_records
+    requirements:
+      - id: "8.2.4.1"
+        control: "8.2.4"
+        text:
+          en: "When requirements change, documented information must be amended and relevant persons made aware"
+          fr: "Lorsque les exigences changent, les informations documentées doivent être modifiées et les personnes concernées sensibilisées"
+        evidence:
+          - change_control_procedure
+
+  - code: "8.3"
+    domain: "CLAUSE-8"
+    title:
+      en: "Design and development of products and services"
+      fr: "Conception et développement de produits et services"
+    description:
+      en: "Establish, implement and maintain a design and development process"
+      fr: "Établir, mettre en œuvre et tenir à jour un processus de conception et développement"
+    guidance:
+      en: "Applicable when organization designs products/services; includes planning, inputs, controls, outputs, and changes; may use agile or iterative approaches"
+      fr: "Applicable lorsque l'organisme conçoit des produits/services ; inclut la planification, les entrées, les maîtrises, les sorties et les modifications ; peut utiliser des approches agiles ou itératives"
+    evidence_required:
+      - design_development_procedure
+      - design_plans
+      - design_inputs_outputs
+      - design_reviews
+      - design_verification_validation
+    requirements:
+      - id: "8.3.1"
+        control: "8.3"
+        text:
+          en: "Organization must establish design/development process ensuring subsequent provision of products/services (when applicable to organization's operations)"
+          fr: "L'organisme doit établir un processus de conception/développement assurant la fourniture ultérieure de produits/services (lorsqu'applicable aux opérations de l'organisme)"
+        evidence:
+          - design_development_procedure
+
+  - code: "8.3.2"
+    domain: "CLAUSE-8"
+    title:
+      en: "Design and development planning"
+      fr: "Planification de la conception et du développement"
+    description:
+      en: "Determine stages, reviews, verification, validation, responsibilities, resources, and interfaces for design and development"
+      fr: "Déterminer les étapes, revues, vérification, validation, responsabilités, ressources et interfaces pour la conception et le développement"
+    guidance:
+      en: "Plan design stages, review/verification/validation activities, roles and responsibilities, internal/external resource needs, control of interfaces, customer/user involvement, requirements for subsequent provision, control level expected by customers/stakeholders, documented information for conformity demonstration"
+      fr: "Planifier les étapes de conception, les activités de revue/vérification/validation, les rôles et responsabilités, les besoins de ressources internes/externes, la maîtrise des interfaces, l'implication client/utilisateur, les exigences pour la fourniture ultérieure, le niveau de maîtrise attendu par les clients/parties prenantes, les informations documentées pour la démonstration de conformité"
+    evidence_required:
+      - design_development_plan
+      - design_stage_documentation
+      - resource_allocation_records
+      - interface_control_documentation
+    requirements:
+      - id: "8.3.2.1"
+        control: "8.3.2"
+        text:
+          en: "Organization must determine stages, reviews, verification, validation, responsibilities, resources, interfaces, customer involvement, subsequent requirements, expected control level, and documented information"
+          fr: "L'organisme doit déterminer les étapes, revues, vérification, validation, responsabilités, ressources, interfaces, implication client, exigences ultérieures, niveau de maîtrise attendu et informations documentées"
+        evidence:
+          - design_development_plan
+
+  - code: "8.3.3"
+    domain: "CLAUSE-8"
+    title:
+      en: "Design and development inputs"
+      fr: "Éléments d'entrée de la conception et du développement"
+    description:
+      en: "Determine requirements essential for the type of products/services being designed"
+      fr: "Déterminer les exigences essentielles pour le type de produits/services en cours de conception"
+    guidance:
+      en: "Consider functional and performance requirements, legal/regulatory requirements, standards/codes of practice, potential failure consequences, documented information requirements; ensure inputs are adequate, complete, unambiguous and not conflicting; retain documented information"
+      fr: "Considérer les exigences fonctionnelles et de performance, les exigences légales/réglementaires, les normes/codes de pratique, les conséquences potentielles de défaillance, les exigences d'informations documentées ; s'assurer que les entrées sont adéquates, complètes, non ambiguës et non conflictuelles ; conserver les informations documentées"
+    evidence_required:
+      - design_input_specifications
+      - requirements_traceability_matrix
+      - design_input_review_records
+    requirements:
+      - id: "8.3.3.1"
+        control: "8.3.3"
+        text:
+          en: "Inputs must include functional/performance requirements, legal/regulatory requirements, standards, potential failure consequences; must be adequate, complete, unambiguous, not conflicting; documented information retained"
+          fr: "Les entrées doivent inclure les exigences fonctionnelles/de performance, les exigences légales/réglementaires, les normes, les conséquences potentielles de défaillance ; doivent être adéquates, complètes, non ambiguës, non conflictuelles ; informations documentées conservées"
+        evidence:
+          - design_input_specifications
+
+  - code: "8.3.4"
+    domain: "CLAUSE-8"
+    title:
+      en: "Design and development controls"
+      fr: "Maîtrise de la conception et du développement"
+    description:
+      en: "Apply controls to ensure results are defined, reviews conducted, verification/validation performed, actions taken on problems"
+      fr: "Appliquer des maîtrises pour s'assurer que les résultats sont définis, les revues effectuées, la vérification/validation réalisée, les actions prises sur les problèmes"
+    guidance:
+      en: "Conduct design reviews to evaluate ability to meet requirements, identify problems and propose actions; perform verification to ensure outputs meet input requirements; perform validation to ensure products/services meet specified application requirements; retain documented information of these activities"
+      fr: "Effectuer des revues de conception pour évaluer la capacité à satisfaire les exigences, identifier les problèmes et proposer des actions ; réaliser la vérification pour s'assurer que les sorties satisfont les exigences d'entrée ; réaliser la validation pour s'assurer que les produits/services satisfont les exigences de l'application spécifiée ; conserver les informations documentées de ces activités"
+    evidence_required:
+      - design_review_records
+      - verification_records
+      - validation_records
+      - design_problem_action_records
+    requirements:
+      - id: "8.3.4.1"
+        control: "8.3.4"
+        text:
+          en: "Controls must include reviews, verification, validation, and actions on problems; documented information must be retained"
+          fr: "Les maîtrises doivent inclure les revues, la vérification, la validation et les actions sur les problèmes ; les informations documentées doivent être conservées"
+        evidence:
+          - design_review_records
+
+  - code: "8.3.5"
+    domain: "CLAUSE-8"
+    title:
+      en: "Design and development outputs"
+      fr: "Éléments de sortie de la conception et du développement"
+    description:
+      en: "Ensure design outputs meet input requirements, are adequate for subsequent processes, include monitoring/measuring requirements, and specify acceptance criteria"
+      fr: "S'assurer que les sorties de conception satisfont les exigences d'entrée, sont adéquates pour les processus ultérieurs, incluent les exigences de surveillance/mesure et spécifient les critères d'acceptation"
+    guidance:
+      en: "Outputs must meet inputs, be adequate for subsequent provision/production, include or reference monitoring/measuring requirements, specify characteristics essential for intended purpose and safe/proper provision; retain documented information"
+      fr: "Les sorties doivent satisfaire les entrées, être adéquates pour la fourniture/production ultérieure, inclure ou référencer les exigences de surveillance/mesure, spécifier les caractéristiques essentielles pour la finalité prévue et la fourniture sûre/appropriée ; conserver les informations documentées"
+    evidence_required:
+      - design_output_specifications
+      - product_service_specifications
+      - acceptance_criteria_documentation
+      - monitoring_measuring_requirements
+    requirements:
+      - id: "8.3.5.1"
+        control: "8.3.5"
+        text:
+          en: "Outputs must meet inputs, be adequate for subsequent processes, include monitoring/measuring requirements, specify acceptance criteria and essential characteristics; documented information retained"
+          fr: "Les sorties doivent satisfaire les entrées, être adéquates pour les processus ultérieurs, inclure les exigences de surveillance/mesure, spécifier les critères d'acceptation et les caractéristiques essentielles ; informations documentées conservées"
+        evidence:
+          - design_output_specifications
+
+  - code: "8.3.6"
+    domain: "CLAUSE-8"
+    title:
+      en: "Design and development changes"
+      fr: "Modifications de la conception et du développement"
+    description:
+      en: "Identify, review and control changes during or after design and development"
+      fr: "Identifier, examiner et maîtriser les modifications durant ou après la conception et le développement"
+    guidance:
+      en: "Identify changes, review and control changes, consider impacts on conformity to requirements, retain documented information on changes, reviews, authorizations, and actions to prevent adverse impacts"
+      fr: "Identifier les modifications, examiner et maîtriser les modifications, considérer les impacts sur la conformité aux exigences, conserver les informations documentées sur les modifications, revues, autorisations et actions pour prévenir les impacts négatifs"
+    evidence_required:
+      - design_change_procedure
+      - design_change_requests
+      - change_impact_assessments
+      - change_approval_records
+    requirements:
+      - id: "8.3.6.1"
+        control: "8.3.6"
+        text:
+          en: "Organization must identify, review, control changes and retain documented information on changes, reviews, authorizations, and actions"
+          fr: "L'organisme doit identifier, examiner, maîtriser les modifications et conserver les informations documentées sur les modifications, revues, autorisations et actions"
+        evidence:
+          - design_change_procedure
+
+  - code: "8.4.1"
+    domain: "CLAUSE-8"
+    title:
+      en: "Control of externally provided processes, products and services - General"
+      fr: "Maîtrise des processus, produits et services fournis par des prestataires externes - Généralités"
+    description:
+      en: "Ensure externally provided processes, products and services conform to requirements"
+      fr: "S'assurer que les processus, produits et services fournis par des prestataires externes sont conformes aux exigences"
+    guidance:
+      en: "Applies to products/services from external providers for incorporation, provided to customers on behalf of organization, or outsourced processes; organization retains responsibility; determine controls"
+      fr: "S'applique aux produits/services de prestataires externes pour incorporation, fournis aux clients au nom de l'organisme, ou processus externalisés ; l'organisme conserve la responsabilité ; déterminer les maîtrises"
+    evidence_required:
+      - external_provider_control_procedure
+      - supplier_list
+      - outsourcing_agreements
+      - supplier_performance_records
+    requirements:
+      - id: "8.4.1.1"
+        control: "8.4.1"
+        text:
+          en: "Organization must ensure externally provided processes, products and services conform to requirements and retain responsibility for conformity"
+          fr: "L'organisme doit s'assurer que les processus, produits et services fournis par des prestataires externes sont conformes aux exigences et conserver la responsabilité de la conformité"
+        evidence:
+          - external_provider_control_procedure
+
+  - code: "8.4.2"
+    domain: "CLAUSE-8"
+    title:
+      en: "Type and extent of control of external provision"
+      fr: "Type et étendue de la maîtrise de la fourniture externe"
+    description:
+      en: "Determine controls to apply to externally provided processes, products and services"
+      fr: "Déterminer les maîtrises à appliquer aux processus, produits et services fournis par des prestataires externes"
+    guidance:
+      en: "Consider potential impact on ability to meet customer requirements, effectiveness of controls by external provider; determine verification activities to ensure requirements are met; include evaluation, selection, monitoring, re-evaluation of external providers based on performance"
+      fr: "Considérer l'impact potentiel sur la capacité à satisfaire les exigences des clients, l'efficacité des maîtrises par le prestataire externe ; déterminer les activités de vérification pour s'assurer que les exigences sont satisfaites ; inclure l'évaluation, la sélection, la surveillance, la réévaluation des prestataires externes basées sur la performance"
+    evidence_required:
+      - supplier_evaluation_criteria
+      - supplier_selection_records
+      - supplier_monitoring_reports
+      - supplier_re_evaluation_records
+      - verification_inspection_records
+    requirements:
+      - id: "8.4.2.1"
+        control: "8.4.2"
+        text:
+          en: "Controls must consider impact on ability to meet requirements, effectiveness of external provider controls; include evaluation, selection, monitoring, re-evaluation; documented information retained"
+          fr: "Les maîtrises doivent considérer l'impact sur la capacité à satisfaire les exigences, l'efficacité des maîtrises du prestataire externe ; inclure l'évaluation, la sélection, la surveillance, la réévaluation ; informations documentées conservées"
+        evidence:
+          - supplier_evaluation_criteria
+
+  - code: "8.4.3"
+    domain: "CLAUSE-8"
+    title:
+      en: "Information for external providers"
+      fr: "Informations à l'attention des prestataires externes"
+    description:
+      en: "Ensure adequacy of requirements before communicating to external providers"
+      fr: "S'assurer de l'adéquation des exigences avant de les communiquer aux prestataires externes"
+    guidance:
+      en: "Communicate requirements for processes, products, services to be provided, approval of products/services/methods/processes/equipment/personnel, competence requirements, interactions with QMS, controls to be applied, verification at external provider premises, documented information requirements"
+      fr: "Communiquer les exigences pour les processus, produits, services à fournir, l'approbation des produits/services/méthodes/processus/équipements/personnel, les exigences de compétence, les interactions avec le SMQ, les maîtrises à appliquer, la vérification dans les locaux du prestataire externe, les exigences d'informations documentées"
+    evidence_required:
+      - purchase_orders
+      - supplier_specifications
+      - supplier_contracts
+      - supplier_quality_agreements
+    requirements:
+      - id: "8.4.3.1"
+        control: "8.4.3"
+        text:
+          en: "Information must include requirements for products/services, approval, competence, interactions, controls, verification activities, and documented information"
+          fr: "Les informations doivent inclure les exigences pour les produits/services, l'approbation, les compétences, les interactions, les maîtrises, les activités de vérification et les informations documentées"
+        evidence:
+          - purchase_orders
+
+  - code: "8.5.1"
+    domain: "CLAUSE-8"
+    title:
+      en: "Control of production and service provision"
+      fr: "Maîtrise de la production et de la prestation de service"
+    description:
+      en: "Implement production and service provision under controlled conditions"
+      fr: "Mettre en œuvre la production et la prestation de service dans des conditions maîtrisées"
+    guidance:
+      en: "Controlled conditions include availability of documented information, availability of suitable monitoring/measuring resources, implementation of monitoring/measuring activities, use of suitable infrastructure/environment, appointment of competent persons, validation of processes, implementation of release/delivery/post-delivery activities, actions to prevent human error, availability of work instructions"
+      fr: "Les conditions maîtrisées incluent la disponibilité des informations documentées, la disponibilité de ressources de surveillance/mesure appropriées, la mise en œuvre d'activités de surveillance/mesure, l'utilisation d'une infrastructure/environnement approprié, la désignation de personnes compétentes, la validation des processus, la mise en œuvre d'activités de libération/livraison/après-livraison, les actions pour prévenir l'erreur humaine, la disponibilité d'instructions de travail"
+    evidence_required:
+      - production_procedures
+      - work_instructions
+      - process_monitoring_records
+      - competent_personnel_records
+      - validation_records
+    requirements:
+      - id: "8.5.1.1"
+        control: "8.5.1"
+        text:
+          en: "Production and service provision must be controlled with documented information, monitoring resources, monitoring activities, infrastructure, competent persons, validation, release activities, error prevention, and work instructions"
+          fr: "La production et la prestation de service doivent être maîtrisées avec des informations documentées, des ressources de surveillance, des activités de surveillance, une infrastructure, des personnes compétentes, la validation, des activités de libération, la prévention des erreurs et des instructions de travail"
+        evidence:
+          - production_procedures
+
+  - code: "8.5.2"
+    domain: "CLAUSE-8"
+    title:
+      en: "Identification and traceability"
+      fr: "Identification et traçabilité"
+    description:
+      en: "Use suitable means to identify outputs when necessary to ensure conformity"
+      fr: "Utiliser des moyens appropriés pour identifier les sorties lorsque nécessaire pour assurer la conformité"
+    guidance:
+      en: "Identify outputs throughout production and service provision, identify status with respect to monitoring/measurement requirements, control unique identification when traceability is a requirement, retain documented information"
+      fr: "Identifier les sorties tout au long de la production et de la prestation de service, identifier le statut vis-à-vis des exigences de surveillance/mesure, maîtriser l'identification unique lorsque la traçabilité est une exigence, conserver les informations documentées"
+    evidence_required:
+      - identification_procedure
+      - traceability_system
+      - product_labeling_records
+      - batch_lot_records
+    requirements:
+      - id: "8.5.2.1"
+        control: "8.5.2"
+        text:
+          en: "Organization must identify outputs throughout production, identify status regarding monitoring requirements, control unique identification when traceability required, retain documented information"
+          fr: "L'organisme doit identifier les sorties tout au long de la production, identifier le statut concernant les exigences de surveillance, maîtriser l'identification unique lorsque la traçabilité est exigée, conserver les informations documentées"
+        evidence:
+          - identification_procedure
+
+  - code: "8.5.3"
+    domain: "CLAUSE-8"
+    title:
+      en: "Property belonging to customers or external providers"
+      fr: "Propriété des clients ou des prestataires externes"
+    description:
+      en: "Exercise care with customer or external provider property while under organization's control"
+      fr: "Prendre soin de la propriété des clients ou des prestataires externes lorsqu'elle est sous la maîtrise de l'organisme"
+    guidance:
+      en: "Identify, verify, protect and safeguard customer/external provider property provided for use or incorporation; when property is lost, damaged or unsuitable for use, report to customer/provider and retain documented information; can include materials, components, tools, equipment, premises, intellectual property, personal data"
+      fr: "Identifier, vérifier, protéger et sauvegarder la propriété client/prestataire externe fournie pour utilisation ou incorporation ; lorsque la propriété est perdue, endommagée ou inappropriée à l'utilisation, le signaler au client/prestataire et conserver les informations documentées ; peut inclure les matériaux, composants, outillages, équipements, locaux, propriété intellectuelle, données personnelles"
+    evidence_required:
+      - customer_property_procedure
+      - property_identification_records
+      - property_damage_reports
+      - property_verification_records
+    requirements:
+      - id: "8.5.3.1"
+        control: "8.5.3"
+        text:
+          en: "Organization must identify, verify, protect, safeguard customer/external provider property; report loss/damage/unsuitability; retain documented information"
+          fr: "L'organisme doit identifier, vérifier, protéger, sauvegarder la propriété client/prestataire externe ; signaler la perte/dommage/inadaptation ; conserver les informations documentées"
+        evidence:
+          - customer_property_procedure
+
+  - code: "8.5.4"
+    domain: "CLAUSE-8"
+    title:
+      en: "Preservation"
+      fr: "Préservation"
+    description:
+      en: "Preserve outputs during production and service provision to ensure conformity to requirements"
+      fr: "Préserver les sorties durant la production et la prestation de service pour assurer la conformité aux exigences"
+    guidance:
+      en: "Preservation can include identification, handling, contamination control, packaging, storage, transmission or transportation, and protection; applies to constituent parts of products/services"
+      fr: "La préservation peut inclure l'identification, la manutention, la maîtrise de la contamination, l'emballage, le stockage, la transmission ou le transport et la protection ; s'applique aux parties constitutives des produits/services"
+    evidence_required:
+      - preservation_procedures
+      - handling_instructions
+      - storage_conditions_documentation
+      - packaging_specifications
+    requirements:
+      - id: "8.5.4.1"
+        control: "8.5.4"
+        text:
+          en: "Organization must preserve outputs during production and service provision including identification, handling, contamination control, packaging, storage, transmission/transportation, protection"
+          fr: "L'organisme doit préserver les sorties durant la production et la prestation de service incluant l'identification, la manutention, la maîtrise de la contamination, l'emballage, le stockage, la transmission/transport, la protection"
+        evidence:
+          - preservation_procedures
+
+  - code: "8.5.5"
+    domain: "CLAUSE-8"
+    title:
+      en: "Post-delivery activities"
+      fr: "Activités après livraison"
+    description:
+      en: "Meet requirements for post-delivery activities associated with products and services"
+      fr: "Satisfaire les exigences pour les activités après livraison associées aux produits et services"
+    guidance:
+      en: "Determine extent of post-delivery activities considering legal/regulatory requirements, potential undesired consequences, nature/use/intended lifetime of products/services, customer requirements, customer feedback; can include warranty provisions, contractual obligations, maintenance services, supplementary services like recycling/final disposal"
+      fr: "Déterminer l'étendue des activités après livraison en considérant les exigences légales/réglementaires, les conséquences indésirables potentielles, la nature/utilisation/durée de vie prévue des produits/services, les exigences des clients, les retours clients ; peut inclure les dispositions de garantie, les obligations contractuelles, les services de maintenance, les services supplémentaires comme le recyclage/l'élimination finale"
+    evidence_required:
+      - post_delivery_activity_procedures
+      - warranty_documentation
+      - maintenance_service_records
+      - customer_support_documentation
+    requirements:
+      - id: "8.5.5.1"
+        control: "8.5.5"
+        text:
+          en: "Organization must meet requirements for post-delivery activities considering legal requirements, potential consequences, nature/use/lifetime, customer requirements, and feedback"
+          fr: "L'organisme doit satisfaire les exigences pour les activités après livraison en considérant les exigences légales, les conséquences potentielles, la nature/utilisation/durée de vie, les exigences clients et les retours"
+        evidence:
+          - post_delivery_activity_procedures
+
+  - code: "8.5.6"
+    domain: "CLAUSE-8"
+    title:
+      en: "Control of changes"
+      fr: "Maîtrise des modifications"
+    description:
+      en: "Review and control changes for production or service provision to ensure continuing conformity"
+      fr: "Examiner et maîtriser les modifications pour la production ou la prestation de service pour assurer la conformité continue"
+    guidance:
+      en: "Review changes, retain documented information describing change results, authorizing persons, and actions arising from review"
+      fr: "Examiner les modifications, conserver les informations documentées décrivant les résultats des modifications, les personnes autorisant et les actions découlant de l'examen"
+    evidence_required:
+      - production_change_control_procedure
+      - change_requests
+      - change_reviews
+      - change_authorizations
+    requirements:
+      - id: "8.5.6.1"
+        control: "8.5.6"
+        text:
+          en: "Organization must review and control changes, retain documented information on change results, authorizing persons, and actions from review"
+          fr: "L'organisme doit examiner et maîtriser les modifications, conserver les informations documentées sur les résultats des modifications, les personnes autorisant et les actions de l'examen"
+        evidence:
+          - production_change_control_procedure
+
+  - code: "8.6"
+    domain: "CLAUSE-8"
+    title:
+      en: "Release of products and services"
+      fr: "Libération des produits et services"
+    description:
+      en: "Implement planned arrangements to verify that product and service requirements have been met"
+      fr: "Mettre en œuvre les dispositions planifiées pour vérifier que les exigences relatives aux produits et services ont été satisfaites"
+    guidance:
+      en: "Release must not proceed until planned arrangements satisfactorily completed unless approved by relevant authority and customer; retain documented information on release including evidence of conformity with acceptance criteria and traceability to authorizing persons"
+      fr: "La libération ne doit pas avoir lieu tant que les dispositions planifiées ne sont pas satisfaites sauf si approuvé par l'autorité pertinente et le client ; conserver les informations documentées sur la libération incluant les preuves de conformité avec les critères d'acceptation et la traçabilité aux personnes autorisant"
+    evidence_required:
+      - release_procedure
+      - inspection_test_records
+      - release_authorization_records
+      - conformity_evidence
+    requirements:
+      - id: "8.6.1"
+        control: "8.6"
+        text:
+          en: "Organization must verify requirements are met before release, not release until arrangements completed unless approved; retain documented information on conformity evidence and traceability to authorizing persons"
+          fr: "L'organisme doit vérifier que les exigences sont satisfaites avant la libération, ne pas libérer tant que les dispositions ne sont pas terminées sauf si approuvé ; conserver les informations documentées sur les preuves de conformité et la traçabilité aux personnes autorisant"
+        evidence:
+          - release_procedure
+
+  - code: "8.7"
+    domain: "CLAUSE-8"
+    title:
+      en: "Control of nonconforming outputs"
+      fr: "Maîtrise des éléments de sortie non conformes"
+    description:
+      en: "Ensure nonconforming outputs are identified and controlled to prevent unintended use or delivery"
+      fr: "S'assurer que les sorties non conformes sont identifiées et maîtrisées pour empêcher leur utilisation ou livraison non prévue"
+    guidance:
+      en: "Take appropriate action: correction, segregation/containment/return/suspension, inform customer, obtain authorization for acceptance under concession; verify conformity after correction; deal with nonconforming outputs detected after delivery; retain documented information describing nonconformity, actions, concessions, and identifying authority"
+      fr: "Prendre les actions appropriées : correction, ségrégation/confinement/retour/suspension, informer le client, obtenir l'autorisation pour l'acceptation sous dérogation ; vérifier la conformité après correction ; traiter les sorties non conformes détectées après livraison ; conserver les informations documentées décrivant la non-conformité, les actions, les dérogations et identifiant l'autorité"
+    evidence_required:
+      - nonconforming_output_procedure
+      - nonconformity_reports
+      - corrective_action_records
+      - concession_authorizations
+      - rework_verification_records
+    requirements:
+      - id: "8.7.1"
+        control: "8.7"
+        text:
+          en: "Organization must identify, control nonconforming outputs; take actions (correction, segregation, inform customer, obtain concession); verify conformity after correction; deal with post-delivery nonconformities; retain documented information"
+          fr: "L'organisme doit identifier, maîtriser les sorties non conformes ; prendre des actions (correction, ségrégation, informer le client, obtenir dérogation) ; vérifier la conformité après correction ; traiter les non-conformités après livraison ; conserver les informations documentées"
+        evidence:
+          - nonconforming_output_procedure
+
+  # ═══════════════════════════════════════════════════════════════════════════
+  # CLAUSE 9: PERFORMANCE EVALUATION
+  # CLAUSE 9: ÉVALUATION DES PERFORMANCES
+  # ═══════════════════════════════════════════════════════════════════════════
+
+  - code: "9.1.1"
+    domain: "CLAUSE-9"
+    title:
+      en: "Monitoring, measurement, analysis and evaluation - General"
+      fr: "Surveillance, mesure, analyse et évaluation - Généralités"
+    description:
+      en: "Determine what needs to be monitored and measured, methods, when to perform, when to analyze and evaluate"
+      fr: "Déterminer ce qui doit être surveillé et mesuré, les méthodes, quand réaliser, quand analyser et évaluer"
+    guidance:
+      en: "Determine what to monitor/measure to demonstrate conformity to requirements, ensure QMS conformity and effectiveness, and evaluate customer satisfaction; determine methods for monitoring/measurement/analysis/evaluation to ensure valid results; determine when to perform monitoring/measurement and when to analyze/evaluate results; evaluate QMS performance and effectiveness; retain appropriate documented information"
+      fr: "Déterminer quoi surveiller/mesurer pour démontrer la conformité aux exigences, assurer la conformité et l'efficacité du SMQ, et évaluer la satisfaction client ; déterminer les méthodes pour surveillance/mesure/analyse/évaluation pour assurer des résultats valables ; déterminer quand réaliser la surveillance/mesure et quand analyser/évaluer les résultats ; évaluer la performance et l'efficacité du SMQ ; conserver les informations documentées appropriées"
+    evidence_required:
+      - monitoring_measurement_plan
+      - performance_metrics_documentation
+      - analysis_evaluation_records
+      - qms_performance_reports
+    requirements:
+      - id: "9.1.1.1"
+        control: "9.1.1"
+        text:
+          en: "Organization must determine what to monitor/measure, methods, when performed, when analyzed/evaluated; evaluate QMS performance and effectiveness; retain documented information"
+          fr: "L'organisme doit déterminer quoi surveiller/mesurer, les méthodes, quand réalisé, quand analysé/évalué ; évaluer la performance et l'efficacité du SMQ ; conserver les informations documentées"
+        evidence:
+          - monitoring_measurement_plan
+
+  - code: "9.1.2"
+    domain: "CLAUSE-9"
+    title:
+      en: "Customer satisfaction"
+      fr: "Satisfaction du client"
+    description:
+      en: "Monitor customer perceptions of the degree to which their needs and expectations have been fulfilled"
+      fr: "Surveiller la perception des clients du degré de satisfaction de leurs besoins et attentes"
+    guidance:
+      en: "Determine methods for obtaining, monitoring and reviewing customer satisfaction information; can include customer surveys, feedback on delivered products/services, meetings, market-share analysis, compliments, warranty claims, dealer reports"
+      fr: "Déterminer les méthodes pour obtenir, surveiller et examiner les informations sur la satisfaction client ; peut inclure les enquêtes clients, les retours sur les produits/services livrés, les réunions, l'analyse de parts de marché, les félicitations, les réclamations de garantie, les rapports de distributeurs"
+    evidence_required:
+      - customer_satisfaction_procedure
+      - customer_surveys
+      - feedback_analysis_reports
+      - complaint_analysis
+      - satisfaction_metrics
+    requirements:
+      - id: "9.1.2.1"
+        control: "9.1.2"
+        text:
+          en: "Organization must monitor customer perceptions and determine methods for obtaining, monitoring and reviewing this information"
+          fr: "L'organisme doit surveiller les perceptions des clients et déterminer les méthodes pour obtenir, surveiller et examiner ces informations"
+        evidence:
+          - customer_satisfaction_procedure
+
+  - code: "9.1.3"
+    domain: "CLAUSE-9"
+    title:
+      en: "Analysis and evaluation"
+      fr: "Analyse et évaluation"
+    description:
+      en: "Analyze and evaluate appropriate data and information arising from monitoring and measurement"
+      fr: "Analyser et évaluer les données et informations appropriées issues de la surveillance et de la mesure"
+    guidance:
+      en: "Analyze and evaluate data to demonstrate suitability and effectiveness of QMS, and evaluate where continual improvement can be made; results can include information relating to: conformity of products/services, degree of customer satisfaction, performance and effectiveness of QMS, effectiveness of planning, effectiveness of actions to address risks/opportunities, performance of external providers, need for improvements to QMS"
+      fr: "Analyser et évaluer les données pour démontrer la pertinence et l'efficacité du SMQ, et évaluer où l'amélioration continue peut être réalisée ; les résultats peuvent inclure des informations relatives à : la conformité des produits/services, le degré de satisfaction client, la performance et l'efficacité du SMQ, l'efficacité de la planification, l'efficacité des actions pour traiter les risques/opportunités, la performance des prestataires externes, le besoin d'améliorations du SMQ"
+    evidence_required:
+      - data_analysis_reports
+      - trend_analysis
+      - qms_effectiveness_evaluation
+      - improvement_opportunities_identification
+    requirements:
+      - id: "9.1.3.1"
+        control: "9.1.3"
+        text:
+          en: "Organization must analyze and evaluate data on conformity, customer satisfaction, QMS performance/effectiveness, planning effectiveness, risk/opportunity actions effectiveness, external provider performance, and improvement needs"
+          fr: "L'organisme doit analyser et évaluer les données sur la conformité, la satisfaction client, la performance/efficacité du SMQ, l'efficacité de la planification, l'efficacité des actions risques/opportunités, la performance des prestataires externes et les besoins d'amélioration"
+        evidence:
+          - data_analysis_reports
+
+  - code: "9.2"
+    domain: "CLAUSE-9"
+    title:
+      en: "Internal audit"
+      fr: "Audit interne"
+    description:
+      en: "Conduct internal audits at planned intervals to provide information on QMS conformity and effectiveness"
+      fr: "Effectuer des audits internes à intervalles planifiés pour fournir des informations sur la conformité et l'efficacité du SMQ"
+    guidance:
+      en: "Plan, establish, implement and maintain audit program including frequency, methods, responsibilities, planning, reporting; define audit criteria and scope for each audit; select auditors and conduct audits to ensure objectivity and impartiality; ensure results reported to relevant management; take correction and corrective actions without undue delay; retain documented information as evidence of audit program implementation and results"
+      fr: "Planifier, établir, mettre en œuvre et tenir à jour un programme d'audit incluant la fréquence, les méthodes, les responsabilités, la planification, le reporting ; définir les critères et le périmètre d'audit pour chaque audit ; sélectionner les auditeurs et mener les audits pour assurer l'objectivité et l'impartialité ; s'assurer que les résultats sont rapportés à la direction pertinente ; prendre des corrections et actions correctives sans délai indu ; conserver les informations documentées comme preuves de la mise en œuvre du programme d'audit et des résultats"
+    evidence_required:
+      - internal_audit_program
+      - audit_schedule
+      - audit_plans
+      - audit_reports
+      - audit_findings_records
+      - corrective_action_records
+    requirements:
+      - id: "9.2.1"
+        control: "9.2"
+        text:
+          en: "Organization must conduct internal audits at planned intervals; plan/establish/implement/maintain audit program; define criteria and scope; select objective auditors; report results; take correction/corrective actions; retain documented information"
+          fr: "L'organisme doit effectuer des audits internes à intervalles planifiés ; planifier/établir/mettre en œuvre/tenir à jour le programme d'audit ; définir les critères et le périmètre ; sélectionner des auditeurs objectifs ; rapporter les résultats ; prendre des corrections/actions correctives ; conserver les informations documentées"
+        evidence:
+          - internal_audit_program
+
+  - code: "9.3"
+    domain: "CLAUSE-9"
+    title:
+      en: "Management review"
+      fr: "Revue de direction"
+    description:
+      en: "Top management reviews QMS at planned intervals to ensure continuing suitability, adequacy, effectiveness and alignment"
+      fr: "La direction passe en revue le SMQ à intervalles planifiés pour s'assurer de sa pertinence, de son adéquation, de son efficacité et de son alignement continus"
+    guidance:
+      en: "Plan and conduct management reviews at planned intervals; consider status of actions from previous reviews, changes in external/internal issues, information on QMS performance and effectiveness including trends in customer satisfaction/feedback, extent objectives met, process performance/conformity, nonconformities/corrective actions, monitoring/measurement results, audit results, external provider performance; consider adequacy of resources; consider effectiveness of actions to address risks/opportunities; consider opportunities for improvement; outputs must include decisions/actions related to improvement opportunities, change needs, and resource needs; retain documented information as evidence"
+      fr: "Planifier et mener les revues de direction à intervalles planifiés ; considérer le statut des actions des revues précédentes, les changements dans les enjeux externes/internes, les informations sur la performance et l'efficacité du SMQ incluant les tendances de satisfaction/retours clients, la mesure dans laquelle les objectifs sont atteints, la performance des processus/conformité, les non-conformités/actions correctives, les résultats de surveillance/mesure, les résultats d'audit, la performance des prestataires externes ; considérer l'adéquation des ressources ; considérer l'efficacité des actions pour traiter les risques/opportunités ; considérer les opportunités d'amélioration ; les sorties doivent inclure les décisions/actions relatives aux opportunités d'amélioration, aux besoins de changement et aux besoins de ressources ; conserver les informations documentées comme preuves"
+    evidence_required:
+      - management_review_procedure
+      - management_review_schedule
+      - management_review_agenda
+      - management_review_minutes
+      - management_review_decisions
+      - action_item_tracking
+    requirements:
+      - id: "9.3.1"
+        control: "9.3"
+        text:
+          en: "Top management must review QMS at planned intervals considering inputs (previous actions, changes, performance information, resource adequacy, risk/opportunity actions effectiveness, improvement opportunities)"
+          fr: "La direction doit passer en revue le SMQ à intervalles planifiés en considérant les entrées (actions précédentes, changements, informations de performance, adéquation des ressources, efficacité des actions risques/opportunités, opportunités d'amélioration)"
+        evidence:
+          - management_review_minutes
+      - id: "9.3.2"
+        control: "9.3"
+        text:
+          en: "Management review outputs must include decisions and actions on improvement opportunities, QMS change needs, and resource needs"
+          fr: "Les sorties de la revue de direction doivent inclure les décisions et actions sur les opportunités d'amélioration, les besoins de changement du SMQ et les besoins de ressources"
+        evidence:
+          - management_review_decisions
+      - id: "9.3.3"
+        control: "9.3"
+        text:
+          en: "Organization must retain documented information as evidence of management review results"
+          fr: "L'organisme doit conserver les informations documentées comme preuves des résultats de la revue de direction"
+        evidence:
+          - management_review_minutes
+
+  # ═══════════════════════════════════════════════════════════════════════════
+  # CLAUSE 10: IMPROVEMENT
+  # CLAUSE 10: AMÉLIORATION
+  # ═══════════════════════════════════════════════════════════════════════════
+
+  - code: "10.1"
+    domain: "CLAUSE-10"
+    title:
+      en: "General - Improvement"
+      fr: "Généralités - Amélioration"
+    description:
+      en: "Determine and select opportunities for improvement and implement necessary actions"
+      fr: "Déterminer et sélectionner les opportunités d'amélioration et mettre en œuvre les actions nécessaires"
+    guidance:
+      en: "Improve products/services to meet requirements and future needs, correct/prevent/reduce undesired effects, improve QMS performance and effectiveness; can include incremental improvement, breakthrough improvement, innovation, reorganization"
+      fr: "Améliorer les produits/services pour satisfaire les exigences et les besoins futurs, corriger/prévenir/réduire les effets indésirables, améliorer la performance et l'efficacité du SMQ ; peut inclure l'amélioration incrémentale, l'amélioration par rupture, l'innovation, la réorganisation"
+    evidence_required:
+      - improvement_opportunities_register
+      - improvement_plans
+      - improvement_implementation_records
+    requirements:
+      - id: "10.1.1"
+        control: "10.1"
+        text:
+          en: "Organization must determine and select opportunities for improvement and implement actions to meet customer requirements and enhance satisfaction"
+          fr: "L'organisme doit déterminer et sélectionner les opportunités d'amélioration et mettre en œuvre les actions pour satisfaire les exigences des clients et accroître leur satisfaction"
+        evidence:
+          - improvement_opportunities_register
+
+  - code: "10.2"
+    domain: "CLAUSE-10"
+    title:
+      en: "Nonconformity and corrective action"
+      fr: "Non-conformité et action corrective"
+    description:
+      en: "React to nonconformity, evaluate need for action, implement corrective action, review effectiveness"
+      fr: "Réagir aux non-conformités, évaluer le besoin d'action, mettre en œuvre l'action corrective, examiner l'efficacité"
+    guidance:
+      en: "When nonconformity occurs (including from complaints): react to control/correct and deal with consequences; evaluate need for action to eliminate causes by reviewing/analyzing, determining causes, determining if similar nonconformities exist/could occur; implement action needed; review effectiveness of corrective action; update risks/opportunities if necessary; make changes to QMS if necessary; ensure corrective actions are appropriate to effects; retain documented information as evidence of nature of nonconformities, actions taken, and results of corrective actions"
+      fr: "Lorsqu'une non-conformité se produit (incluant les réclamations) : réagir pour maîtriser/corriger et traiter les conséquences ; évaluer le besoin d'action pour éliminer les causes en examinant/analysant, déterminant les causes, déterminant si des non-conformités similaires existent/pourraient se produire ; mettre en œuvre l'action nécessaire ; examiner l'efficacité de l'action corrective ; mettre à jour les risques/opportunités si nécessaire ; apporter des changements au SMQ si nécessaire ; s'assurer que les actions correctives sont appropriées aux effets ; conserver les informations documentées comme preuves de la nature des non-conformités, des actions prises et des résultats des actions correctives"
+    evidence_required:
+      - nonconformity_register
+      - root_cause_analysis_records
+      - corrective_action_plans
+      - corrective_action_effectiveness_reviews
+    requirements:
+      - id: "10.2.1"
+        control: "10.2"
+        text:
+          en: "When nonconformity occurs: react and control/correct; evaluate need to eliminate causes; implement action; review effectiveness; update risks/opportunities; make QMS changes if needed; ensure actions appropriate to effects"
+          fr: "Lorsqu'une non-conformité se produit : réagir et maîtriser/corriger ; évaluer le besoin d'éliminer les causes ; mettre en œuvre l'action ; examiner l'efficacité ; mettre à jour les risques/opportunités ; apporter des changements au SMQ si nécessaire ; s'assurer que les actions sont appropriées aux effets"
+        evidence:
+          - nonconformity_register
+      - id: "10.2.2"
+        control: "10.2"
+        text:
+          en: "Organization must retain documented information as evidence of nature of nonconformities, actions taken, and corrective action results"
+          fr: "L'organisme doit conserver les informations documentées comme preuves de la nature des non-conformités, des actions prises et des résultats des actions correctives"
+        evidence:
+          - nonconformity_register
+
+  - code: "10.3"
+    domain: "CLAUSE-10"
+    title:
+      en: "Continual improvement"
+      fr: "Amélioration continue"
+    description:
+      en: "Continually improve the suitability, adequacy and effectiveness of the QMS"
+      fr: "Améliorer en permanence la pertinence, l'adéquation et l'efficacité du SMQ"
+    guidance:
+      en: "Consider results of analysis and evaluation, and outputs from management review to determine if there are needs or opportunities to be addressed as part of continual improvement"
+      fr: "Considérer les résultats de l'analyse et de l'évaluation, et les sorties de la revue de direction pour déterminer s'il existe des besoins ou opportunités à traiter dans le cadre de l'amélioration continue"
+    evidence_required:
+      - continual_improvement_plans
+      - improvement_initiatives
+      - improvement_effectiveness_records
+    requirements:
+      - id: "10.3.1"
+        control: "10.3"
+        text:
+          en: "Organization must continually improve suitability, adequacy and effectiveness of QMS considering analysis/evaluation results and management review outputs"
+          fr: "L'organisme doit améliorer en permanence la pertinence, l'adéquation et l'efficacité du SMQ en considérant les résultats d'analyse/évaluation et les sorties de la revue de direction"
+        evidence:
+          - continual_improvement_plans

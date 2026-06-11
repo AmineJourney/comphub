@@ -1,0 +1,37 @@
+# Environment files contain deployment secrets or machine-specific URLs.
+.env
+.env.*
+!.env.example
+
+# Python / Django
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+backend/venv/
+backend/staticfiles/
+backend/media/
+backend/logs/
+*.sqlite3
+
+# Node / Vite
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+*.tsbuildinfo
+
+# Logs and local runtime files
+logs/
+*.log
+*.pid
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

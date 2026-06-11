@@ -1,0 +1,1507 @@
+framework:
+  name:
+    en: International standard ISO/IEC 27001:2022
+    fr: Norme internationale ISO/IEC 27001:2022
+  slug: isoiec-27001-2022
+  provider:
+    name: ISO/IEC
+version:
+  name: '17'
+  release_year: 2026
+  description:
+    en: Information security, cybersecurity and privacy protection — Information security management systems — Requirements
+    fr: Sécurité de l'information, cybersécurité et protection de la vie privée — Information système de management de la sécurité — Exigences
+domains:
+- code: core
+  name:
+    en: Clauses
+    fr: Clauses
+  description:
+    en: Clauses
+    fr: Clauses
+  domain_type: section
+- code: annex-a
+  name:
+    en: Statement of Applicability
+    fr: Déclaration d'applicabilité
+  description:
+    en: Statement of Applicability
+    fr: Statement of Applicability
+  domain_type: section
+controls:
+- code: '4.1'
+  domain: core
+  title:
+    en: Understanding the organization and its context
+    fr: Compréhension de l'organisation et de son contexte
+  description:
+    en: Identify internal and external factors that influence the organization’s ability to achieve information security objectives, ensuring the ISMS is aligned with its context.
+    fr: Identifier les facteurs internes et externes qui influencent la capacité de l’organisation à atteindre ses objectifs de sécurité de l’information, en veillant à ce que le SMSI soit aligné sur son contexte.
+  guidance:
+    en: Identify internal and external factors that influence the organization’s ability to achieve information security objectives, ensuring the ISMS is aligned with its context.
+    fr: Identifier les facteurs internes et externes qui influencent la capacité de l’organisation à atteindre ses objectifs de sécurité de l’information, en veillant à ce que le SMSI soit aligné sur son contexte.
+  requirements: []
+- code: '4.2'
+  domain: core
+  title:
+    en: Understanding the needs and expectations of interested parties
+    fr: Compréhension des besoins et attentes des parties intéressées
+  description:
+    en: Analyze the needs and expectations of interested parties to incorporate them into the ISMS and address relevant information security requirements.
+    fr: Analyser les besoins et attentes des parties intéressées pour les intégrer dans le SMSI et répondre aux exigences pertinentes en matière de sécurité de l’information.
+  guidance:
+    en: Analyze the needs and expectations of interested parties to incorporate them into the ISMS and address relevant information security requirements.
+    fr: Analyser les besoins et attentes des parties intéressées pour les intégrer dans le SMSI et répondre aux exigences pertinentes en matière de sécurité de l’information.
+  requirements: []
+- code: '4.3'
+  domain: core
+  title:
+    en: Determining the scope of the information security management system
+    fr: Détermination du domaine d'application du système de management de la sécurité de l'information
+  description:
+    en: Define the scope of the ISMS by considering internal and external factors, stakeholder needs, and dependencies within the operational environment.
+    fr: Définir le périmètre du SMSI en prenant en compte les facteurs internes et externes, les besoins des parties prenantes et les dépendances dans l’environnement opérationnel.
+  guidance:
+    en: Define the scope of the ISMS by considering internal and external factors, stakeholder needs, and dependencies within the operational environment.
+    fr: Définir le périmètre du SMSI en prenant en compte les facteurs internes et externes, les besoins des parties prenantes et les dépendances dans l’environnement opérationnel.
+  requirements: []
+- code: '4.4'
+  domain: core
+  title:
+    en: Information security management system
+    fr: Système de management de la sécurité de l'information
+  description:
+    en: Build, run, and continually improve an ISMS to effectively manage information security risks and meet organizational goals.
+    fr: Concevoir, exploiter et améliorer en continu un SMSI pour gérer efficacement les risques de sécurité de l’information et atteindre les objectifs organisationnels.
+  guidance:
+    en: Build, run, and continually improve an ISMS to effectively manage information security risks and meet organizational goals.
+    fr: Concevoir, exploiter et améliorer en continu un SMSI pour gérer efficacement les risques de sécurité de l’information et atteindre les objectifs organisationnels.
+  requirements: []
+- code: '5.1'
+  domain: core
+  title:
+    en: Leadership and commitment
+    fr: Leadership et engagement
+  description:
+    en: Demonstrate leadership and commitment by supporting the ISMS, aligning it with organizational objectives, allocating resources, promoting a security culture, and driving continual improvement.
+    fr: Démontrer un leadership et un engagement en soutenant le SMSI, en l'alignant sur les objectifs organisationnels, en allouant des ressources, en promouvant une culture de sécurité et en favorisant l'amélioration continue.
+  guidance:
+    en: Demonstrate leadership and commitment by supporting the ISMS, aligning it with organizational objectives, allocating resources, promoting a security culture, and driving continual improvement.
+    fr: Démontrer un leadership et un engagement en soutenant le SMSI, en l'alignant sur les objectifs organisationnels, en allouant des ressources, en promouvant une culture de sécurité et en favorisant l'amélioration continue.
+  requirements: []
+- code: '5.2'
+  domain: core
+  title:
+    en: Policy
+    fr: Politique
+  description:
+    en: Establish an information security policy aligned with the organization's objectives and strategic direction, outlining commitments to compliance, continual improvement, and the promotion of information security.
+    fr: Établir une politique de sécurité de l’information alignée sur les objectifs et la direction stratégique de l'organisation, précisant les engagements en matière de conformité, d'amélioration continue et de promotion de la sécurité de l’information.
+  guidance:
+    en: Establish an information security policy aligned with the organization's objectives and strategic direction, outlining commitments to compliance, continual improvement, and the promotion of information security.
+    fr: Établir une politique de sécurité de l’information alignée sur les objectifs et la direction stratégique de l'organisation, précisant les engagements en matière de conformité, d'amélioration continue et de promotion de la sécurité de l’information.
+  requirements: []
+- code: '5.3'
+  domain: core
+  title:
+    en: Organizational roles, responsibilities and authorities
+    fr: Rôles, responsabilités et autorités au sein de l'organisation
+  description:
+    en: Define, assign, and communicate roles, responsibilities, and authorities to ensure the effective implementation and operation of the ISMS, with accountability aligned to organizational objectives.
+    fr: Définir, attribuer et communiquer les rôles, responsabilités et autorités pour assurer la mise en œuvre et le fonctionnement efficaces du SMSI, avec une responsabilité alignée sur les objectifs organisationnels.
+  guidance:
+    en: Define, assign, and communicate roles, responsibilities, and authorities to ensure the effective implementation and operation of the ISMS, with accountability aligned to organizational objectives.
+    fr: Définir, attribuer et communiquer les rôles, responsabilités et autorités pour assurer la mise en œuvre et le fonctionnement efficaces du SMSI, avec une responsabilité alignée sur les objectifs organisationnels.
+  requirements: []
+- code: 6.1.1
+  domain: core
+  title:
+    en: General
+    fr: Généralités
+  description:
+    en: Establish a process to identify information security risks and opportunities, considering internal and external factors, stakeholder needs, and applicable requirements to ensure the ISMS achieves its objectives.
+    fr: Établir un processus pour identifier les risques et opportunités en matière de sécurité de l’information, en prenant en compte les facteurs internes et externes, les besoins des parties prenantes et les exigences applicables, afin d’assurer que le SMSI atteigne ses objectifs.
+  guidance:
+    en: Establish a process to identify information security risks and opportunities, considering internal and external factors, stakeholder needs, and applicable requirements to ensure the ISMS achieves its objectives.
+    fr: Établir un processus pour identifier les risques et opportunités en matière de sécurité de l’information, en prenant en compte les facteurs internes et externes, les besoins des parties prenantes et les exigences applicables, afin d’assurer que le SMSI atteigne ses objectifs.
+  requirements: []
+- code: 6.1.2
+  domain: core
+  title:
+    en: Information security risk assessment requirement
+    fr: Appréciation des risques de sécurité de l'information
+  description:
+    en: Establish a process to assess information security risks at planned intervals, using defined criteria to evaluate threats to confidentiality, integrity, and availability, ensuring consistent and reliable results.
+    fr: Établir un processus pour évaluer les risques liés à la sécurité de l’information à des intervalles planifiés, en utilisant des critères définis pour évaluer les menaces sur la confidentialité, l’intégrité et la disponibilité, garantissant des résultats cohérents et fiables.
+  guidance:
+    en: Establish a process to assess information security risks at planned intervals, using defined criteria to evaluate threats to confidentiality, integrity, and availability, ensuring consistent and reliable results.
+    fr: Établir un processus pour évaluer les risques liés à la sécurité de l’information à des intervalles planifiés, en utilisant des critères définis pour évaluer les menaces sur la confidentialité, l’intégrité et la disponibilité, garantissant des résultats cohérents et fiables.
+  requirements: []
+- code: 6.1.3
+  domain: core
+  title:
+    en: Information security risk treatment
+    fr: Traitement des risques de sécurité de l'information
+  description:
+    en: Define a process to address identified information security risks by selecting appropriate controls, ensuring alignment with risk acceptance criteria, and documenting them in a risk treatment plan.
+    fr: Définir un processus pour traiter les risques identifiés en matière de sécurité de l’information en sélectionnant des contrôles appropriés, en assurant leur alignement avec les critères d’acceptation des risques et en les documentant dans un plan de traitement des risques.
+  guidance:
+    en: Define a process to address identified information security risks by selecting appropriate controls, ensuring alignment with risk acceptance criteria, and documenting them in a risk treatment plan.
+    fr: Définir un processus pour traiter les risques identifiés en matière de sécurité de l’information en sélectionnant des contrôles appropriés, en assurant leur alignement avec les critères d’acceptation des risques et en les documentant dans un plan de traitement des risques.
+  requirements: []
+- code: '6.2'
+  domain: core
+  title:
+    en: Information security objectives and planning to achieve them
+    fr: Objectifs de sécurité de l'information et plans pour les atteindre
+  description:
+    en: Set measurable information security objectives aligned with the ISMS and strategic goals, and plan actions detailing responsibilities, resources, timelines, and evaluation methods to achieve them.
+    fr: Définir des objectifs mesurables en matière de sécurité de l’information alignés sur le SMSI et les objectifs stratégiques, et planifier des actions détaillant les responsabilités, les ressources, les échéances et les méthodes d’évaluation pour les atteindre.
+  guidance:
+    en: Set measurable information security objectives aligned with the ISMS and strategic goals, and plan actions detailing responsibilities, resources, timelines, and evaluation methods to achieve them.
+    fr: Définir des objectifs mesurables en matière de sécurité de l’information alignés sur le SMSI et les objectifs stratégiques, et planifier des actions détaillant les responsabilités, les ressources, les échéances et les méthodes d’évaluation pour les atteindre.
+  requirements: []
+- code: '6.3'
+  domain: core
+  title:
+    en: Planning for changes
+    fr: Planification des modifications
+  description:
+    en: Plan changes to the ISMS systematically to ensure alignment with information security requirements, seamless integration into existing processes, and effective risk management.
+    fr: Planifier les changements au SMSI de manière systématique pour garantir leur alignement avec les exigences de sécurité de l’information, leur intégration transparente dans les processus existants et une gestion efficace des risques.
+  guidance:
+    en: Plan changes to the ISMS systematically to ensure alignment with information security requirements, seamless integration into existing processes, and effective risk management.
+    fr: Planifier les changements au SMSI de manière systématique pour garantir leur alignement avec les exigences de sécurité de l’information, leur intégration transparente dans les processus existants et une gestion efficace des risques.
+  requirements: []
+- code: '7.1'
+  domain: core
+  title:
+    en: Resources
+    fr: Ressources
+  description:
+    en: Provide the necessary resources to build, run, and continually improve the ISMS, ensuring its effective operation and alignment with organizational goals.
+    fr: Fournir les ressources nécessaires pour construire, exploiter et améliorer en continu le SMSI, en garantissant son fonctionnement efficace et son alignement avec les objectifs organisationnels.
+  guidance:
+    en: Provide the necessary resources to build, run, and continually improve the ISMS, ensuring its effective operation and alignment with organizational goals.
+    fr: Fournir les ressources nécessaires pour construire, exploiter et améliorer en continu le SMSI, en garantissant son fonctionnement efficace et son alignement avec les objectifs organisationnels.
+  requirements: []
+- code: '7.2'
+  domain: core
+  title:
+    en: Competence
+    fr: Compétences
+  description:
+    en: Ensure personnel involved in the ISMS possess the necessary competence through appropriate education, training, or experience to fulfill their responsibilities effectively.
+    fr: Garantir que le personnel impliqué dans le SMSI dispose des compétences nécessaires grâce à une formation, une éducation ou une expérience appropriées pour remplir efficacement leurs responsabilités.
+  guidance:
+    en: Ensure personnel involved in the ISMS possess the necessary competence through appropriate education, training, or experience to fulfill their responsibilities effectively.
+    fr: Garantir que le personnel impliqué dans le SMSI dispose des compétences nécessaires grâce à une formation, une éducation ou une expérience appropriées pour remplir efficacement leurs responsabilités.
+  requirements: []
+- code: '7.3'
+  domain: core
+  title:
+    en: Awareness
+    fr: Sensibilisation
+  description:
+    en: Promote awareness among relevant personnel about the ISMS, their role in information security, and the importance of compliance with security policies and requirements.
+    fr: Promouvoir la sensibilisation du personnel concerné au SMSI, à leur rôle dans la sécurité de l’information et à l’importance de se conformer aux politiques et exigences de sécurité.
+  guidance:
+    en: Promote awareness among relevant personnel about the ISMS, their role in information security, and the importance of compliance with security policies and requirements.
+    fr: Promouvoir la sensibilisation du personnel concerné au SMSI, à leur rôle dans la sécurité de l’information et à l’importance de se conformer aux politiques et exigences de sécurité.
+  requirements: []
+- code: '7.4'
+  domain: core
+  title:
+    en: Communication
+    fr: Communication
+  description:
+    en: Establish effective internal and external communication processes, ensuring the timely and appropriate exchange of information relevant to the ISMS and its objectives.
+    fr: Établir des processus de communication internes et externes efficaces, assurant un échange d’informations opportun et approprié en lien avec le SMSI et ses objectifs.
+  guidance:
+    en: Establish effective internal and external communication processes, ensuring the timely and appropriate exchange of information relevant to the ISMS and its objectives.
+    fr: Établir des processus de communication internes et externes efficaces, assurant un échange d’informations opportun et approprié en lien avec le SMSI et ses objectifs.
+  requirements: []
+- code: 7.5.1
+  domain: core
+  title:
+    en: General
+    fr: Généralités
+  description:
+    en: Document the ISMS as needed to ensure effective planning, operation, control of processes, and alignment with organizational requirements.
+    fr: Documenter le SMSI selon les besoins pour garantir une planification efficace, le fonctionnement, le contrôle des processus et l’alignement avec les exigences organisationnelles.
+  guidance:
+    en: Document the ISMS as needed to ensure effective planning, operation, control of processes, and alignment with organizational requirements.
+    fr: Documenter le SMSI selon les besoins pour garantir une planification efficace, le fonctionnement, le contrôle des processus et l’alignement avec les exigences organisationnelles.
+  requirements: []
+- code: 7.5.2
+  domain: core
+  title:
+    en: Creating and Updating documented information
+    fr: Création et mise à jour
+  description:
+    en: Ensure ISMS documentation is appropriately created, updated, and controlled, including proper approval and version management.
+    fr: S’assurer que la documentation du SMSI est correctement créée, mise à jour et contrôlée, y compris avec une approbation et une gestion des versions appropriées.
+  guidance:
+    en: Ensure ISMS documentation is appropriately created, updated, and controlled, including proper approval and version management.
+    fr: S’assurer que la documentation du SMSI est correctement créée, mise à jour et contrôlée, y compris avec une approbation et une gestion des versions appropriées.
+  requirements: []
+- code: 7.5.3
+  domain: core
+  title:
+    en: Control of documented information
+    fr: Contrôle des informations documentées
+  description:
+    en: Make ISMS documentation accessible and usable for those who need it, while protecting it from unauthorized access or loss.
+    fr: Rendre la documentation du SMSI accessible et utilisable pour ceux qui en ont besoin, tout en la protégeant contre tout accès non autorisé ou perte.
+  guidance:
+    en: Make ISMS documentation accessible and usable for those who need it, while protecting it from unauthorized access or loss.
+    fr: Rendre la documentation du SMSI accessible et utilisable pour ceux qui en ont besoin, tout en la protégeant contre tout accès non autorisé ou perte.
+  requirements: []
+- code: '8.1'
+  domain: core
+  title:
+    en: Operational planning and control
+    fr: Planification et contrôle opérationnels
+  description:
+    en: Plan and control ISMS processes, ensuring consistency with requirements and making necessary adjustments to address risks and opportunities.
+    fr: Planifier et contrôler les processus du SMSI, en garantissant leur cohérence avec les exigences et en apportant les ajustements nécessaires pour traiter les risques et opportunités.
+  guidance:
+    en: Plan and control ISMS processes, ensuring consistency with requirements and making necessary adjustments to address risks and opportunities.
+    fr: Planifier et contrôler les processus du SMSI, en garantissant leur cohérence avec les exigences et en apportant les ajustements nécessaires pour traiter les risques et opportunités.
+  requirements: []
+- code: '8.2'
+  domain: core
+  title:
+    en: Information security risk assessment
+    fr: Appréciation des risques de sécurité de l'information
+  description:
+    en: Implement the risk assessment process to identify, evaluate, and prioritize information security risks as defined in the ISMS framework.
+    fr: Mettre en œuvre le processus d’évaluation des risques pour identifier, évaluer et prioriser les risques liés à la sécurité de l’information, tel que défini dans le cadre du SMSI.
+  guidance:
+    en: Implement the risk assessment process to identify, evaluate, and prioritize information security risks as defined in the ISMS framework.
+    fr: Mettre en œuvre le processus d’évaluation des risques pour identifier, évaluer et prioriser les risques liés à la sécurité de l’information, tel que défini dans le cadre du SMSI.
+  requirements: []
+- code: '8.3'
+  domain: core
+  title:
+    en: Information security risk treatment
+    fr: Traitement des risques de sécurité de l'information
+  description:
+    en: Apply the risk treatment process by selecting and implementing appropriate controls to address identified risks, ensuring alignment with the organization’s risk acceptance criteria.
+    fr: Appliquer le processus de traitement des risques en sélectionnant et en mettant en œuvre des contrôles appropriés pour traiter les risques identifiés, en assurant leur alignement avec les critères d’acceptation des risques de l’organisation.
+  guidance:
+    en: Apply the risk treatment process by selecting and implementing appropriate controls to address identified risks, ensuring alignment with the organization’s risk acceptance criteria.
+    fr: Appliquer le processus de traitement des risques en sélectionnant et en mettant en œuvre des contrôles appropriés pour traiter les risques identifiés, en assurant leur alignement avec les critères d’acceptation des risques de l’organisation.
+  requirements: []
+- code: '9.1'
+  domain: core
+  title:
+    en: Monitoring, measurement, analysis, evaluation
+    fr: Surveillance, mesurages, analyse et évaluation
+  description:
+    en: Monitor, measure, analyze, and evaluate the ISMS’s performance and effectiveness using appropriate methods aligned with the organization’s objectives.
+    fr: Surveiller, mesurer, analyser et évaluer la performance et l’efficacité du SMSI en utilisant des méthodes appropriées alignées sur les objectifs de l’organisation.
+  guidance:
+    en: Monitor, measure, analyze, and evaluate the ISMS’s performance and effectiveness using appropriate methods aligned with the organization’s objectives.
+    fr: Surveiller, mesurer, analyser et évaluer la performance et l’efficacité du SMSI en utilisant des méthodes appropriées alignées sur les objectifs de l’organisation.
+  requirements: []
+- code: 9.2.1
+  domain: core
+  title:
+    en: General
+    fr: Généralités
+  description:
+    en: Conduct internal audits at planned intervals to ensure the ISMS complies with ISO/IEC 27001 requirements and is effectively implemented and maintained.
+    fr: Effectuer des audits internes à des intervalles planifiés pour garantir que le SMSI est conforme aux exigences de l’ISO/CEI 27001 et qu’il est efficacement mis en œuvre et maintenu.
+  guidance:
+    en: Conduct internal audits at planned intervals to ensure the ISMS complies with ISO/IEC 27001 requirements and is effectively implemented and maintained.
+    fr: Effectuer des audits internes à des intervalles planifiés pour garantir que le SMSI est conforme aux exigences de l’ISO/CEI 27001 et qu’il est efficacement mis en œuvre et maintenu.
+  requirements: []
+- code: 9.2.2
+  domain: core
+  title:
+    en: Internal audit programme
+    fr: Programme d'audit interne
+  description:
+    en: Plan and perform internal audits, including defining criteria, scope, methods, and responsibilities, and report the results to relevant management.
+    fr: Planifier et réaliser des audits internes, y compris la définition des critères, du périmètre, des méthodes et des responsabilités, et rapporter les résultats à la direction concernée.
+  guidance:
+    en: Plan and perform internal audits, including defining criteria, scope, methods, and responsibilities, and report the results to relevant management.
+    fr: Planifier et réaliser des audits internes, y compris la définition des critères, du périmètre, des méthodes et des responsabilités, et rapporter les résultats à la direction concernée.
+  requirements: []
+- code: 9.3.1
+  domain: core
+  title:
+    en: General
+    fr: Généralités
+  description:
+    en: Review the ISMS periodically to ensure its suitability, adequacy, and effectiveness in achieving organizational objectives.
+    fr: Examiner le SMSI périodiquement pour s’assurer de son adéquation, de son efficacité et de sa capacité à atteindre les objectifs organisationnels.
+  guidance:
+    en: Review the ISMS periodically to ensure its suitability, adequacy, and effectiveness in achieving organizational objectives.
+    fr: Examiner le SMSI périodiquement pour s’assurer de son adéquation, de son efficacité et de sa capacité à atteindre les objectifs organisationnels.
+  requirements: []
+- code: 9.3.2
+  domain: core
+  title:
+    en: Management review inputs
+    fr: Eléments d'entrée de la revue de direction
+  description:
+    en: Include inputs such as audit results, ISMS performance, risk status, improvement opportunities, and required changes in the management review.
+    fr: Inclure des éléments tels que les résultats d’audits, la performance du SMSI, l’état des risques, les opportunités d’amélioration et les changements nécessaires dans la revue de direction.
+  guidance:
+    en: Include inputs such as audit results, ISMS performance, risk status, improvement opportunities, and required changes in the management review.
+    fr: Inclure des éléments tels que les résultats d’audits, la performance du SMSI, l’état des risques, les opportunités d’amélioration et les changements nécessaires dans la revue de direction.
+  requirements: []
+- code: 9.3.3
+  domain: core
+  title:
+    en: Management review results
+    fr: Résultats des revues de direction
+  description:
+    en: Document the results of the management reviews, including decisions on improvements, ISMS changes, and resource requirements.
+    fr: Documenter les résultats des revues de direction, y compris les décisions sur les améliorations, les modifications du SMSI et les besoins en ressources.
+  guidance:
+    en: Document the results of the management reviews, including decisions on improvements, ISMS changes, and resource requirements.
+    fr: Documenter les résultats des revues de direction, y compris les décisions sur les améliorations, les modifications du SMSI et les besoins en ressources.
+  requirements: []
+- code: '10.1'
+  domain: core
+  title:
+    en: Continual improvement
+    fr: Amélioration continue
+  description:
+    en: Identify and act on opportunities for continual improvement to enhance the ISMS's effectiveness and alignment with organizational goals.
+    fr: Identifier et agir sur les opportunités d’amélioration continue pour renforcer l’efficacité du SMSI et son alignement avec les objectifs organisationnels.
+  guidance:
+    en: Identify and act on opportunities for continual improvement to enhance the ISMS's effectiveness and alignment with organizational goals.
+    fr: Identifier et agir sur les opportunités d’amélioration continue pour renforcer l’efficacité du SMSI et son alignement avec les objectifs organisationnels.
+  requirements: []
+- code: '10.2'
+  domain: core
+  title:
+    en: Nonconformity and corrective action
+    fr: Non-conformité et action corrective
+  description:
+    en: Address nonconformities by taking corrective actions, identifying root causes, and implementing measures to prevent recurrence while documenting the process.
+    fr: Traiter les non-conformités en prenant des actions correctives, en identifiant les causes profondes et en mettant en œuvre des mesures pour éviter leur récurrence, tout en documentant le processus.
+  guidance:
+    en: Address nonconformities by taking corrective actions, identifying root causes, and implementing measures to prevent recurrence while documenting the process.
+    fr: Traiter les non-conformités en prenant des actions correctives, en identifiant les causes profondes et en mettant en œuvre des mesures pour éviter leur récurrence, tout en documentant le processus.
+  requirements: []
+- code: A.5.1
+  domain: annex-a
+  title:
+    en: Policies for information security
+    fr: Politiques de sécurité de l'information
+  description:
+    en: This control establishes and maintains information security policies aligned with organizational objectives. Measures include defining scope, setting goals, and ensuring alignment with compliance requirements.
+    fr: Cette mesure de sécurité établit et maintient des politiques de sécurité de l'information alignées sur les objectifs organisationnels. Les mesures incluent la définition de la portée, la fixation des objectifs et l'alignement avec les exigences de conformité.
+  guidance:
+    en: This control establishes and maintains information security policies aligned with organizational objectives. Measures include defining scope, setting goals, and ensuring alignment with compliance requirements.
+    fr: Cette mesure de sécurité établit et maintient des politiques de sécurité de l'information alignées sur les objectifs organisationnels. Les mesures incluent la définition de la portée, la fixation des objectifs et l'alignement avec les exigences de conformité.
+  requirements: []
+- code: A.5.2
+  domain: annex-a
+  title:
+    en: Information security roles and responsibilities
+    fr: Fonctions et responsabilités liées à la sécurité de l'information
+  description:
+    en: This control defines and assigns roles and responsibilities for information security to ensure accountability. Measures include clear documentation of responsibilities, periodic reviews, and enforcement mechanisms.
+    fr: Cette mesure de sécurité définit et attribue des rôles et responsabilités en matière de sécurité de l'information pour garantir la responsabilité. Les mesures incluent une documentation claire des responsabilités, des revues périodiques et des mécanismes d'application.
+  guidance:
+    en: This control defines and assigns roles and responsibilities for information security to ensure accountability. Measures include clear documentation of responsibilities, periodic reviews, and enforcement mechanisms.
+    fr: Cette mesure de sécurité définit et attribue des rôles et responsabilités en matière de sécurité de l'information pour garantir la responsabilité. Les mesures incluent une documentation claire des responsabilités, des revues périodiques et des mécanismes d'application.
+  requirements: []
+- code: A.5.3
+  domain: annex-a
+  title:
+    en: Segregation of duties
+    fr: Séparation des tâches
+  description:
+    en: This control ensures segregation of duties to reduce the risk of errors, fraud, and unauthorized access. Measures include role separation, access restrictions, and regular audits.
+    fr: Cette mesure de sécurité garantit la séparation des tâches pour réduire le risque d'erreurs, de fraude et d'accès non autorisé. Les mesures incluent la séparation des rôles, des restrictions d'accès et des audits réguliers.
+  guidance:
+    en: This control ensures segregation of duties to reduce the risk of errors, fraud, and unauthorized access. Measures include role separation, access restrictions, and regular audits.
+    fr: Cette mesure de sécurité garantit la séparation des tâches pour réduire le risque d'erreurs, de fraude et d'accès non autorisé. Les mesures incluent la séparation des rôles, des restrictions d'accès et des audits réguliers.
+  requirements: []
+- code: A.5.4
+  domain: annex-a
+  title:
+    en: Management responsibilities
+    fr: Responsabilités de la direction
+  description:
+    en: This control ensures management responsibilities for information security are clearly defined and implemented. Measures include setting objectives, allocating resources, and overseeing compliance.
+    fr: Cette mesure de sécurité garantit que les responsabilités de gestion en matière de sécurité de l'information sont clairement définies et mises en œuvre. Les mesures incluent la fixation d'objectifs, l'allocation de ressources et la supervision de la conformité.
+  guidance:
+    en: This control ensures management responsibilities for information security are clearly defined and implemented. Measures include setting objectives, allocating resources, and overseeing compliance.
+    fr: Cette mesure de sécurité garantit que les responsabilités de gestion en matière de sécurité de l'information sont clairement définies et mises en œuvre. Les mesures incluent la fixation d'objectifs, l'allocation de ressources et la supervision de la conformité.
+  requirements: []
+- code: A.5.5
+  domain: annex-a
+  title:
+    en: Contact with authorities
+    fr: Contact avec les autorités
+  description:
+    en: This control ensures timely communication with relevant authorities during information security incidents. Measures include establishing contact protocols, maintaining updated contact lists, and assigning responsibilities.
+    fr: Cette mesure de sécurité garantit une communication rapide avec les autorités compétentes en cas d'incidents de sécurité de l'information. Les mesures incluent des protocoles de contact, des listes de contacts à jour et l'attribution de responsabilités.
+  guidance:
+    en: This control ensures timely communication with relevant authorities during information security incidents. Measures include establishing contact protocols, maintaining updated contact lists, and assigning responsibilities.
+    fr: Cette mesure de sécurité garantit une communication rapide avec les autorités compétentes en cas d'incidents de sécurité de l'information. Les mesures incluent des protocoles de contact, des listes de contacts à jour et l'attribution de responsabilités.
+  requirements: []
+- code: A.5.6
+  domain: annex-a
+  title:
+    en: Contact with special interest groups
+    fr: Contact avec des groupes d'intérêt spécifiques
+  description:
+    en: This control facilitates contact with special interest groups to stay informed about security trends and practices. Measures include participation in forums, memberships, and collaborative initiatives.
+    fr: Cette mesure de sécurité facilite le contact avec des groupes d'intérêt pour rester informé des tendances et pratiques en matière de sécurité. Les mesures incluent la participation à des forums, des adhésions et des initiatives collaboratives.
+  guidance:
+    en: This control facilitates contact with special interest groups to stay informed about security trends and practices. Measures include participation in forums, memberships, and collaborative initiatives.
+    fr: Cette mesure de sécurité facilite le contact avec des groupes d'intérêt pour rester informé des tendances et pratiques en matière de sécurité. Les mesures incluent la participation à des forums, des adhésions et des initiatives collaboratives.
+  requirements: []
+- code: A.5.7
+  domain: annex-a
+  title:
+    en: Threat intelligence
+    fr: Renseignements sur les menaces
+  description:
+    en: This control ensures threat intelligence is developed and maintained to identify and mitigate security risks. Measures include monitoring threat feeds, analyzing trends, and sharing actionable insights.
+    fr: Cette mesure de sécurité garantit que des renseignements sur les menaces sont développés et maintenus pour identifier et atténuer les risques de sécurité. Les mesures incluent le suivi des flux de menaces, l'analyse des tendances et le partage d'informations exploitables.
+  guidance:
+    en: This control ensures threat intelligence is developed and maintained to identify and mitigate security risks. Measures include monitoring threat feeds, analyzing trends, and sharing actionable insights.
+    fr: Cette mesure de sécurité garantit que des renseignements sur les menaces sont développés et maintenus pour identifier et atténuer les risques de sécurité. Les mesures incluent le suivi des flux de menaces, l'analyse des tendances et le partage d'informations exploitables.
+  requirements: []
+- code: A.5.8
+  domain: annex-a
+  title:
+    en: Information security in project management
+    fr: Sécurité de l'information dans la gestion de projet
+  description:
+    en: This control incorporates information security into project management practices. Measures include risk assessments, compliance reviews, and security checkpoints during project lifecycles.
+    fr: Cette mesure de sécurité intègre la sécurité de l'information dans les pratiques de gestion de projet. Les mesures incluent les évaluations des risques, les revues de conformité et les points de contrôle de sécurité tout au long du cycle de vie du projet.
+  guidance:
+    en: This control incorporates information security into project management practices. Measures include risk assessments, compliance reviews, and security checkpoints during project lifecycles.
+    fr: Cette mesure de sécurité intègre la sécurité de l'information dans les pratiques de gestion de projet. Les mesures incluent les évaluations des risques, les revues de conformité et les points de contrôle de sécurité tout au long du cycle de vie du projet.
+  requirements: []
+- code: A.5.9
+  domain: annex-a
+  title:
+    en: Inventory of information and other associated assets
+    fr: Inventaire des informations et autres actifs associés
+  description:
+    en: This control ensures an accurate inventory of information and associated assets is maintained. Measures include asset tracking, periodic audits, and classification by sensitivity.
+    fr: Cette mesure de sécurité garantit qu’un inventaire précis des informations et des actifs associés est maintenu. Les mesures incluent le suivi des actifs, des audits périodiques et une classification par sensibilité.
+  guidance:
+    en: This control ensures an accurate inventory of information and associated assets is maintained. Measures include asset tracking, periodic audits, and classification by sensitivity.
+    fr: Cette mesure de sécurité garantit qu’un inventaire précis des informations et des actifs associés est maintenu. Les mesures incluent le suivi des actifs, des audits périodiques et une classification par sensibilité.
+  requirements: []
+- code: A.5.10
+  domain: annex-a
+  title:
+    en: Acceptable use of information and other associated assets
+    fr: Utilisation correcte des informations et autres actifs associés
+  description:
+    en: This control defines acceptable use of information and associated assets to ensure proper handling. Measures include documented policies, user training, and enforcement mechanisms.
+    fr: Cette mesure de sécurité définit les règles d'utilisation acceptable des informations et des actifs associés pour assurer une manipulation appropriée. Les mesures incluent des politiques documentées, la formation des utilisateurs et des mécanismes d'application.
+  guidance:
+    en: This control defines acceptable use of information and associated assets to ensure proper handling. Measures include documented policies, user training, and enforcement mechanisms.
+    fr: Cette mesure de sécurité définit les règles d'utilisation acceptable des informations et des actifs associés pour assurer une manipulation appropriée. Les mesures incluent des politiques documentées, la formation des utilisateurs et des mécanismes d'application.
+  requirements: []
+- code: A.5.11
+  domain: annex-a
+  title:
+    en: Return of assets
+    fr: Restitution des actifs
+  description:
+    en: This control ensures the secure return of assets when employees or contractors leave or change roles. Measures include checklists, asset tracking, and decommissioning protocols.
+    fr: Cette mesure de sécurité garantit le retour sécurisé des actifs lorsque des employés ou des sous-traitants quittent ou changent de rôle. Les mesures incluent des listes de contrôle, le suivi des actifs et des protocoles de désactivation.
+  guidance:
+    en: This control ensures the secure return of assets when employees or contractors leave or change roles. Measures include checklists, asset tracking, and decommissioning protocols.
+    fr: Cette mesure de sécurité garantit le retour sécurisé des actifs lorsque des employés ou des sous-traitants quittent ou changent de rôle. Les mesures incluent des listes de contrôle, le suivi des actifs et des protocoles de désactivation.
+  requirements: []
+- code: A.5.12
+  domain: annex-a
+  title:
+    en: Classification of information
+    fr: Classification des informations
+  description:
+    en: This control ensures information is classified based on its sensitivity and value to ensure appropriate protection. Measures include classification schemes, access restrictions, and labeling guidelines.
+    fr: Cette mesure de sécurité garantit que les informations sont classées en fonction de leur sensibilité et de leur valeur pour assurer une protection adéquate. Les mesures incluent des schémas de classification, des restrictions d'accès et des directives d'étiquetage.
+  guidance:
+    en: This control ensures information is classified based on its sensitivity and value to ensure appropriate protection. Measures include classification schemes, access restrictions, and labeling guidelines.
+    fr: Cette mesure de sécurité garantit que les informations sont classées en fonction de leur sensibilité et de leur valeur pour assurer une protection adéquate. Les mesures incluent des schémas de classification, des restrictions d'accès et des directives d'étiquetage.
+  requirements: []
+- code: A.5.13
+  domain: annex-a
+  title:
+    en: Labelling of information
+    fr: Marquage des informations
+  description:
+    en: This control ensures consistent labeling of information to reflect its classification and handling requirements. Measures include standardized templates, training, and audits.
+    fr: Cette mesure de sécurité garantit un étiquetage cohérent des informations pour refléter leur classification et leurs exigences de traitement. Les mesures incluent des modèles standardisés, des formations et des audits.
+  guidance:
+    en: This control ensures consistent labeling of information to reflect its classification and handling requirements. Measures include standardized templates, training, and audits.
+    fr: Cette mesure de sécurité garantit un étiquetage cohérent des informations pour refléter leur classification et leurs exigences de traitement. Les mesures incluent des modèles standardisés, des formations et des audits.
+  requirements: []
+- code: A.5.14
+  domain: annex-a
+  title:
+    en: Information transfer
+    fr: Transfert des informations
+  description:
+    en: This control establishes secure processes for transferring information between systems or organizations. Measures include encryption, access controls, and secure transfer protocols.
+    fr: Cette mesure de sécurité établit des processus sécurisés pour le transfert d'informations entre systèmes ou organisations. Les mesures incluent le chiffrement, les contrôles d'accès et les protocoles de transfert sécurisés.
+  guidance:
+    en: This control establishes secure processes for transferring information between systems or organizations. Measures include encryption, access controls, and secure transfer protocols.
+    fr: Cette mesure de sécurité établit des processus sécurisés pour le transfert d'informations entre systèmes ou organisations. Les mesures incluent le chiffrement, les contrôles d'accès et les protocoles de transfert sécurisés.
+  requirements: []
+- code: A.5.15
+  domain: annex-a
+  title:
+    en: Access control
+    fr: Contrôle d'accès
+  description:
+    en: This control implements and maintains access control mechanisms to restrict access to authorized individuals. Measures include role-based access, multi-factor authentication, and periodic reviews.
+    fr: Cette mesure de sécurité met en œuvre et maintient des mécanismes de contrôle d'accès pour limiter l'accès aux individus autorisés. Les mesures incluent des contrôles basés sur les rôles, l'authentification multifacteur et des revues périodiques.
+  guidance:
+    en: This control implements and maintains access control mechanisms to restrict access to authorized individuals. Measures include role-based access, multi-factor authentication, and periodic reviews.
+    fr: Cette mesure de sécurité met en œuvre et maintient des mécanismes de contrôle d'accès pour limiter l'accès aux individus autorisés. Les mesures incluent des contrôles basés sur les rôles, l'authentification multifacteur et des revues périodiques.
+  requirements: []
+- code: A.5.16
+  domain: annex-a
+  title:
+    en: Identity management
+    fr: Gestion des identités
+  description:
+    en: This control ensures identities are managed securely to guarantee accurate and reliable access to systems. Measures include identity verification, lifecycle management, and access provisioning.
+    fr: Cette mesure de sécurité garantit que les identités sont gérées de manière sécurisée pour garantir un accès précis et fiable aux systèmes. Les mesures incluent la vérification d'identité, la gestion du cycle de vie et l'approvisionnement des accès.
+  guidance:
+    en: This control ensures identities are managed securely to guarantee accurate and reliable access to systems. Measures include identity verification, lifecycle management, and access provisioning.
+    fr: Cette mesure de sécurité garantit que les identités sont gérées de manière sécurisée pour garantir un accès précis et fiable aux systèmes. Les mesures incluent la vérification d'identité, la gestion du cycle de vie et l'approvisionnement des accès.
+  requirements: []
+- code: A.5.17
+  domain: annex-a
+  title:
+    en: Authentication information
+    fr: Informations d'authentification
+  description:
+    en: This control protects authentication information, such as passwords, to prevent unauthorized access. Measures include encryption, secure storage, and periodic password updates.
+    fr: Cette mesure de sécurité protège les informations d'authentification, telles que les mots de passe, pour empêcher tout accès non autorisé. Les mesures incluent le chiffrement, le stockage sécurisé et les mises à jour périodiques des mots de passe.
+  guidance:
+    en: This control protects authentication information, such as passwords, to prevent unauthorized access. Measures include encryption, secure storage, and periodic password updates.
+    fr: Cette mesure de sécurité protège les informations d'authentification, telles que les mots de passe, pour empêcher tout accès non autorisé. Les mesures incluent le chiffrement, le stockage sécurisé et les mises à jour périodiques des mots de passe.
+  requirements: []
+- code: A.5.18
+  domain: annex-a
+  title:
+    en: Access rights
+    fr: Droits d'accès
+  description:
+    en: This control ensures access rights are regularly reviewed and managed to align with roles and responsibilities. Measures include periodic audits, access revocation, and automated access management.
+    fr: Cette mesure de sécurité garantit que les droits d'accès sont régulièrement revus et gérés pour s'aligner sur les rôles et responsabilités. Les mesures incluent des audits périodiques, la révocation des accès et la gestion automatisée des accès.
+  guidance:
+    en: This control ensures access rights are regularly reviewed and managed to align with roles and responsibilities. Measures include periodic audits, access revocation, and automated access management.
+    fr: Cette mesure de sécurité garantit que les droits d'accès sont régulièrement revus et gérés pour s'aligner sur les rôles et responsabilités. Les mesures incluent des audits périodiques, la révocation des accès et la gestion automatisée des accès.
+  requirements: []
+- code: A.5.19
+  domain: annex-a
+  title:
+    en: Information security in supplier relationships
+    fr: Sécurité de l'information dans les relations avec les fournisseurs
+  description:
+    en: This control ensures information security is embedded in supplier relationships and processes. Measures include due diligence, security reviews, and ongoing monitoring.
+    fr: Cette mesure de sécurité garantit que la sécurité de l'information est intégrée dans les relations et processus avec les fournisseurs. Les mesures incluent la diligence raisonnable, les revues de sécurité et la surveillance continue.
+  guidance:
+    en: This control ensures information security is embedded in supplier relationships and processes. Measures include due diligence, security reviews, and ongoing monitoring.
+    fr: Cette mesure de sécurité garantit que la sécurité de l'information est intégrée dans les relations et processus avec les fournisseurs. Les mesures incluent la diligence raisonnable, les revues de sécurité et la surveillance continue.
+  requirements: []
+- code: A.5.20
+  domain: annex-a
+  title:
+    en: Addressing information security within supplier agreements
+    fr: La sécurité de l'information dans les accords conclus avec les fournisseurs
+  description:
+    en: This control addresses information security requirements within supplier agreements. Measures include explicit contract clauses, compliance audits, and defined penalties for violations.
+    fr: Cette mesure de sécurité aborde les exigences de sécurité de l'information dans les accords avec les fournisseurs. Les mesures incluent des clauses contractuelles explicites, des audits de conformité et des pénalités définies pour les violations.
+  guidance:
+    en: This control addresses information security requirements within supplier agreements. Measures include explicit contract clauses, compliance audits, and defined penalties for violations.
+    fr: Cette mesure de sécurité aborde les exigences de sécurité de l'information dans les accords avec les fournisseurs. Les mesures incluent des clauses contractuelles explicites, des audits de conformité et des pénalités définies pour les violations.
+  requirements: []
+- code: A.5.21
+  domain: annex-a
+  title:
+    en: Managing information security in the ICT supply chain
+    fr: Gestion de la sécurité de l'information dans la chaîne d'approvisionnement des technologies de l'information et de la communication (TIC)
+  description:
+    en: This control manages information security risks in the ICT supply chain to ensure security of services and components. Measures include risk assessments, supplier evaluations, and incident response protocols.
+    fr: Cette mesure de sécurité gère les risques de sécurité de l'information dans la chaîne d'approvisionnement TIC pour garantir la sécurité des services et des composants. Les mesures incluent des évaluations des risques, des évaluations des fournisseurs et des protocoles de réponse aux incidents.
+  guidance:
+    en: This control manages information security risks in the ICT supply chain to ensure security of services and components. Measures include risk assessments, supplier evaluations, and incident response protocols.
+    fr: Cette mesure de sécurité gère les risques de sécurité de l'information dans la chaîne d'approvisionnement TIC pour garantir la sécurité des services et des composants. Les mesures incluent des évaluations des risques, des évaluations des fournisseurs et des protocoles de réponse aux incidents.
+  requirements: []
+- code: A.5.22
+  domain: annex-a
+  title:
+    en: Monitor, review and change management of supplier services
+    fr: Surveillance, révision et gestion des changements des services fournisseurs
+  description:
+    en: This control ensures supplier services are monitored, reviewed, and adjusted to maintain information security. Measures include service level agreements, periodic reviews, and contract updates.
+    fr: Cette mesure de sécurité garantit que les services des fournisseurs sont surveillés, revus et ajustés pour maintenir la sécurité de l'information. Les mesures incluent des accords de niveau de service, des revues périodiques et des mises à jour contractuelles.
+  guidance:
+    en: This control ensures supplier services are monitored, reviewed, and adjusted to maintain information security. Measures include service level agreements, periodic reviews, and contract updates.
+    fr: Cette mesure de sécurité garantit que les services des fournisseurs sont surveillés, revus et ajustés pour maintenir la sécurité de l'information. Les mesures incluent des accords de niveau de service, des revues périodiques et des mises à jour contractuelles.
+  requirements: []
+- code: A.5.23
+  domain: annex-a
+  title:
+    en: Information security for use of cloud services
+    fr: Sécurité de l'information dans l'utilisation de services en nuage
+  description:
+    en: This control ensures the secure use of cloud services by addressing associated risks. Measures include data encryption, access controls, and provider compliance reviews.
+    fr: Cette mesure de sécurité garantit l'utilisation sécurisée des services cloud en abordant les risques associés. Les mesures incluent le chiffrement des données, les contrôles d'accès et les revues de conformité des fournisseurs.
+  guidance:
+    en: This control ensures the secure use of cloud services by addressing associated risks. Measures include data encryption, access controls, and provider compliance reviews.
+    fr: Cette mesure de sécurité garantit l'utilisation sécurisée des services cloud en abordant les risques associés. Les mesures incluent le chiffrement des données, les contrôles d'accès et les revues de conformité des fournisseurs.
+  requirements: []
+- code: A.5.24
+  domain: annex-a
+  title:
+    en: Information security incident management planning and preparation
+    fr: Planification et préparation de la gestion des incidents de sécurité de l'information
+  description:
+    en: This control ensures proper planning and preparation for managing information security incidents. Measures include incident response plans, training exercises, and communication protocols.
+    fr: Cette mesure de sécurité garantit une planification et une préparation adéquates pour la gestion des incidents de sécurité de l'information. Les mesures incluent des plans de réponse aux incidents, des exercices de formation et des protocoles de communication.
+  guidance:
+    en: This control ensures proper planning and preparation for managing information security incidents. Measures include incident response plans, training exercises, and communication protocols.
+    fr: Cette mesure de sécurité garantit une planification et une préparation adéquates pour la gestion des incidents de sécurité de l'information. Les mesures incluent des plans de réponse aux incidents, des exercices de formation et des protocoles de communication.
+  requirements: []
+- code: A.5.25
+  domain: annex-a
+  title:
+    en: Assessment and decision on information security events
+    fr: Évaluation des événements de sécurité de l'information et prise de décision
+  description:
+    en: This control establishes processes for assessing and deciding on actions related to information security events. Measures include root cause analysis, risk evaluation, and mitigation plans.
+    fr: Cette mesure de sécurité établit des processus pour évaluer et décider des actions liées aux événements de sécurité de l'information. Les mesures incluent l'analyse des causes profondes, l'évaluation des risques et des plans d'atténuation.
+  guidance:
+    en: This control establishes processes for assessing and deciding on actions related to information security events. Measures include root cause analysis, risk evaluation, and mitigation plans.
+    fr: Cette mesure de sécurité établit des processus pour évaluer et décider des actions liées aux événements de sécurité de l'information. Les mesures incluent l'analyse des causes profondes, l'évaluation des risques et des plans d'atténuation.
+  requirements: []
+- code: A.5.26
+  domain: annex-a
+  title:
+    en: Response to information security incidents
+    fr: Réponse aux incidents de sécurité de l'information
+  description:
+    en: This control ensures effective response to information security incidents to minimize impact and recover quickly. Measures include incident reporting, escalation protocols, and containment strategies.
+    fr: Cette mesure de sécurité garantit une réponse efficace aux incidents de sécurité de l'information pour minimiser l'impact et récupérer rapidement. Les mesures incluent le signalement des incidents, des protocoles d'escalade et des stratégies de confinement.
+  guidance:
+    en: This control ensures effective response to information security incidents to minimize impact and recover quickly. Measures include incident reporting, escalation protocols, and containment strategies.
+    fr: Cette mesure de sécurité garantit une réponse efficace aux incidents de sécurité de l'information pour minimiser l'impact et récupérer rapidement. Les mesures incluent le signalement des incidents, des protocoles d'escalade et des stratégies de confinement.
+  requirements: []
+- code: A.5.27
+  domain: annex-a
+  title:
+    en: Learning from information security incidents
+    fr: Tirer des enseignements des incidents de sécurité de l'information
+  description:
+    en: This control ensures lessons learned from information security incidents are documented and implemented to improve processes. Measures include post-incident reviews, action plans, and policy updates.
+    fr: Cette mesure de sécurité garantit que les leçons tirées des incidents de sécurité de l'information sont documentées et mises en œuvre pour améliorer les processus. Les mesures incluent des revues post-incidents, des plans d'action et des mises à jour des politiques.
+  guidance:
+    en: This control ensures lessons learned from information security incidents are documented and implemented to improve processes. Measures include post-incident reviews, action plans, and policy updates.
+    fr: Cette mesure de sécurité garantit que les leçons tirées des incidents de sécurité de l'information sont documentées et mises en œuvre pour améliorer les processus. Les mesures incluent des revues post-incidents, des plans d'action et des mises à jour des politiques.
+  requirements: []
+- code: A.5.28
+  domain: annex-a
+  title:
+    en: Collection of evidence
+    fr: Collecte de preuves
+  description:
+    en: This control ensures evidence is collected and preserved during security incidents to support investigations. Measures include chain-of-custody procedures, secure storage, and access controls.
+    fr: Cette mesure de sécurité garantit que les preuves sont collectées et conservées lors des incidents de sécurité pour soutenir les enquêtes. Les mesures incluent des procédures de chaîne de conservation, le stockage sécurisé et les contrôles d'accès.
+  guidance:
+    en: This control ensures evidence is collected and preserved during security incidents to support investigations. Measures include chain-of-custody procedures, secure storage, and access controls.
+    fr: Cette mesure de sécurité garantit que les preuves sont collectées et conservées lors des incidents de sécurité pour soutenir les enquêtes. Les mesures incluent des procédures de chaîne de conservation, le stockage sécurisé et les contrôles d'accès.
+  requirements: []
+- code: A.5.29
+  domain: annex-a
+  title:
+    en: Information security during disruption
+    fr: Sécurité de l'information pendant une perturbation
+  description:
+    en: This control ensures information security is maintained during disruptions to guarantee continuity of operations. Measures include contingency plans, backup systems, and failover mechanisms.
+    fr: Cette mesure de sécurité garantit que la sécurité de l'information est maintenue pendant les perturbations pour assurer la continuité des opérations. Les mesures incluent des plans de contingence, des systèmes de sauvegarde et des mécanismes de basculement.
+  guidance:
+    en: This control ensures information security is maintained during disruptions to guarantee continuity of operations. Measures include contingency plans, backup systems, and failover mechanisms.
+    fr: Cette mesure de sécurité garantit que la sécurité de l'information est maintenue pendant les perturbations pour assurer la continuité des opérations. Les mesures incluent des plans de contingence, des systèmes de sauvegarde et des mécanismes de basculement.
+  requirements: []
+- code: A.5.30
+  domain: annex-a
+  title:
+    en: ICT readiness for business continuity
+    fr: Préparation des TIC la continuité d'activité
+  description:
+    en: This control ensures ICT readiness for business continuity to minimize downtime during disruptions. Measures include testing recovery plans, redundant systems, and disaster recovery sites.
+    fr: Cette mesure de sécurité garantit la préparation TIC pour la continuité des activités afin de minimiser les temps d'arrêt pendant les perturbations. Les mesures incluent des tests de plans de reprise, des systèmes redondants et des sites de reprise après sinistre.
+  guidance:
+    en: This control ensures ICT readiness for business continuity to minimize downtime during disruptions. Measures include testing recovery plans, redundant systems, and disaster recovery sites.
+    fr: Cette mesure de sécurité garantit la préparation TIC pour la continuité des activités afin de minimiser les temps d'arrêt pendant les perturbations. Les mesures incluent des tests de plans de reprise, des systèmes redondants et des sites de reprise après sinistre.
+  requirements: []
+- code: A.5.31
+  domain: annex-a
+  title:
+    en: Legal, statutory, regulatory and contractual requirements
+    fr: Exigences légales, statutaires, réglementaires et contractuelles
+  description:
+    en: This control ensures compliance with legal, statutory, regulatory, and contractual information security requirements. Measures include policy reviews, audits, and evidence documentation.
+    fr: Cette mesure de sécurité garantit la conformité aux exigences légales, réglementaires et contractuelles en matière de sécurité de l'information. Les mesures incluent des revues de politiques, des audits et la documentation des preuves.
+  guidance:
+    en: This control ensures compliance with legal, statutory, regulatory, and contractual information security requirements. Measures include policy reviews, audits, and evidence documentation.
+    fr: Cette mesure de sécurité garantit la conformité aux exigences légales, réglementaires et contractuelles en matière de sécurité de l'information. Les mesures incluent des revues de politiques, des audits et la documentation des preuves.
+  requirements: []
+- code: A.5.32
+  domain: annex-a
+  title:
+    en: Intellectual property rights
+    fr: Droits de propriété intellectuelle
+  description:
+    en: This control ensures intellectual property rights are protected through appropriate information security measures. Measures include access restrictions, encryption, and legal agreements.
+    fr: Cette mesure de sécurité garantit la protection des droits de propriété intellectuelle par des mesures de sécurité de l'information appropriées. Les mesures incluent des restrictions d'accès, le chiffrement et des accords légaux.
+  guidance:
+    en: This control ensures intellectual property rights are protected through appropriate information security measures. Measures include access restrictions, encryption, and legal agreements.
+    fr: Cette mesure de sécurité garantit la protection des droits de propriété intellectuelle par des mesures de sécurité de l'information appropriées. Les mesures incluent des restrictions d'accès, le chiffrement et des accords légaux.
+  requirements: []
+- code: A.5.33
+  domain: annex-a
+  title:
+    en: Protection of records
+    fr: Protection des enregistrements
+  description:
+    en: This control ensures records are securely stored and protected to prevent loss or unauthorized access. Measures include retention policies, secure storage, and access controls.
+    fr: Cette mesure de sécurité garantit que les enregistrements sont stockés et protégés de manière sécurisée pour prévenir toute perte ou accès non autorisé. Les mesures incluent des politiques de rétention, un stockage sécurisé et des contrôles d'accès.
+  guidance:
+    en: This control ensures records are securely stored and protected to prevent loss or unauthorized access. Measures include retention policies, secure storage, and access controls.
+    fr: Cette mesure de sécurité garantit que les enregistrements sont stockés et protégés de manière sécurisée pour prévenir toute perte ou accès non autorisé. Les mesures incluent des politiques de rétention, un stockage sécurisé et des contrôles d'accès.
+  requirements: []
+- code: A.5.34
+  domain: annex-a
+  title:
+    en: Privacy and protection of PII
+    fr: Protection de la vie privée et des données à caractère personnel (DCP)
+  description:
+    en: This control protects privacy and ensures the secure handling of personally identifiable information (PII). Measures include anonymization, encryption, and compliance with privacy laws.
+    fr: Cette mesure de sécurité protège la confidentialité et garantit le traitement sécurisé des informations personnellement identifiables (PII). Les mesures incluent l'anonymisation, le chiffrement et la conformité aux lois sur la confidentialité.
+  guidance:
+    en: This control protects privacy and ensures the secure handling of personally identifiable information (PII). Measures include anonymization, encryption, and compliance with privacy laws.
+    fr: Cette mesure de sécurité protège la confidentialité et garantit le traitement sécurisé des informations personnellement identifiables (PII). Les mesures incluent l'anonymisation, le chiffrement et la conformité aux lois sur la confidentialité.
+  requirements: []
+- code: A.5.35
+  domain: annex-a
+  title:
+    en: Independent review of information security
+    fr: Révision indépendante de la sécurité de l'information
+  description:
+    en: This control ensures independent reviews of information security to evaluate effectiveness and compliance. Measures include external audits, risk assessments, and follow-up actions.
+    fr: Cette mesure de sécurité garantit des revues indépendantes de la sécurité de l'information pour évaluer l'efficacité et la conformité. Les mesures incluent des audits externes, des évaluations des risques et des actions de suivi.
+  guidance:
+    en: This control ensures independent reviews of information security to evaluate effectiveness and compliance. Measures include external audits, risk assessments, and follow-up actions.
+    fr: Cette mesure de sécurité garantit des revues indépendantes de la sécurité de l'information pour évaluer l'efficacité et la conformité. Les mesures incluent des audits externes, des évaluations des risques et des actions de suivi.
+  requirements: []
+- code: A.5.36
+  domain: annex-a
+  title:
+    en: Compliance with policies, rules and standards for information security
+    fr: Conformité aux politiques, règles et normes de sécurité de l'information
+  description:
+    en: This control ensures compliance with all policies, rules, and standards for information security. Measures include regular training, policy reviews, and enforcement mechanisms.
+    fr: Cette mesure de sécurité garantit la conformité à toutes les politiques, règles et normes en matière de sécurité de l'information. Les mesures incluent des formations régulières, des revues de politiques et des mécanismes d'application.
+  guidance:
+    en: This control ensures compliance with all policies, rules, and standards for information security. Measures include regular training, policy reviews, and enforcement mechanisms.
+    fr: Cette mesure de sécurité garantit la conformité à toutes les politiques, règles et normes en matière de sécurité de l'information. Les mesures incluent des formations régulières, des revues de politiques et des mécanismes d'application.
+  requirements: []
+- code: A.5.37
+  domain: annex-a
+  title:
+    en: Documented operating procedures
+    fr: Procédures d'exploitation documentées
+  description:
+    en: This control develops and maintains documented operating procedures to ensure consistency in security practices. Measures include process documentation, version control, and accessibility.
+    fr: Cette mesure de sécurité développe et maintient des procédures opérationnelles documentées pour garantir la cohérence des pratiques de sécurité. Les mesures incluent la documentation des processus, le contrôle des versions et l'accessibilité.
+  guidance:
+    en: This control develops and maintains documented operating procedures to ensure consistency in security practices. Measures include process documentation, version control, and accessibility.
+    fr: Cette mesure de sécurité développe et maintient des procédures opérationnelles documentées pour garantir la cohérence des pratiques de sécurité. Les mesures incluent la documentation des processus, le contrôle des versions et l'accessibilité.
+  requirements: []
+- code: A.6.1
+  domain: annex-a
+  title:
+    en: Screening
+    fr: Sélection des candidats
+  description:
+    en: This control ensures the implementation of screening processes to verify the suitability of candidates before employment. Measures include background checks, identity verification, and assessment of qualifications to reduce security risks.
+    fr: Cette mesure de sécurité garantit la mise en œuvre de processus de vérification pour évaluer l'adéquation des candidats avant leur embauche. Les mesures incluent des vérifications des antécédents, la vérification d'identité et l'évaluation des qualifications pour réduire les risques de sécurité.
+  guidance:
+    en: This control ensures the implementation of screening processes to verify the suitability of candidates before employment. Measures include background checks, identity verification, and assessment of qualifications to reduce security risks.
+    fr: Cette mesure de sécurité garantit la mise en œuvre de processus de vérification pour évaluer l'adéquation des candidats avant leur embauche. Les mesures incluent des vérifications des antécédents, la vérification d'identité et l'évaluation des qualifications pour réduire les risques de sécurité.
+  requirements: []
+- code: A.6.2
+  domain: annex-a
+  title:
+    en: Terms and conditions of employment
+    fr: Termes et conditions du contrat de travail
+  description:
+    en: This control ensures that terms and conditions of employment include information security responsibilities. Measures include explicit clauses about confidentiality, compliance with policies, and consequences for breaches.
+    fr: Cette mesure de sécurité garantit que les termes et conditions d'emploi incluent des responsabilités en matière de sécurité de l'information. Les mesures incluent des clauses explicites sur la confidentialité, le respect des politiques et les conséquences des violations.
+  guidance:
+    en: This control ensures that terms and conditions of employment include information security responsibilities. Measures include explicit clauses about confidentiality, compliance with policies, and consequences for breaches.
+    fr: Cette mesure de sécurité garantit que les termes et conditions d'emploi incluent des responsabilités en matière de sécurité de l'information. Les mesures incluent des clauses explicites sur la confidentialité, le respect des politiques et les conséquences des violations.
+  requirements: []
+- code: A.6.3
+  domain: annex-a
+  title:
+    en: Information security awareness, education and training
+    fr: Sensibilisation, enseignement et formation en sécurité de l'information
+  description:
+    en: This control ensures that employees receive regular information security awareness, education, and training. Measures include scheduled training sessions, e-learning programs, and simulated phishing exercises.
+    fr: Cette mesure de sécurité garantit que les employés reçoivent une sensibilisation, une éducation et une formation régulières en matière de sécurité de l'information. Les mesures incluent des sessions de formation planifiées, des programmes d'apprentissage en ligne et des exercices de phishing simulés.
+  guidance:
+    en: This control ensures that employees receive regular information security awareness, education, and training. Measures include scheduled training sessions, e-learning programs, and simulated phishing exercises.
+    fr: Cette mesure de sécurité garantit que les employés reçoivent une sensibilisation, une éducation et une formation régulières en matière de sécurité de l'information. Les mesures incluent des sessions de formation planifiées, des programmes d'apprentissage en ligne et des exercices de phishing simulés.
+  requirements: []
+- code: A.6.4
+  domain: annex-a
+  title:
+    en: Disciplinary process
+    fr: Procédure disciplinaire
+  description:
+    en: This control establishes a disciplinary process to address breaches of information security policies. Measures include clear guidelines, escalation procedures, and consistent enforcement to maintain accountability.
+    fr: Cette mesure de sécurité établit un processus disciplinaire pour traiter les violations des politiques de sécurité de l'information. Les mesures incluent des lignes directrices claires, des procédures d'escalade et une application cohérente pour maintenir la responsabilité.
+  guidance:
+    en: This control establishes a disciplinary process to address breaches of information security policies. Measures include clear guidelines, escalation procedures, and consistent enforcement to maintain accountability.
+    fr: Cette mesure de sécurité établit un processus disciplinaire pour traiter les violations des politiques de sécurité de l'information. Les mesures incluent des lignes directrices claires, des procédures d'escalade et une application cohérente pour maintenir la responsabilité.
+  requirements: []
+- code: A.6.5
+  domain: annex-a
+  title:
+    en: Responsibilities after termination or change of employment
+    fr: Responsabilités après la fin ou le changement d'emploi
+  description:
+    en: This control ensures that responsibilities related to information security are defined and enforced after termination or role changes. Measures include revoking access rights, collecting organizational assets, and conducting exit interviews.
+    fr: Cette mesure de sécurité garantit que les responsabilités liées à la sécurité de l'information sont définies et appliquées après la fin d’un contrat ou un changement de rôle. Les mesures incluent la révocation des droits d'accès, la récupération des actifs de l'organisation et la réalisation d'entretiens de sortie.
+  guidance:
+    en: This control ensures that responsibilities related to information security are defined and enforced after termination or role changes. Measures include revoking access rights, collecting organizational assets, and conducting exit interviews.
+    fr: Cette mesure de sécurité garantit que les responsabilités liées à la sécurité de l'information sont définies et appliquées après la fin d’un contrat ou un changement de rôle. Les mesures incluent la révocation des droits d'accès, la récupération des actifs de l'organisation et la réalisation d'entretiens de sortie.
+  requirements: []
+- code: A.6.6
+  domain: annex-a
+  title:
+    en: Confidentiality or non-disclosure agreements
+    fr: Accords de confidentialité ou de non-divulgation
+  description:
+    en: This control implements confidentiality or non-disclosure agreements to protect sensitive information. Measures include signed agreements at the start of employment, periodic reminders, and enforcement of legal actions in case of violations.
+    fr: Cette mesure de sécurité met en œuvre des accords de confidentialité ou de non-divulgation pour protéger les informations sensibles. Les mesures incluent des accords signés au début de l'emploi, des rappels périodiques et l'application d'actions légales en cas de violations.
+  guidance:
+    en: This control implements confidentiality or non-disclosure agreements to protect sensitive information. Measures include signed agreements at the start of employment, periodic reminders, and enforcement of legal actions in case of violations.
+    fr: Cette mesure de sécurité met en œuvre des accords de confidentialité ou de non-divulgation pour protéger les informations sensibles. Les mesures incluent des accords signés au début de l'emploi, des rappels périodiques et l'application d'actions légales en cas de violations.
+  requirements: []
+- code: A.6.7
+  domain: annex-a
+  title:
+    en: Remote working
+    fr: Travail à distance
+  description:
+    en: This control ensures the secure management of information security risks during remote working. Measures include secure access to corporate systems, mandatory use of VPNs, and policies for handling sensitive data remotely.
+    fr: Cette mesure de sécurité garantit la gestion sécurisée des risques liés à la sécurité de l'information pendant le télétravail. Les mesures incluent un accès sécurisé aux systèmes de l'entreprise, l'utilisation obligatoire de VPN et des politiques pour la gestion des données sensibles à distance.
+  guidance:
+    en: This control ensures the secure management of information security risks during remote working. Measures include secure access to corporate systems, mandatory use of VPNs, and policies for handling sensitive data remotely.
+    fr: Cette mesure de sécurité garantit la gestion sécurisée des risques liés à la sécurité de l'information pendant le télétravail. Les mesures incluent un accès sécurisé aux systèmes de l'entreprise, l'utilisation obligatoire de VPN et des politiques pour la gestion des données sensibles à distance.
+  requirements: []
+- code: A.6.8
+  domain: annex-a
+  title:
+    en: Information security event reporting
+    fr: Déclaration des événements de sécurité de l'information
+  description:
+    en: This control ensures employees can promptly report information security events. Measures include incident reporting channels, awareness campaigns, and follow-up procedures to investigate and address reported events.
+    fr: Cette mesure de sécurité garantit que les employés peuvent signaler rapidement les événements de sécurité de l'information. Les mesures incluent des canaux de signalement d'incidents, des campagnes de sensibilisation et des procédures de suivi pour enquêter et traiter les événements signalés.
+  guidance:
+    en: This control ensures employees can promptly report information security events. Measures include incident reporting channels, awareness campaigns, and follow-up procedures to investigate and address reported events.
+    fr: Cette mesure de sécurité garantit que les employés peuvent signaler rapidement les événements de sécurité de l'information. Les mesures incluent des canaux de signalement d'incidents, des campagnes de sensibilisation et des procédures de suivi pour enquêter et traiter les événements signalés.
+  requirements: []
+- code: A.7.1
+  domain: annex-a
+  title:
+    en: Physical security perimeters
+    fr: Périmètres de sécurité physique
+  description:
+    en: This control establishes physical security perimeters to protect critical areas from unauthorized access. Measures include barriers, access controls, and monitoring systems to ensure only authorized individuals can enter.
+    fr: Cette mesure de sécurité établit des périmètres de sécurité physique pour protéger les zones critiques contre les accès non autorisés. Les mesures incluent des barrières, des contrôles d'accès et des systèmes de surveillance pour garantir que seules les personnes autorisées peuvent entrer.
+  guidance:
+    en: This control establishes physical security perimeters to protect critical areas from unauthorized access. Measures include barriers, access controls, and monitoring systems to ensure only authorized individuals can enter.
+    fr: Cette mesure de sécurité établit des périmètres de sécurité physique pour protéger les zones critiques contre les accès non autorisés. Les mesures incluent des barrières, des contrôles d'accès et des systèmes de surveillance pour garantir que seules les personnes autorisées peuvent entrer.
+  requirements: []
+- code: A.7.2
+  domain: annex-a
+  title:
+    en: Physical entry
+    fr: Les entrées physiques
+  description:
+    en: This control ensures physical entry points are controlled and monitored to prevent unauthorized access. Measures include badge systems, security personnel, and visitor logs.
+    fr: Cette mesure de sécurité garantit que les points d'entrée physiques sont contrôlés et surveillés pour empêcher les accès non autorisés. Les mesures incluent des systèmes de badges, du personnel de sécurité et des registres des visiteurs.
+  guidance:
+    en: This control ensures physical entry points are controlled and monitored to prevent unauthorized access. Measures include badge systems, security personnel, and visitor logs.
+    fr: Cette mesure de sécurité garantit que les points d'entrée physiques sont contrôlés et surveillés pour empêcher les accès non autorisés. Les mesures incluent des systèmes de badges, du personnel de sécurité et des registres des visiteurs.
+  requirements: []
+- code: A.7.3
+  domain: annex-a
+  title:
+    en: Securing offices, rooms and facilities
+    fr: Sécurisation des bureaux, des salles et des installations
+  description:
+    en: This control ensures that offices, rooms, and facilities are secured to protect information and resources. Measures include locked doors, restricted areas, and surveillance systems.
+    fr: Cette mesure de sécurité garantit que les bureaux, les pièces et les installations sont sécurisés pour protéger les informations et les ressources. Les mesures incluent des portes verrouillées, des zones restreintes et des systèmes de surveillance.
+  guidance:
+    en: This control ensures that offices, rooms, and facilities are secured to protect information and resources. Measures include locked doors, restricted areas, and surveillance systems.
+    fr: Cette mesure de sécurité garantit que les bureaux, les pièces et les installations sont sécurisés pour protéger les informations et les ressources. Les mesures incluent des portes verrouillées, des zones restreintes et des systèmes de surveillance.
+  requirements: []
+- code: A.7.4
+  domain: annex-a
+  title:
+    en: Physical security monitoring
+    fr: Surveillance de la sécurité physique
+  description:
+    en: This control implements physical security monitoring to detect and respond promptly to threats. Measures include CCTV systems, motion detectors, and real-time alerts.
+    fr: Cette mesure de sécurité met en œuvre une surveillance de la sécurité physique pour détecter et répondre rapidement aux menaces. Les mesures incluent des systèmes de vidéosurveillance, des détecteurs de mouvement et des alertes en temps réel.
+  guidance:
+    en: This control implements physical security monitoring to detect and respond promptly to threats. Measures include CCTV systems, motion detectors, and real-time alerts.
+    fr: Cette mesure de sécurité met en œuvre une surveillance de la sécurité physique pour détecter et répondre rapidement aux menaces. Les mesures incluent des systèmes de vidéosurveillance, des détecteurs de mouvement et des alertes en temps réel.
+  requirements: []
+- code: A.7.5
+  domain: annex-a
+  title:
+    en: Protecting against physical and environmental threats
+    fr: Protection contre les menaces physiques et environnementales
+  description:
+    en: This control protects systems and resources from physical and environmental threats. Measures include fire suppression systems, temperature controls, and flood prevention barriers.
+    fr: Cette mesure de sécurité protège les systèmes et les ressources contre les menaces physiques et environnementales. Les mesures incluent des systèmes de suppression d'incendie, des contrôles de température et des barrières anti-inondation.
+  guidance:
+    en: This control protects systems and resources from physical and environmental threats. Measures include fire suppression systems, temperature controls, and flood prevention barriers.
+    fr: Cette mesure de sécurité protège les systèmes et les ressources contre les menaces physiques et environnementales. Les mesures incluent des systèmes de suppression d'incendie, des contrôles de température et des barrières anti-inondation.
+  requirements: []
+- code: A.7.6
+  domain: annex-a
+  title:
+    en: Working In secure areas
+    fr: Travail dans les zones sécurisées
+  description:
+    en: This control ensures that secure areas are managed to allow authorized access only. Measures include access control systems, visitor escorts, and activity monitoring.
+    fr: Cette mesure de sécurité garantit que les zones sécurisées sont gérées pour permettre l'accès uniquement aux personnes autorisées. Les mesures incluent des systèmes de contrôle d'accès, des escortes pour visiteurs et la surveillance des activités.
+  guidance:
+    en: This control ensures that secure areas are managed to allow authorized access only. Measures include access control systems, visitor escorts, and activity monitoring.
+    fr: Cette mesure de sécurité garantit que les zones sécurisées sont gérées pour permettre l'accès uniquement aux personnes autorisées. Les mesures incluent des systèmes de contrôle d'accès, des escortes pour visiteurs et la surveillance des activités.
+  requirements: []
+- code: A.7.7
+  domain: annex-a
+  title:
+    en: Clear desk and clear screen
+    fr: Bureau propre et écran vide
+  description:
+    en: This control ensures sensitive information is not left exposed by adopting clear desk and clear screen policies. Measures include locking sensitive documents away and auto-locking screens when not in use.
+    fr: Cette mesure de sécurité garantit que les informations sensibles ne sont pas laissées exposées en adoptant des politiques de bureau propre et d'écran clair. Les mesures incluent le verrouillage des documents sensibles et le verrouillage automatique des écrans en cas d'inutilisation.
+  guidance:
+    en: This control ensures sensitive information is not left exposed by adopting clear desk and clear screen policies. Measures include locking sensitive documents away and auto-locking screens when not in use.
+    fr: Cette mesure de sécurité garantit que les informations sensibles ne sont pas laissées exposées en adoptant des politiques de bureau propre et d'écran clair. Les mesures incluent le verrouillage des documents sensibles et le verrouillage automatique des écrans en cas d'inutilisation.
+  requirements: []
+- code: A.7.8
+  domain: annex-a
+  title:
+    en: Equipment siting and protection
+    fr: Emplacement et protection du matériel
+  description:
+    en: This control ensures that equipment is positioned and protected to prevent unauthorized access or damage. Measures include secure mounting, locked cabinets, and restricted access areas.
+    fr: Cette mesure de sécurité garantit que les équipements sont positionnés et protégés pour prévenir les accès non autorisés ou les dommages. Les mesures incluent des montages sécurisés, des armoires verrouillées et des zones d'accès restreintes.
+  guidance:
+    en: This control ensures that equipment is positioned and protected to prevent unauthorized access or damage. Measures include secure mounting, locked cabinets, and restricted access areas.
+    fr: Cette mesure de sécurité garantit que les équipements sont positionnés et protégés pour prévenir les accès non autorisés ou les dommages. Les mesures incluent des montages sécurisés, des armoires verrouillées et des zones d'accès restreintes.
+  requirements: []
+- code: A.7.9
+  domain: annex-a
+  title:
+    en: Security of assets off-premises
+    fr: Sécurité des actifs hors des locaux
+  description:
+    en: This control ensures assets used or stored off-premises are secured to maintain confidentiality and integrity. Measures include encryption, secure transport, and access tracking.
+    fr: Cette mesure de sécurité garantit que les actifs utilisés ou stockés hors des locaux sont sécurisés pour maintenir leur confidentialité et leur intégrité. Les mesures incluent le chiffrement, le transport sécurisé et le suivi des accès.
+  guidance:
+    en: This control ensures assets used or stored off-premises are secured to maintain confidentiality and integrity. Measures include encryption, secure transport, and access tracking.
+    fr: Cette mesure de sécurité garantit que les actifs utilisés ou stockés hors des locaux sont sécurisés pour maintenir leur confidentialité et leur intégrité. Les mesures incluent le chiffrement, le transport sécurisé et le suivi des accès.
+  requirements: []
+- code: A.7.10
+  domain: annex-a
+  title:
+    en: Storage media
+    fr: Supports de stockage
+  description:
+    en: This control safeguards storage media to prevent unauthorized access or tampering. Measures include secure storage, encryption, and access restrictions.
+    fr: Cette mesure de sécurité protège les supports de stockage pour empêcher tout accès ou altération non autorisé. Les mesures incluent le stockage sécurisé, le chiffrement et les restrictions d'accès.
+  guidance:
+    en: This control safeguards storage media to prevent unauthorized access or tampering. Measures include secure storage, encryption, and access restrictions.
+    fr: Cette mesure de sécurité protège les supports de stockage pour empêcher tout accès ou altération non autorisé. Les mesures incluent le stockage sécurisé, le chiffrement et les restrictions d'accès.
+  requirements: []
+- code: A.7.11
+  domain: annex-a
+  title:
+    en: Supporting utilities
+    fr: Services supports
+  description:
+    en: This control ensures that supporting utilities, such as power and cooling systems, are reliable and protected from disruptions. Measures include redundant systems and physical security.
+    fr: Cette mesure de sécurité garantit que les utilitaires de soutien, tels que les systèmes d'alimentation et de refroidissement, sont fiables et protégés contre les perturbations. Les mesures incluent des systèmes redondants et une sécurité physique.
+  guidance:
+    en: This control ensures that supporting utilities, such as power and cooling systems, are reliable and protected from disruptions. Measures include redundant systems and physical security.
+    fr: Cette mesure de sécurité garantit que les utilitaires de soutien, tels que les systèmes d'alimentation et de refroidissement, sont fiables et protégés contre les perturbations. Les mesures incluent des systèmes redondants et une sécurité physique.
+  requirements: []
+- code: A.7.12
+  domain: annex-a
+  title:
+    en: Cabling security
+    fr: Sécurité du câblage
+  description:
+    en: This control ensures that cables are secured to prevent unauthorized interception or damage. Measures include protective conduits, proper labeling, and secure routing.
+    fr: Cette mesure de sécurité garantit que les câbles sont sécurisés pour prévenir toute interception ou tout dommage non autorisé. Les mesures incluent des conduits de protection, un étiquetage approprié et un routage sécurisé.
+  guidance:
+    en: This control ensures that cables are secured to prevent unauthorized interception or damage. Measures include protective conduits, proper labeling, and secure routing.
+    fr: Cette mesure de sécurité garantit que les câbles sont sécurisés pour prévenir toute interception ou tout dommage non autorisé. Les mesures incluent des conduits de protection, un étiquetage approprié et un routage sécurisé.
+  requirements: []
+- code: A.7.13
+  domain: annex-a
+  title:
+    en: Equipment maintenance
+    fr: Maintenance du matériel
+  description:
+    en: This control ensures that equipment is maintained to guarantee proper functioning and prevent failures. Measures include regular servicing, secure maintenance practices, and authorized personnel access.
+    fr: Cette mesure de sécurité garantit que les équipements sont maintenus pour assurer leur bon fonctionnement et prévenir les pannes. Les mesures incluent un entretien régulier, des pratiques de maintenance sécurisées et un accès réservé au personnel autorisé.
+  guidance:
+    en: This control ensures that equipment is maintained to guarantee proper functioning and prevent failures. Measures include regular servicing, secure maintenance practices, and authorized personnel access.
+    fr: Cette mesure de sécurité garantit que les équipements sont maintenus pour assurer leur bon fonctionnement et prévenir les pannes. Les mesures incluent un entretien régulier, des pratiques de maintenance sécurisées et un accès réservé au personnel autorisé.
+  requirements: []
+- code: A.7.14
+  domain: annex-a
+  title:
+    en: Secure disposal or re-use of equipment
+    fr: Élimination ou recyclage sécurisé(e) du matériel
+  description:
+    en: This control ensures the secure disposal or reuse of equipment to protect sensitive information. Measures include data sanitization, physical destruction, and certified disposal processes.
+    fr: Cette mesure de sécurité garantit l'élimination ou la réutilisation sécurisée des équipements pour protéger les informations sensibles. Les mesures incluent la désinfection des données, la destruction physique et les processus de mise au rebut certifiés.
+  guidance:
+    en: This control ensures the secure disposal or reuse of equipment to protect sensitive information. Measures include data sanitization, physical destruction, and certified disposal processes.
+    fr: Cette mesure de sécurité garantit l'élimination ou la réutilisation sécurisée des équipements pour protéger les informations sensibles. Les mesures incluent la désinfection des données, la destruction physique et les processus de mise au rebut certifiés.
+  requirements: []
+- code: A.8.1
+  domain: annex-a
+  title:
+    en: User end point devices
+    fr: Terminaux finaux des utilisateurs
+  description:
+    en: This control ensures the protection of endpoint devices such as laptops, desktops, and mobile devices by implementing security measures like endpoint detection, encryption, and secure configurations to minimize risks.
+    fr: Cette mesure de sécurité garantit la protection des dispositifs de point de terminaison tels que les ordinateurs portables, de bureau et les appareils mobiles en mettant en œuvre des mesures comme la détection des terminaux, le chiffrement et des configurations sécurisées pour minimiser les risques.
+  guidance:
+    en: This control ensures the protection of endpoint devices such as laptops, desktops, and mobile devices by implementing security measures like endpoint detection, encryption, and secure configurations to minimize risks.
+    fr: Cette mesure de sécurité garantit la protection des dispositifs de point de terminaison tels que les ordinateurs portables, de bureau et les appareils mobiles en mettant en œuvre des mesures comme la détection des terminaux, le chiffrement et des configurations sécurisées pour minimiser les risques.
+  requirements: []
+- code: A.8.2
+  domain: annex-a
+  title:
+    en: Privileged access rights
+    fr: Droits d'accès privilégiés
+  description:
+    en: This control ensures that privileged access rights are granted, managed, and monitored carefully to prevent misuse and enhance security. Measures include role-based access controls, periodic reviews, and strict account management.
+    fr: Cette mesure de sécurité garantit que les droits d'accès privilégiés sont accordés, gérés et surveillés avec soin pour prévenir les abus et renforcer la sécurité. Les mesures comprennent des contrôles d'accès basés sur les rôles, des revues périodiques et une gestion stricte des comptes.
+  guidance:
+    en: This control ensures that privileged access rights are granted, managed, and monitored carefully to prevent misuse and enhance security. Measures include role-based access controls, periodic reviews, and strict account management.
+    fr: Cette mesure de sécurité garantit que les droits d'accès privilégiés sont accordés, gérés et surveillés avec soin pour prévenir les abus et renforcer la sécurité. Les mesures comprennent des contrôles d'accès basés sur les rôles, des revues périodiques et une gestion stricte des comptes.
+  requirements: []
+- code: A.8.3
+  domain: annex-a
+  title:
+    en: Information access restriction
+    fr: Restriction d'accès aux informations
+  description:
+    en: This control restricts access to sensitive information based on need-to-know principles. Measures include user authentication, role-based permissions, and regular access reviews.
+    fr: Cette mesure de sécurité limite l'accès aux informations sensibles selon le principe du besoin d'en connaître. Les mesures incluent l'authentification des utilisateurs, les permissions basées sur les rôles et des revues régulières des accès.
+  guidance:
+    en: This control restricts access to sensitive information based on need-to-know principles. Measures include user authentication, role-based permissions, and regular access reviews.
+    fr: Cette mesure de sécurité limite l'accès aux informations sensibles selon le principe du besoin d'en connaître. Les mesures incluent l'authentification des utilisateurs, les permissions basées sur les rôles et des revues régulières des accès.
+  requirements: []
+- code: A.8.4
+  domain: annex-a
+  title:
+    en: Access to source code
+    fr: Accès aux codes source
+  description:
+    en: This control secures access to source code by preventing unauthorized viewing, modification, or exposure. Measures include version control, secure repositories, and restricted developer access.
+    fr: Cette mesure de sécurité sécurise l'accès au code source en empêchant la visualisation, la modification ou l'exposition non autorisées. Les mesures incluent le contrôle de version, les dépôts sécurisés et l'accès restreint aux développeurs.
+  guidance:
+    en: This control secures access to source code by preventing unauthorized viewing, modification, or exposure. Measures include version control, secure repositories, and restricted developer access.
+    fr: Cette mesure de sécurité sécurise l'accès au code source en empêchant la visualisation, la modification ou l'exposition non autorisées. Les mesures incluent le contrôle de version, les dépôts sécurisés et l'accès restreint aux développeurs.
+  requirements: []
+- code: A.8.5
+  domain: annex-a
+  title:
+    en: Secure authentication
+    fr: Authentification sécurisée
+  description:
+    en: This control implements strong authentication mechanisms, such as multi-factor authentication, to verify user identities and prevent unauthorized access.
+    fr: Cette mesure de sécurité met en œuvre des mécanismes d'authentification solides, tels que l'authentification multifacteur, pour vérifier l'identité des utilisateurs et empêcher les accès non autorisés.
+  guidance:
+    en: This control implements strong authentication mechanisms, such as multi-factor authentication, to verify user identities and prevent unauthorized access.
+    fr: Cette mesure de sécurité met en œuvre des mécanismes d'authentification solides, tels que l'authentification multifacteur, pour vérifier l'identité des utilisateurs et empêcher les accès non autorisés.
+  requirements: []
+- code: A.8.6
+  domain: annex-a
+  title:
+    en: Capacity management
+    fr: Dimensionnement
+  description:
+    en: This control ensures system capacity is managed to provide adequate performance and prevent disruptions. Measures include monitoring resource usage and planning for future needs.
+    fr: Cette mesure de sécurité garantit que la capacité des systèmes est gérée pour assurer des performances adéquates et éviter les perturbations. Les mesures incluent la surveillance de l'utilisation des ressources et la planification des besoins futurs.
+  guidance:
+    en: This control ensures system capacity is managed to provide adequate performance and prevent disruptions. Measures include monitoring resource usage and planning for future needs.
+    fr: Cette mesure de sécurité garantit que la capacité des systèmes est gérée pour assurer des performances adéquates et éviter les perturbations. Les mesures incluent la surveillance de l'utilisation des ressources et la planification des besoins futurs.
+  requirements: []
+- code: A.8.7
+  domain: annex-a
+  title:
+    en: Protection against malware
+    fr: Protection contre les programmes malveillants (malware)
+  description:
+    en: This control deploys measures like antivirus software, threat detection tools, and regular updates to protect systems from malware and malicious attacks.
+    fr: Cette mesure de sécurité déploie des mesures comme des logiciels antivirus, des outils de détection des menaces et des mises à jour régulières pour protéger les systèmes contre les logiciels malveillants et les attaques.
+  guidance:
+    en: This control deploys measures like antivirus software, threat detection tools, and regular updates to protect systems from malware and malicious attacks.
+    fr: Cette mesure de sécurité déploie des mesures comme des logiciels antivirus, des outils de détection des menaces et des mises à jour régulières pour protéger les systèmes contre les logiciels malveillants et les attaques.
+  requirements: []
+- code: A.8.8
+  domain: annex-a
+  title:
+    en: Management of technical vulnerabilities
+    fr: Gestion des vulnérabilités techniques
+  description:
+    en: This control identifies, evaluates, and remediates technical vulnerabilities promptly to minimize security risks. Measures include vulnerability scanning and patch management.
+    fr: Cette mesure de sécurité identifie, évalue et remédie rapidement aux vulnérabilités techniques pour minimiser les risques de sécurité. Les mesures incluent les analyses de vulnérabilités et la gestion des correctifs.
+  guidance:
+    en: This control identifies, evaluates, and remediates technical vulnerabilities promptly to minimize security risks. Measures include vulnerability scanning and patch management.
+    fr: Cette mesure de sécurité identifie, évalue et remédie rapidement aux vulnérabilités techniques pour minimiser les risques de sécurité. Les mesures incluent les analyses de vulnérabilités et la gestion des correctifs.
+  requirements: []
+- code: A.8.9
+  domain: annex-a
+  title:
+    en: Configuration management
+    fr: Gestion des configurations
+  description:
+    en: This control ensures consistent management of system configurations to maintain security settings and prevent unauthorized changes.
+    fr: Cette mesure de sécurité garantit une gestion cohérente des configurations des systèmes pour maintenir des paramètres sécurisés et prévenir les changements non autorisés.
+  guidance:
+    en: This control ensures consistent management of system configurations to maintain security settings and prevent unauthorized changes.
+    fr: Cette mesure de sécurité garantit une gestion cohérente des configurations des systèmes pour maintenir des paramètres sécurisés et prévenir les changements non autorisés.
+  requirements: []
+- code: A.8.10
+  domain: annex-a
+  title:
+    en: Information deletion
+    fr: Suppression des informations
+  description:
+    en: This control ensures sensitive information is securely deleted when no longer required to prevent unauthorized recovery or exposure.
+    fr: Cette mesure de sécurité garantit que les informations sensibles sont supprimées de manière sécurisée lorsqu'elles ne sont plus nécessaires pour éviter toute récupération ou exposition non autorisée.
+  guidance:
+    en: This control ensures sensitive information is securely deleted when no longer required to prevent unauthorized recovery or exposure.
+    fr: Cette mesure de sécurité garantit que les informations sensibles sont supprimées de manière sécurisée lorsqu'elles ne sont plus nécessaires pour éviter toute récupération ou exposition non autorisée.
+  requirements: []
+- code: A.8.11
+  domain: annex-a
+  title:
+    en: Data masking
+    fr: Masquage des données
+  description:
+    en: This control protects sensitive information during processing or display by using data masking techniques to obscure data from unauthorized users.
+    fr: Cette mesure de sécurité protège les informations sensibles lors de leur traitement ou affichage en utilisant des techniques de masquage des données pour les rendre inaccessibles aux utilisateurs non autorisés.
+  guidance:
+    en: This control protects sensitive information during processing or display by using data masking techniques to obscure data from unauthorized users.
+    fr: Cette mesure de sécurité protège les informations sensibles lors de leur traitement ou affichage en utilisant des techniques de masquage des données pour les rendre inaccessibles aux utilisateurs non autorisés.
+  requirements: []
+- code: A.8.12
+  domain: annex-a
+  title:
+    en: Data leakage prevention
+    fr: Prévention de la fuite de données
+  description:
+    en: This control implements mechanisms to prevent the accidental exposure of sensitive data through email, removable media, or other channels.
+    fr: Cette mesure de sécurité met en œuvre des mécanismes pour empêcher l'exposition accidentelle des données sensibles via des e-mails, des supports amovibles ou d'autres canaux.
+  guidance:
+    en: This control implements mechanisms to prevent the accidental exposure of sensitive data through email, removable media, or other channels.
+    fr: Cette mesure de sécurité met en œuvre des mécanismes pour empêcher l'exposition accidentelle des données sensibles via des e-mails, des supports amovibles ou d'autres canaux.
+  requirements: []
+- code: A.8.13
+  domain: annex-a
+  title:
+    en: Information backup
+    fr: Sauvegarde des informations
+  description:
+    en: This control ensures critical information is backed up regularly and securely to ensure its availability in case of incidents or disasters.
+    fr: Cette mesure de sécurité garantit que les informations critiques sont sauvegardées régulièrement et en toute sécurité pour assurer leur disponibilité en cas d'incidents ou de catastrophes.
+  guidance:
+    en: This control ensures critical information is backed up regularly and securely to ensure its availability in case of incidents or disasters.
+    fr: Cette mesure de sécurité garantit que les informations critiques sont sauvegardées régulièrement et en toute sécurité pour assurer leur disponibilité en cas d'incidents ou de catastrophes.
+  requirements: []
+- code: A.8.14
+  domain: annex-a
+  title:
+    en: Redundancy of information processing facilities
+    fr: Redondance des moyens de traitement de l'information
+  description:
+    en: This control ensures redundancy is built into processing facilities to maintain availability and operations during system failures or emergencies.
+    fr: Cette mesure de sécurité garantit que la redondance est intégrée dans les installations de traitement pour maintenir la disponibilité et les opérations en cas de défaillances ou d'urgences.
+  guidance:
+    en: This control ensures redundancy is built into processing facilities to maintain availability and operations during system failures or emergencies.
+    fr: Cette mesure de sécurité garantit que la redondance est intégrée dans les installations de traitement pour maintenir la disponibilité et les opérations en cas de défaillances ou d'urgences.
+  requirements: []
+- code: A.8.15
+  domain: annex-a
+  title:
+    en: Logging
+    fr: Journalisation
+  description:
+    en: This control enables logging of activities within systems to support monitoring, incident detection, and forensic investigations.
+    fr: Cette mesure de sécurité permet la journalisation des activités au sein des systèmes pour soutenir la surveillance, la détection des incidents et les analyses forensiques.
+  guidance:
+    en: This control enables logging of activities within systems to support monitoring, incident detection, and forensic investigations.
+    fr: Cette mesure de sécurité permet la journalisation des activités au sein des systèmes pour soutenir la surveillance, la détection des incidents et les analyses forensiques.
+  requirements: []
+- code: A.8.16
+  domain: annex-a
+  title:
+    en: Monitoring activities
+    fr: Activités de surveillance
+  description:
+    en: This control ensures the ongoing monitoring of system activities to detect, respond to, and mitigate security threats.
+    fr: Cette mesure de sécurité garantit la surveillance continue des activités du système pour détecter, répondre et atténuer les menaces à la sécurité.
+  guidance:
+    en: This control ensures the ongoing monitoring of system activities to detect, respond to, and mitigate security threats.
+    fr: Cette mesure de sécurité garantit la surveillance continue des activités du système pour détecter, répondre et atténuer les menaces à la sécurité.
+  requirements: []
+- code: A.8.17
+  domain: annex-a
+  title:
+    en: Clock synchronization
+    fr: Synchronisation des horloges
+  description:
+    en: This control ensures system clocks are synchronized to maintain accurate and consistent timestamps for logs and other critical processes.
+    fr: Cette mesure de sécurité garantit que les horloges des systèmes sont synchronisées pour maintenir des horodatages précis et cohérents pour les journaux et d'autres processus critiques.
+  guidance:
+    en: This control ensures system clocks are synchronized to maintain accurate and consistent timestamps for logs and other critical processes.
+    fr: Cette mesure de sécurité garantit que les horloges des systèmes sont synchronisées pour maintenir des horodatages précis et cohérents pour les journaux et d'autres processus critiques.
+  requirements: []
+- code: A.8.18
+  domain: annex-a
+  title:
+    en: Use of privileged utility programs
+    fr: Utilisation de programmes utilitaires à privilèges
+  description:
+    en: This control restricts and monitors the use of privileged utility programs to prevent misuse and unauthorized actions.
+    fr: Cette mesure de sécurité restreint et surveille l'utilisation des programmes utilitaires privilégiés pour prévenir les abus et les actions non autorisées.
+  guidance:
+    en: This control restricts and monitors the use of privileged utility programs to prevent misuse and unauthorized actions.
+    fr: Cette mesure de sécurité restreint et surveille l'utilisation des programmes utilitaires privilégiés pour prévenir les abus et les actions non autorisées.
+  requirements: []
+- code: A.8.19
+  domain: annex-a
+  title:
+    en: Installation of software on operational systems
+    fr: Installation de logiciels sur des systèmes opérationnels
+  description:
+    en: This control ensures software installation on operational systems is managed securely to prevent vulnerabilities or unauthorized changes.
+    fr: Cette mesure de sécurité garantit que l'installation de logiciels sur les systèmes opérationnels est gérée de manière sécurisée pour éviter les vulnérabilités ou les modifications non autorisées.
+  guidance:
+    en: This control ensures software installation on operational systems is managed securely to prevent vulnerabilities or unauthorized changes.
+    fr: Cette mesure de sécurité garantit que l'installation de logiciels sur les systèmes opérationnels est gérée de manière sécurisée pour éviter les vulnérabilités ou les modifications non autorisées.
+  requirements: []
+- code: A.8.20
+  domain: annex-a
+  title:
+    en: Networks security
+    fr: Sécurité des réseaux
+  description:
+    en: This control ensures network security through firewalls, intrusion detection systems, and access controls to protect against unauthorized access and attacks.
+    fr: Cette mesure de sécurité garantit la sécurité du réseau grâce à des pare-feu, des systèmes de détection d'intrusion et des contrôles d'accès pour protéger contre les accès non autorisés et les attaques.
+  guidance:
+    en: This control ensures network security through firewalls, intrusion detection systems, and access controls to protect against unauthorized access and attacks.
+    fr: Cette mesure de sécurité garantit la sécurité du réseau grâce à des pare-feu, des systèmes de détection d'intrusion et des contrôles d'accès pour protéger contre les accès non autorisés et les attaques.
+  requirements: []
+- code: A.8.21
+  domain: annex-a
+  title:
+    en: Security of network services
+    fr: Sécurité des services réseau
+  description:
+    en: This control ensures network services are protected to maintain confidentiality, integrity, and availability during use.
+    fr: Cette mesure de sécurité garantit que les services réseau sont protégés pour maintenir la confidentialité, l'intégrité et la disponibilité pendant leur utilisation.
+  guidance:
+    en: This control ensures network services are protected to maintain confidentiality, integrity, and availability during use.
+    fr: Cette mesure de sécurité garantit que les services réseau sont protégés pour maintenir la confidentialité, l'intégrité et la disponibilité pendant leur utilisation.
+  requirements: []
+- code: A.8.22
+  domain: annex-a
+  title:
+    en: Segregation of networks
+    fr: Cloisonnement des réseaux
+  description:
+    en: This control implements network segregation to limit the spread of threats and minimize the impact of potential breaches.
+    fr: Cette mesure de sécurité met en œuvre la segmentation des réseaux pour limiter la propagation des menaces et minimiser l'impact des violations potentielles.
+  guidance:
+    en: This control implements network segregation to limit the spread of threats and minimize the impact of potential breaches.
+    fr: Cette mesure de sécurité met en œuvre la segmentation des réseaux pour limiter la propagation des menaces et minimiser l'impact des violations potentielles.
+  requirements: []
+- code: A.8.23
+  domain: annex-a
+  title:
+    en: Web filtering
+    fr: Filtrage web
+  description:
+    en: This control uses web filtering tools to block unauthorized or harmful content from being accessed over the internet.
+    fr: Cette mesure de sécurité utilise des outils de filtrage Web pour bloquer le contenu non autorisé ou nuisible accessible sur Internet.
+  guidance:
+    en: This control uses web filtering tools to block unauthorized or harmful content from being accessed over the internet.
+    fr: Cette mesure de sécurité utilise des outils de filtrage Web pour bloquer le contenu non autorisé ou nuisible accessible sur Internet.
+  requirements: []
+- code: A.8.24
+  domain: annex-a
+  title:
+    en: Use of cryptography
+    fr: Utilisation de la cryptographie
+  description:
+    en: This control ensures cryptographic techniques are applied to protect data confidentiality, integrity, and authenticity.
+    fr: Cette mesure de sécurité garantit que des techniques cryptographiques sont appliquées pour protéger la confidentialité, l'intégrité et l'authenticité des données.
+  guidance:
+    en: This control ensures cryptographic techniques are applied to protect data confidentiality, integrity, and authenticity.
+    fr: Cette mesure de sécurité garantit que des techniques cryptographiques sont appliquées pour protéger la confidentialité, l'intégrité et l'authenticité des données.
+  requirements: []
+- code: A.8.25
+  domain: annex-a
+  title:
+    en: Secure development life cycle
+    fr: Cycle de vie de développement sécurisé
+  description:
+    en: This control integrates security into all stages of the development life cycle to ensure systems and applications are built securely.
+    fr: Cette mesure de sécurité intègre la sécurité à toutes les étapes du cycle de vie du développement pour garantir que les systèmes et applications sont construits de manière sécurisée.
+  guidance:
+    en: This control integrates security into all stages of the development life cycle to ensure systems and applications are built securely.
+    fr: Cette mesure de sécurité intègre la sécurité à toutes les étapes du cycle de vie du développement pour garantir que les systèmes et applications sont construits de manière sécurisée.
+  requirements: []
+- code: A.8.26
+  domain: annex-a
+  title:
+    en: Application security requirements
+    fr: Exigences de sécurité des applications
+  description:
+    en: This control defines and enforces security requirements for applications to safeguard against vulnerabilities.
+    fr: Cette mesure de sécurité définit et applique des exigences de sécurité pour les applications afin de protéger contre les vulnérabilités.
+  guidance:
+    en: This control defines and enforces security requirements for applications to safeguard against vulnerabilities.
+    fr: Cette mesure de sécurité définit et applique des exigences de sécurité pour les applications afin de protéger contre les vulnérabilités.
+  requirements: []
+- code: A.8.27
+  domain: annex-a
+  title:
+    en: Secure system architecture and engineering principles
+    fr: Principes d'ingénierie et d'architecture des systèmes sécurisés
+  description:
+    en: This control ensures secure design principles are adopted during the development of system architectures.
+    fr: Cette mesure de sécurité garantit que des principes de conception sécurisés sont adoptés lors du développement des architectures système.
+  guidance:
+    en: This control ensures secure design principles are adopted during the development of system architectures.
+    fr: Cette mesure de sécurité garantit que des principes de conception sécurisés sont adoptés lors du développement des architectures système.
+  requirements: []
+- code: A.8.28
+  domain: annex-a
+  title:
+    en: Secure coding
+    fr: Codage sécurisé
+  description:
+    en: This control implements secure coding practices to minimize vulnerabilities in developed software.
+    fr: Cette mesure de sécurité met en œuvre des pratiques de codage sécurisé pour minimiser les vulnérabilités des logiciels développés.
+  guidance:
+    en: This control implements secure coding practices to minimize vulnerabilities in developed software.
+    fr: Cette mesure de sécurité met en œuvre des pratiques de codage sécurisé pour minimiser les vulnérabilités des logiciels développés.
+  requirements: []
+- code: A.8.29
+  domain: annex-a
+  title:
+    en: Security testing in development and acceptance
+    fr: Tests de sécurité dans le développement et l'acceptation
+  description:
+    en: This control ensures security testing is conducted during development and acceptance phases to identify weaknesses.
+    fr: Cette mesure de sécurité garantit que des tests de sécurité sont effectués pendant les phases de développement et d'acceptation pour identifier les faiblesses.
+  guidance:
+    en: This control ensures security testing is conducted during development and acceptance phases to identify weaknesses.
+    fr: Cette mesure de sécurité garantit que des tests de sécurité sont effectués pendant les phases de développement et d'acceptation pour identifier les faiblesses.
+  requirements: []
+- code: A.8.30
+  domain: annex-a
+  title:
+    en: Outsourced development
+    fr: Développement externalisé
+  description:
+    en: This control ensures security risks are managed effectively when development is outsourced to third-party vendors.
+    fr: Cette mesure de sécurité garantit que les risques de sécurité sont gérés efficacement lorsque le développement est externalisé à des fournisseurs tiers.
+  guidance:
+    en: This control ensures security risks are managed effectively when development is outsourced to third-party vendors.
+    fr: Cette mesure de sécurité garantit que les risques de sécurité sont gérés efficacement lorsque le développement est externalisé à des fournisseurs tiers.
+  requirements: []
+- code: A.8.31
+  domain: annex-a
+  title:
+    en: Separation of development, test and production environments
+    fr: Séparation des environnements de développement, de test et opérationnels
+  description:
+    en: This control ensures development, test, and production environments are segregated to prevent unintended interactions and unauthorized access.
+    fr: Cette mesure de sécurité garantit que les environnements de développement, de test et de production sont séparés pour éviter les interactions involontaires et les accès non autorisés.
+  guidance:
+    en: This control ensures development, test, and production environments are segregated to prevent unintended interactions and unauthorized access.
+    fr: Cette mesure de sécurité garantit que les environnements de développement, de test et de production sont séparés pour éviter les interactions involontaires et les accès non autorisés.
+  requirements: []
+- code: A.8.32
+  domain: annex-a
+  title:
+    en: Change management
+    fr: Gestion des changements
+  description:
+    en: This control ensures changes to systems are managed securely to minimize risks and maintain operational stability.
+    fr: Cette mesure de sécurité garantit que les modifications des systèmes sont gérées de manière sécurisée pour minimiser les risques et maintenir la stabilité opérationnelle.
+  guidance:
+    en: This control ensures changes to systems are managed securely to minimize risks and maintain operational stability.
+    fr: Cette mesure de sécurité garantit que les modifications des systèmes sont gérées de manière sécurisée pour minimiser les risques et maintenir la stabilité opérationnelle.
+  requirements: []
+- code: A.8.33
+  domain: annex-a
+  title:
+    en: Test information
+    fr: Informations de test
+  description:
+    en: This control protects test data to prevent the exposure of sensitive or confidential information during testing processes.
+    fr: Cette mesure de sécurité protège les données de test pour éviter l'exposition d'informations sensibles ou confidentielles lors des processus de test.
+  guidance:
+    en: This control protects test data to prevent the exposure of sensitive or confidential information during testing processes.
+    fr: Cette mesure de sécurité protège les données de test pour éviter l'exposition d'informations sensibles ou confidentielles lors des processus de test.
+  requirements: []
+- code: A.8.34
+  domain: annex-a
+  title:
+    en: Protection of information systems during audit testing
+    fr: Protection des systèmes d'information pendant les tests d'audit
+  description:
+    en: This control ensures that systems and data are safeguarded during audits by preventing unauthorized access, data leakage, or disruptions. Measures include using non-production environments, access restrictions, and confidentiality agreements to maintain system security and integrity.
+    fr: Cette mesure de sécurité garantit que les systèmes et les données sont protégés pendant les audits en empêchant les accès non autorisés, les fuites de données ou les perturbations. Les mesures incluent l'utilisation d'environnements non productifs, des restrictions d'accès et des accords de confidentialité pour préserver la sécurité et l'intégrité des systèmes.
+  guidance:
+    en: This control ensures that systems and data are safeguarded during audits by preventing unauthorized access, data leakage, or disruptions. Measures include using non-production environments, access restrictions, and confidentiality agreements to maintain system security and integrity.
+    fr: Cette mesure de sécurité garantit que les systèmes et les données sont protégés pendant les audits en empêchant les accès non autorisés, les fuites de données ou les perturbations. Les mesures incluent l'utilisation d'environnements non productifs, des restrictions d'accès et des accords de confidentialité pour préserver la sécurité et l'intégrité des systèmes.
+  requirements: []

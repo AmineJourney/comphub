@@ -1,0 +1,3079 @@
+framework:
+  name:
+    en: Directive Nationale de la Sécurité des Systèmes d'Information (MAROC)
+    fr: Directive Nationale de la Sécurité des Systèmes d'Information (MAROC)
+  slug: dnssi-2023-2
+  provider:
+    name: DGSSI
+version:
+  name: '1'
+  release_year: 2024
+  description:
+    en: Directive Nationale de la Sécurité des Systèmes d'Information (DNSSI MAROC)
+    fr: Directive Nationale de la Sécurité des Systèmes d'Information (DNSSI MAROC)
+domains:
+- code: DOMAIN-1
+  name:
+    en: 1. POLITIQUE DE SECURITE DES SYSTEMES D'INFORMATION
+    fr: 1. POLITIQUE DE SECURITE DES SYSTEMES D'INFORMATION
+  description:
+    en: 1. POLITIQUE DE SECURITE DES SYSTEMES D'INFORMATION
+    fr: 1. POLITIQUE DE SECURITE DES SYSTEMES D'INFORMATION
+  domain_type: section
+- code: DOMAIN-2
+  name:
+    en: 2. ORGANISATION DE LA SECURITE DES SYSTEMES D’INFORMATION
+    fr: 2. ORGANISATION DE LA SECURITE DES SYSTEMES D’INFORMATION
+  description:
+    en: 2. ORGANISATION DE LA SECURITE DES SYSTEMES D’INFORMATION
+    fr: 2. ORGANISATION DE LA SECURITE DES SYSTEMES D’INFORMATION
+  domain_type: section
+- code: DOMAIN-3
+  name:
+    en: 3. SECURITE DES RESSOURCES HUMAINES
+    fr: 3. SECURITE DES RESSOURCES HUMAINES
+  description:
+    en: 3. SECURITE DES RESSOURCES HUMAINES
+    fr: 3. SECURITE DES RESSOURCES HUMAINES
+  domain_type: section
+- code: DOMAIN-4
+  name:
+    en: 4. GESTION DES ACTIFS INFORMATIONNELS
+    fr: 4. GESTION DES ACTIFS INFORMATIONNELS
+  description:
+    en: 4. GESTION DES ACTIFS INFORMATIONNELS
+    fr: 4. GESTION DES ACTIFS INFORMATIONNELS
+  domain_type: section
+- code: DOMAIN-5
+  name:
+    en: 5. CONTROLE D’ACCES
+    fr: 5. CONTROLE D’ACCES
+  description:
+    en: 5. CONTROLE D’ACCES
+    fr: 5. CONTROLE D’ACCES
+  domain_type: section
+- code: DOMAIN-6
+  name:
+    en: 6. CRYPTOGRAPHIE
+    fr: 6. CRYPTOGRAPHIE
+  description:
+    en: 6. CRYPTOGRAPHIE
+    fr: 6. CRYPTOGRAPHIE
+  domain_type: section
+- code: DOMAIN-7
+  name:
+    en: 7.  SECURITE PHYSIQUE ET ENVIRONNEMENTALE
+    fr: 7.  SECURITE PHYSIQUE ET ENVIRONNEMENTALE
+  description:
+    en: 7.  SECURITE PHYSIQUE ET ENVIRONNEMENTALE
+    fr: 7.  SECURITE PHYSIQUE ET ENVIRONNEMENTALE
+  domain_type: section
+- code: DOMAIN-8
+  name:
+    en: 8. SECURITE LIEE A L’EXPLOITATION
+    fr: 8. SECURITE LIEE A L’EXPLOITATION
+  description:
+    en: 8. SECURITE LIEE A L’EXPLOITATION
+    fr: 8. SECURITE LIEE A L’EXPLOITATION
+  domain_type: section
+- code: DOMAIN-9
+  name:
+    en: 9. SECURITE DES COMMUNICATIONS
+    fr: 9. SECURITE DES COMMUNICATIONS
+  description:
+    en: 9. SECURITE DES COMMUNICATIONS
+    fr: 9. SECURITE DES COMMUNICATIONS
+  domain_type: section
+- code: DOMAIN-10
+  name:
+    en: 10. ACQUISITION, DEVELOPPEMENT ET MAINTENANCE DES SYSTEMES D’INFORMATION
+    fr: 10. ACQUISITION, DEVELOPPEMENT ET MAINTENANCE DES SYSTEMES D’INFORMATION
+  description:
+    en: 10. ACQUISITION, DEVELOPPEMENT ET MAINTENANCE DES SYSTEMES D’INFORMATION
+    fr: 10. ACQUISITION, DEVELOPPEMENT ET MAINTENANCE DES SYSTEMES D’INFORMATION
+  domain_type: section
+- code: DOMAIN-11
+  name:
+    en: 11. RELATIONS AVEC LES FOURNISSEURS
+    fr: 11. RELATIONS AVEC LES FOURNISSEURS
+  description:
+    en: 11. RELATIONS AVEC LES FOURNISSEURS
+    fr: 11. RELATIONS AVEC LES FOURNISSEURS
+  domain_type: section
+- code: DOMAIN-12
+  name:
+    en: 12. GESTION DES INCIDENTS DE CYBERSECURITE
+    fr: 12. GESTION DES INCIDENTS DE CYBERSECURITE
+  description:
+    en: 12. GESTION DES INCIDENTS DE CYBERSECURITE
+    fr: 12. GESTION DES INCIDENTS DE CYBERSECURITE
+  domain_type: section
+- code: DOMAIN-13
+  name:
+    en: 13. GESTION DE LA CONTINUITE DE L’ACTIVITE
+    fr: 13. GESTION DE LA CONTINUITE DE L’ACTIVITE
+  description:
+    en: 13. GESTION DE LA CONTINUITE DE L’ACTIVITE
+    fr: 13. GESTION DE LA CONTINUITE DE L’ACTIVITE
+  domain_type: section
+- code: DOMAIN-14
+  name:
+    en: 14. CONFORMITE
+    fr: 14. CONFORMITE
+  description:
+    en: 14. CONFORMITE
+    fr: 14. CONFORMITE
+  domain_type: section
+controls:
+- code: POL-RISQUE
+  domain: DOMAIN-1
+  title:
+    en: Analyse de risque
+    fr: Analyse de risque
+  description:
+    en: Chaque entité ou IIV doit identifier les besoins de sécurité en matière de confidentialité, disponibilité et intégrité pour chaque processus supporté par le système d'information et procéder à une analyse des risques de sécurité liés à ce système d'information.
+    fr: Chaque entité ou IIV doit identifier les besoins de sécurité en matière de confidentialité, disponibilité et intégrité pour chaque processus supporté par le système d'information et procéder à une analyse des risques de sécurité liés à ce système d'information.
+  guidance:
+    en: Chaque entité ou IIV doit identifier les besoins de sécurité en matière de confidentialité, disponibilité et intégrité pour chaque processus supporté par le système d'information et procéder à une analyse des risques de sécurité liés à ce système d'information.
+    fr: Chaque entité ou IIV doit identifier les besoins de sécurité en matière de confidentialité, disponibilité et intégrité pour chaque processus supporté par le système d'information et procéder à une analyse des risques de sécurité liés à ce système d'information.
+  requirements: []
+- code: POL-FORMEL
+  domain: DOMAIN-1
+  title:
+    en: Politique de sécurité des systèmes d'information
+    fr: Politique de sécurité des systèmes d'information
+  description:
+    en: 'Chaque entité ou IIV doit définir une politique en matière de sécurité des SI qui soit approuvée par un niveau hiérarchique élevé (ex. : secrétariat général, direction générale, ... ) et qui décrit les règles qui doivent être adoptées pour gérer les besoins identifiés de sécurité des SI.
+
+
+      Cette politique doit être déclinée au besoin en politiques spécifiques par domaine ou par aspect de sécurité.
+
+
+      La politique de sécurité des SI doit être élaborée en se basant sur une analyse de risques, et doit être diffusée et communiquée au personnel et aux tiers concernés et mise à jour régulièrement.'
+    fr: 'Chaque entité ou IIV doit définir une politique en matière de sécurité des SI qui soit approuvée par un niveau hiérarchique élevé (ex. : secrétariat général, direction générale, ... ) et qui décrit les règles qui doivent être adoptées pour gérer les besoins identifiés de sécurité des SI.
+
+
+      Cette politique doit être déclinée au besoin en politiques spécifiques par domaine ou par aspect de sécurité.
+
+
+      La politique de sécurité des SI doit être élaborée en se basant sur une analyse de risques, et doit être diffusée et communiquée au personnel et aux tiers concernés et mise à jour régulièrement.'
+  guidance:
+    en: 'Chaque entité ou IIV doit définir une politique en matière de sécurité des SI qui soit approuvée par un niveau hiérarchique élevé (ex. : secrétariat général, direction générale, ... ) et qui décrit les règles qui doivent être adoptées pour gérer les besoins identifiés de sécurité des SI.
+
+
+      Cette politique doit être déclinée au besoin en politiques spécifiques par domaine ou par aspect de sécurité.
+
+
+      La politique de sécurité des SI doit être élaborée en se basant sur une analyse de risques, et doit être diffusée et communiquée au personnel et aux tiers concernés et mise à jour régulièrement.'
+    fr: 'Chaque entité ou IIV doit définir une politique en matière de sécurité des SI qui soit approuvée par un niveau hiérarchique élevé (ex. : secrétariat général, direction générale, ... ) et qui décrit les règles qui doivent être adoptées pour gérer les besoins identifiés de sécurité des SI.
+
+
+      Cette politique doit être déclinée au besoin en politiques spécifiques par domaine ou par aspect de sécurité.
+
+
+      La politique de sécurité des SI doit être élaborée en se basant sur une analyse de risques, et doit être diffusée et communiquée au personnel et aux tiers concernés et mise à jour régulièrement.'
+  requirements: []
+- code: POL-PAS
+  domain: DOMAIN-1
+  title:
+    en: Plan d'actions de la sécurité des SI
+    fr: Plan d'actions de la sécurité des SI
+  description:
+    en: Chaque entité ou IIV doit définir un plan d'actions pour la mise en conformité avec sa politique de sécurité des SI. Ce plan d'actions tiendra compte des impacts sur les activités, et des moyens financiers et humains à mettre en œuvre en indiquant les mesures à court terme et les mesures atteignables à moyen terme.
+    fr: Chaque entité ou IIV doit définir un plan d'actions pour la mise en conformité avec sa politique de sécurité des SI. Ce plan d'actions tiendra compte des impacts sur les activités, et des moyens financiers et humains à mettre en œuvre en indiquant les mesures à court terme et les mesures atteignables à moyen terme.
+  guidance:
+    en: Chaque entité ou IIV doit définir un plan d'actions pour la mise en conformité avec sa politique de sécurité des SI. Ce plan d'actions tiendra compte des impacts sur les activités, et des moyens financiers et humains à mettre en œuvre en indiquant les mesures à court terme et les mesures atteignables à moyen terme.
+    fr: Chaque entité ou IIV doit définir un plan d'actions pour la mise en conformité avec sa politique de sécurité des SI. Ce plan d'actions tiendra compte des impacts sur les activités, et des moyens financiers et humains à mettre en œuvre en indiquant les mesures à court terme et les mesures atteignables à moyen terme.
+  requirements: []
+- code: POL-TDB
+  domain: DOMAIN-1
+  title:
+    en: Tableau de bord de la sécurité des SI
+    fr: Tableau de bord de la sécurité des SI
+  description:
+    en: 'Chaque entité ou IIV doit élaborer et se servir d''un tableau de bord de la sécurité des SI pour assurer le suivi de la bonne application des règles édictées dans sa politique de sécurité.
+
+
+      Le tableau de bord doit se baser sur des indicateurs permettant le suivi de la mise en œuvre des règles de sécurité des SI propres à l''entité ou à l''IIV.'
+    fr: 'Chaque entité ou IIV doit élaborer et se servir d''un tableau de bord de la sécurité des SI pour assurer le suivi de la bonne application des règles édictées dans sa politique de sécurité.
+
+
+      Le tableau de bord doit se baser sur des indicateurs permettant le suivi de la mise en œuvre des règles de sécurité des SI propres à l''entité ou à l''IIV.'
+  guidance:
+    en: 'Chaque entité ou IIV doit élaborer et se servir d''un tableau de bord de la sécurité des SI pour assurer le suivi de la bonne application des règles édictées dans sa politique de sécurité.
+
+
+      Le tableau de bord doit se baser sur des indicateurs permettant le suivi de la mise en œuvre des règles de sécurité des SI propres à l''entité ou à l''IIV.'
+    fr: 'Chaque entité ou IIV doit élaborer et se servir d''un tableau de bord de la sécurité des SI pour assurer le suivi de la bonne application des règles édictées dans sa politique de sécurité.
+
+
+      Le tableau de bord doit se baser sur des indicateurs permettant le suivi de la mise en œuvre des règles de sécurité des SI propres à l''entité ou à l''IIV.'
+  requirements: []
+- code: ORG-INTER-GOUV
+  domain: DOMAIN-2
+  title:
+    en: Gouvernance de la sécurité des SI
+    fr: Gouvernance de la sécurité des SI
+  description:
+    en: 'Chaque entité ou IIV doit mettre en place une gouvernance appropriée de la sécurité des SI avec l''implication notamment d''un niveau hiérarchique élevé (ex. : secrétariat général, direction générale, ... ) de l''entité ou de l''IIV, et ce afin de définir les orientations stratégiques en matière de sécurité des SI et assurer le suivi de l''avancement de l''ensemble des projets y afférents.'
+    fr: 'Chaque entité ou IIV doit mettre en place une gouvernance appropriée de la sécurité des SI avec l''implication notamment d''un niveau hiérarchique élevé (ex. : secrétariat général, direction générale, ... ) de l''entité ou de l''IIV, et ce afin de définir les orientations stratégiques en matière de sécurité des SI et assurer le suivi de l''avancement de l''ensemble des projets y afférents.'
+  guidance:
+    en: 'Chaque entité ou IIV doit mettre en place une gouvernance appropriée de la sécurité des SI avec l''implication notamment d''un niveau hiérarchique élevé (ex. : secrétariat général, direction générale, ... ) de l''entité ou de l''IIV, et ce afin de définir les orientations stratégiques en matière de sécurité des SI et assurer le suivi de l''avancement de l''ensemble des projets y afférents.'
+    fr: 'Chaque entité ou IIV doit mettre en place une gouvernance appropriée de la sécurité des SI avec l''implication notamment d''un niveau hiérarchique élevé (ex. : secrétariat général, direction générale, ... ) de l''entité ou de l''IIV, et ce afin de définir les orientations stratégiques en matière de sécurité des SI et assurer le suivi de l''avancement de l''ensemble des projets y afférents.'
+  requirements: []
+- code: ORG-INTER-RSSI
+  domain: DOMAIN-2
+  title:
+    en: Désignation d'un responsable de la sécurité des SI (RSSI)
+    fr: Désignation d'un responsable de la sécurité des SI (RSSI)
+  description:
+    en: 'Les règles applicables à la désignation et aux missions du RSSI sont fixées par la loi n° 05-20 relative à la cybersécurité et son décret d''application.
+
+
+      Tout changement de l''identité et des coordonnées du RSSI doit être porté à la connaissance de la DGSSI.'
+    fr: 'Les règles applicables à la désignation et aux missions du RSSI sont fixées par la loi n° 05-20 relative à la cybersécurité et son décret d''application.
+
+
+      Tout changement de l''identité et des coordonnées du RSSI doit être porté à la connaissance de la DGSSI.'
+  guidance:
+    en: 'Les règles applicables à la désignation et aux missions du RSSI sont fixées par la loi n° 05-20 relative à la cybersécurité et son décret d''application.
+
+
+      Tout changement de l''identité et des coordonnées du RSSI doit être porté à la connaissance de la DGSSI.'
+    fr: 'Les règles applicables à la désignation et aux missions du RSSI sont fixées par la loi n° 05-20 relative à la cybersécurité et son décret d''application.
+
+
+      Tout changement de l''identité et des coordonnées du RSSI doit être porté à la connaissance de la DGSSI.'
+  requirements: []
+- code: ORG-INTER-RESP
+  domain: DOMAIN-2
+  title:
+    en: Attribution des rôles et responsabilités
+    fr: Attribution des rôles et responsabilités
+  description:
+    en: 'Chaque entité ou IIV doit définir et attribuer les rôles et responsabilités des différents acteurs en matière de sécurité des SI.
+
+
+      Cette attribution doit tenir compte de la séparation entre les tâches et les domaines de responsabilité incompatibles.'
+    fr: 'Chaque entité ou IIV doit définir et attribuer les rôles et responsabilités des différents acteurs en matière de sécurité des SI.
+
+
+      Cette attribution doit tenir compte de la séparation entre les tâches et les domaines de responsabilité incompatibles.'
+  guidance:
+    en: 'Chaque entité ou IIV doit définir et attribuer les rôles et responsabilités des différents acteurs en matière de sécurité des SI.
+
+
+      Cette attribution doit tenir compte de la séparation entre les tâches et les domaines de responsabilité incompatibles.'
+    fr: 'Chaque entité ou IIV doit définir et attribuer les rôles et responsabilités des différents acteurs en matière de sécurité des SI.
+
+
+      Cette attribution doit tenir compte de la séparation entre les tâches et les domaines de responsabilité incompatibles.'
+  requirements: []
+- code: ORG-TELETRAV-SEC
+  domain: DOMAIN-2
+  title:
+    en: Télétravail sécurisé
+    fr: Télétravail sécurisé
+  description:
+    en: 'Chaque entité ou IIV doit prendre les mesures adéquates, en fonction du moyen d''accès, pour protéger les informations consultées, traitées ou stockées sur des sites de télétravail.
+
+
+      A cet effet, une politique ou des procédures claires précisant les systèmes accessibles et les mesures de sécurité applicables, doivent être définies, validées par la hiérarchie, communiquées et tenues à jour pour une mise en œuvre appropriée du télétravail.'
+    fr: 'Chaque entité ou IIV doit prendre les mesures adéquates, en fonction du moyen d''accès, pour protéger les informations consultées, traitées ou stockées sur des sites de télétravail.
+
+
+      A cet effet, une politique ou des procédures claires précisant les systèmes accessibles et les mesures de sécurité applicables, doivent être définies, validées par la hiérarchie, communiquées et tenues à jour pour une mise en œuvre appropriée du télétravail.'
+  guidance:
+    en: 'Chaque entité ou IIV doit prendre les mesures adéquates, en fonction du moyen d''accès, pour protéger les informations consultées, traitées ou stockées sur des sites de télétravail.
+
+
+      A cet effet, une politique ou des procédures claires précisant les systèmes accessibles et les mesures de sécurité applicables, doivent être définies, validées par la hiérarchie, communiquées et tenues à jour pour une mise en œuvre appropriée du télétravail.'
+    fr: 'Chaque entité ou IIV doit prendre les mesures adéquates, en fonction du moyen d''accès, pour protéger les informations consultées, traitées ou stockées sur des sites de télétravail.
+
+
+      A cet effet, une politique ou des procédures claires précisant les systèmes accessibles et les mesures de sécurité applicables, doivent être définies, validées par la hiérarchie, communiquées et tenues à jour pour une mise en œuvre appropriée du télétravail.'
+  requirements: []
+- code: RH-AVT--PERSON
+  domain: DOMAIN-3
+  title:
+    en: Personnel de confiance
+    fr: Personnel de confiance
+  description:
+    en: A l'embauche, des vérifications des informations des candidats appelés à travailler sur des tâches sensibles au sein de l'entité ou de l'IIV doivent être réalisées conformément à la réglementation, à l'éthique, et proportionnellement aux exigences métier et à la classification des actifs informationnels accessibles.
+    fr: A l'embauche, des vérifications des informations des candidats appelés à travailler sur des tâches sensibles au sein de l'entité ou de l'IIV doivent être réalisées conformément à la réglementation, à l'éthique, et proportionnellement aux exigences métier et à la classification des actifs informationnels accessibles.
+  guidance:
+    en: A l'embauche, des vérifications des informations des candidats appelés à travailler sur des tâches sensibles au sein de l'entité ou de l'IIV doivent être réalisées conformément à la réglementation, à l'éthique, et proportionnellement aux exigences métier et à la classification des actifs informationnels accessibles.
+    fr: A l'embauche, des vérifications des informations des candidats appelés à travailler sur des tâches sensibles au sein de l'entité ou de l'IIV doivent être réalisées conformément à la réglementation, à l'éthique, et proportionnellement aux exigences métier et à la classification des actifs informationnels accessibles.
+  requirements: []
+- code: RH-AVT--COND
+  domain: DOMAIN-3
+  title:
+    en: Termes et conditions d'embauche
+    fr: Termes et conditions d'embauche
+  description:
+    en: Les accords contractuels avec les employés et les sous-traitants doivent préciser leurs responsabilités et celles de l'entité ou de l'IIV en matière de sécurité des SI.
+    fr: Les accords contractuels avec les employés et les sous-traitants doivent préciser leurs responsabilités et celles de l'entité ou de l'IIV en matière de sécurité des SI.
+  guidance:
+    en: Les accords contractuels avec les employés et les sous-traitants doivent préciser leurs responsabilités et celles de l'entité ou de l'IIV en matière de sécurité des SI.
+    fr: Les accords contractuels avec les employés et les sous-traitants doivent préciser leurs responsabilités et celles de l'entité ou de l'IIV en matière de sécurité des SI.
+  requirements: []
+- code: RH-APRES--FORM
+  domain: DOMAIN-3
+  title:
+    en: Formation et sensibilisation du personnel
+    fr: Formation et sensibilisation du personnel
+  description:
+    en: Chaque entité ou IIV doit organiser régulièrement, selon un programme préétabli, des sessions de formation et de sensibilisation au profit de son personnel en matière de sécurité des SI.
+    fr: Chaque entité ou IIV doit organiser régulièrement, selon un programme préétabli, des sessions de formation et de sensibilisation au profit de son personnel en matière de sécurité des SI.
+  guidance:
+    en: Chaque entité ou IIV doit organiser régulièrement, selon un programme préétabli, des sessions de formation et de sensibilisation au profit de son personnel en matière de sécurité des SI.
+    fr: Chaque entité ou IIV doit organiser régulièrement, selon un programme préétabli, des sessions de formation et de sensibilisation au profit de son personnel en matière de sécurité des SI.
+  requirements: []
+- code: RH-FIN-GEST
+  domain: DOMAIN-3
+  title:
+    en: Gestion des mutations et départs
+    fr: Gestion des mutations et départs
+  description:
+    en: 'Afin de préserver la confidentialité et l''intégrité de l''information, chaque entité ou IIV doit formaliser et mettre en place une procédure de gestion des mutations ou des départs qui couvre notamment :
+
+
+      - La notification au service informatique par le service des ressources humaines de tout mouvement du personnel ;
+
+
+      - La passation des consignes ;
+
+
+      - La restitution des biens informatiques ;
+
+
+      - Le retrait ou la modification des accès aux SI.'
+    fr: 'Afin de préserver la confidentialité et l''intégrité de l''information, chaque entité ou IIV doit formaliser et mettre en place une procédure de gestion des mutations ou des départs qui couvre notamment :
+
+
+      - La notification au service informatique par le service des ressources humaines de tout mouvement du personnel ;
+
+
+      - La passation des consignes ;
+
+
+      - La restitution des biens informatiques ;
+
+
+      - Le retrait ou la modification des accès aux SI.'
+  guidance:
+    en: 'Afin de préserver la confidentialité et l''intégrité de l''information, chaque entité ou IIV doit formaliser et mettre en place une procédure de gestion des mutations ou des départs qui couvre notamment :
+
+
+      - La notification au service informatique par le service des ressources humaines de tout mouvement du personnel ;
+
+
+      - La passation des consignes ;
+
+
+      - La restitution des biens informatiques ;
+
+
+      - Le retrait ou la modification des accès aux SI.'
+    fr: 'Afin de préserver la confidentialité et l''intégrité de l''information, chaque entité ou IIV doit formaliser et mettre en place une procédure de gestion des mutations ou des départs qui couvre notamment :
+
+
+      - La notification au service informatique par le service des ressources humaines de tout mouvement du personnel ;
+
+
+      - La passation des consignes ;
+
+
+      - La restitution des biens informatiques ;
+
+
+      - Le retrait ou la modification des accès aux SI.'
+  requirements: []
+- code: ACTIF-RESP-INV
+  domain: DOMAIN-4
+  title:
+    en: Inventaire des actifs
+    fr: Inventaire des actifs
+  description:
+    en: 'Un inventaire des actifs informationnels (matériels et logiciels) doit être réalisé et mis à jour régulièrement, intégrant notamment :
+
+
+      - la liste des composants matériels (avec nº de série) et logiciels (avec nº de licence);
+
+
+      - la version du système d''exploitation et les correctifs appliqués ;
+
+
+      - l''identification de l''utilisateur final si applicable (poste de travail, téléphonie IP, imprimante, ... ).'
+    fr: 'Un inventaire des actifs informationnels (matériels et logiciels) doit être réalisé et mis à jour régulièrement, intégrant notamment :
+
+
+      - la liste des composants matériels (avec nº de série) et logiciels (avec nº de licence);
+
+
+      - la version du système d''exploitation et les correctifs appliqués ;
+
+
+      - l''identification de l''utilisateur final si applicable (poste de travail, téléphonie IP, imprimante, ... ).'
+  guidance:
+    en: 'Un inventaire des actifs informationnels (matériels et logiciels) doit être réalisé et mis à jour régulièrement, intégrant notamment :
+
+
+      - la liste des composants matériels (avec nº de série) et logiciels (avec nº de licence);
+
+
+      - la version du système d''exploitation et les correctifs appliqués ;
+
+
+      - l''identification de l''utilisateur final si applicable (poste de travail, téléphonie IP, imprimante, ... ).'
+    fr: 'Un inventaire des actifs informationnels (matériels et logiciels) doit être réalisé et mis à jour régulièrement, intégrant notamment :
+
+
+      - la liste des composants matériels (avec nº de série) et logiciels (avec nº de licence);
+
+
+      - la version du système d''exploitation et les correctifs appliqués ;
+
+
+      - l''identification de l''utilisateur final si applicable (poste de travail, téléphonie IP, imprimante, ... ).'
+  requirements: []
+- code: ACTIF-RESP-PROP
+  domain: DOMAIN-4
+  title:
+    en: Propriétaires des actifs
+    fr: Propriétaires des actifs
+  description:
+    en: Chaque actif informationnel doit être attribué formellement à un propriétaire qui a la responsabilité de la gestion des actifs informationnels qui lui sont attribués (inventaire, classification, protection, destruction, réforme ... ) tout au long de leurs cycles de vie.
+    fr: Chaque actif informationnel doit être attribué formellement à un propriétaire qui a la responsabilité de la gestion des actifs informationnels qui lui sont attribués (inventaire, classification, protection, destruction, réforme ... ) tout au long de leurs cycles de vie.
+  guidance:
+    en: Chaque actif informationnel doit être attribué formellement à un propriétaire qui a la responsabilité de la gestion des actifs informationnels qui lui sont attribués (inventaire, classification, protection, destruction, réforme ... ) tout au long de leurs cycles de vie.
+    fr: Chaque actif informationnel doit être attribué formellement à un propriétaire qui a la responsabilité de la gestion des actifs informationnels qui lui sont attribués (inventaire, classification, protection, destruction, réforme ... ) tout au long de leurs cycles de vie.
+  requirements: []
+- code: ACTIF-RESP-CHARTE
+  domain: DOMAIN-4
+  title:
+    en: Charte d'utilisation du SI
+    fr: Charte d'utilisation du SI
+  description:
+    en: 'Une charte d''utilisation du SI doit être élaborée en conformité avec la politique de sécurité des SI en vigueur. Elle doit être validée par la hiérarchie, communiqué et signée ou acceptée par les utilisateurs.
+
+
+      Cette charte doit contenir, entre autres :
+
+
+      - Un rappel des exigences législatives et réglementaires applicables dans le contexte de l''entité ou de l''IIV;
+
+
+      - Les règles générales d''utilisation des ressources informatiques ;
+
+
+      - Les éléments de sensibilisation des utilisateurs ;
+
+
+      - Les clauses de confidentialité des informations manipulées ;
+
+
+      - Les réflexes à adopter en cas d''incident ou de suspicion d''incident de cybersécurité et les règles à respecter notamment l''obligation de déclarer tout incident de cybersécurité à la DGSSI ;
+
+
+      - La charte d''utilisation du SI constitue un élément opposable en cas de manquement grave.'
+    fr: 'Une charte d''utilisation du SI doit être élaborée en conformité avec la politique de sécurité des SI en vigueur. Elle doit être validée par la hiérarchie, communiqué et signée ou acceptée par les utilisateurs.
+
+
+      Cette charte doit contenir, entre autres :
+
+
+      - Un rappel des exigences législatives et réglementaires applicables dans le contexte de l''entité ou de l''IIV;
+
+
+      - Les règles générales d''utilisation des ressources informatiques ;
+
+
+      - Les éléments de sensibilisation des utilisateurs ;
+
+
+      - Les clauses de confidentialité des informations manipulées ;
+
+
+      - Les réflexes à adopter en cas d''incident ou de suspicion d''incident de cybersécurité et les règles à respecter notamment l''obligation de déclarer tout incident de cybersécurité à la DGSSI ;
+
+
+      - La charte d''utilisation du SI constitue un élément opposable en cas de manquement grave.'
+  guidance:
+    en: 'Une charte d''utilisation du SI doit être élaborée en conformité avec la politique de sécurité des SI en vigueur. Elle doit être validée par la hiérarchie, communiqué et signée ou acceptée par les utilisateurs.
+
+
+      Cette charte doit contenir, entre autres :
+
+
+      - Un rappel des exigences législatives et réglementaires applicables dans le contexte de l''entité ou de l''IIV;
+
+
+      - Les règles générales d''utilisation des ressources informatiques ;
+
+
+      - Les éléments de sensibilisation des utilisateurs ;
+
+
+      - Les clauses de confidentialité des informations manipulées ;
+
+
+      - Les réflexes à adopter en cas d''incident ou de suspicion d''incident de cybersécurité et les règles à respecter notamment l''obligation de déclarer tout incident de cybersécurité à la DGSSI ;
+
+
+      - La charte d''utilisation du SI constitue un élément opposable en cas de manquement grave.'
+    fr: 'Une charte d''utilisation du SI doit être élaborée en conformité avec la politique de sécurité des SI en vigueur. Elle doit être validée par la hiérarchie, communiqué et signée ou acceptée par les utilisateurs.
+
+
+      Cette charte doit contenir, entre autres :
+
+
+      - Un rappel des exigences législatives et réglementaires applicables dans le contexte de l''entité ou de l''IIV;
+
+
+      - Les règles générales d''utilisation des ressources informatiques ;
+
+
+      - Les éléments de sensibilisation des utilisateurs ;
+
+
+      - Les clauses de confidentialité des informations manipulées ;
+
+
+      - Les réflexes à adopter en cas d''incident ou de suspicion d''incident de cybersécurité et les règles à respecter notamment l''obligation de déclarer tout incident de cybersécurité à la DGSSI ;
+
+
+      - La charte d''utilisation du SI constitue un élément opposable en cas de manquement grave.'
+  requirements: []
+- code: ACTIF--RESP-CARTO
+  domain: DOMAIN-4
+  title:
+    en: Cartographie SI
+    fr: Cartographie SI
+  description:
+    en: 'Chaque entité ou IIV doit tenir et mettre à jour une cartographie de son SI qui précise les composants matériels et logiciels ainsi que les architectures des réseaux sur lesquels sont identifiés les centres de données et les différents sites desservis.
+
+
+      Les documents de cartographie doivent être maintenus au fil des évolutions apportées aux SI et faire l''objet d''une protection adaptée.'
+    fr: 'Chaque entité ou IIV doit tenir et mettre à jour une cartographie de son SI qui précise les composants matériels et logiciels ainsi que les architectures des réseaux sur lesquels sont identifiés les centres de données et les différents sites desservis.
+
+
+      Les documents de cartographie doivent être maintenus au fil des évolutions apportées aux SI et faire l''objet d''une protection adaptée.'
+  guidance:
+    en: 'Chaque entité ou IIV doit tenir et mettre à jour une cartographie de son SI qui précise les composants matériels et logiciels ainsi que les architectures des réseaux sur lesquels sont identifiés les centres de données et les différents sites desservis.
+
+
+      Les documents de cartographie doivent être maintenus au fil des évolutions apportées aux SI et faire l''objet d''une protection adaptée.'
+    fr: 'Chaque entité ou IIV doit tenir et mettre à jour une cartographie de son SI qui précise les composants matériels et logiciels ainsi que les architectures des réseaux sur lesquels sont identifiés les centres de données et les différents sites desservis.
+
+
+      Les documents de cartographie doivent être maintenus au fil des évolutions apportées aux SI et faire l''objet d''une protection adaptée.'
+  requirements: []
+- code: ACTIF--CLASSIF-INFO
+  domain: DOMAIN-4
+  title:
+    en: Classification
+    fr: Classification
+  description:
+    en: 'Chaque entité ou IIV doit classifier ses actifs informationnels selon leur niveau de sensibilité en termes de confidentialité, d''intégrité et de disponibilité, et ce sur la base d''une échelle d''impacts fixée par l''entité ou par l''IIV et qui tient compte notamment de sa taille, de son importance, de ses missions, de son domaine d''activités, de ses exigences métiers, de ses propres enjeux de sécurité et des obligations légales, règlementaires, contractuelles ou normatives qui lui sont applicables. Le résultat de cette classification traduit la valeur des actifs informationnels en fonction de leur sensibilité et de leur caractère critique pour l''entité ou pour l''IIV.
+
+
+      En parallèle, l''entité ou l''IIV doit procéder à la classification des mêmes actifs informationnels et SI selon le référentiel de la classification des actifs informationnels et SI fixé par la loi nº 05.20 et son décret d''application. L''objectif de cette classification est d''identifier les SI sensibles et les données sensibles au sens de la loi précitée.'
+    fr: 'Chaque entité ou IIV doit classifier ses actifs informationnels selon leur niveau de sensibilité en termes de confidentialité, d''intégrité et de disponibilité, et ce sur la base d''une échelle d''impacts fixée par l''entité ou par l''IIV et qui tient compte notamment de sa taille, de son importance, de ses missions, de son domaine d''activités, de ses exigences métiers, de ses propres enjeux de sécurité et des obligations légales, règlementaires, contractuelles ou normatives qui lui sont applicables. Le résultat de cette classification traduit la valeur des actifs informationnels en fonction de leur sensibilité et de leur caractère critique pour l''entité ou pour l''IIV.
+
+
+      En parallèle, l''entité ou l''IIV doit procéder à la classification des mêmes actifs informationnels et SI selon le référentiel de la classification des actifs informationnels et SI fixé par la loi nº 05.20 et son décret d''application. L''objectif de cette classification est d''identifier les SI sensibles et les données sensibles au sens de la loi précitée.'
+  guidance:
+    en: 'Chaque entité ou IIV doit classifier ses actifs informationnels selon leur niveau de sensibilité en termes de confidentialité, d''intégrité et de disponibilité, et ce sur la base d''une échelle d''impacts fixée par l''entité ou par l''IIV et qui tient compte notamment de sa taille, de son importance, de ses missions, de son domaine d''activités, de ses exigences métiers, de ses propres enjeux de sécurité et des obligations légales, règlementaires, contractuelles ou normatives qui lui sont applicables. Le résultat de cette classification traduit la valeur des actifs informationnels en fonction de leur sensibilité et de leur caractère critique pour l''entité ou pour l''IIV.
+
+
+      En parallèle, l''entité ou l''IIV doit procéder à la classification des mêmes actifs informationnels et SI selon le référentiel de la classification des actifs informationnels et SI fixé par la loi nº 05.20 et son décret d''application. L''objectif de cette classification est d''identifier les SI sensibles et les données sensibles au sens de la loi précitée.'
+    fr: 'Chaque entité ou IIV doit classifier ses actifs informationnels selon leur niveau de sensibilité en termes de confidentialité, d''intégrité et de disponibilité, et ce sur la base d''une échelle d''impacts fixée par l''entité ou par l''IIV et qui tient compte notamment de sa taille, de son importance, de ses missions, de son domaine d''activités, de ses exigences métiers, de ses propres enjeux de sécurité et des obligations légales, règlementaires, contractuelles ou normatives qui lui sont applicables. Le résultat de cette classification traduit la valeur des actifs informationnels en fonction de leur sensibilité et de leur caractère critique pour l''entité ou pour l''IIV.
+
+
+      En parallèle, l''entité ou l''IIV doit procéder à la classification des mêmes actifs informationnels et SI selon le référentiel de la classification des actifs informationnels et SI fixé par la loi nº 05.20 et son décret d''application. L''objectif de cette classification est d''identifier les SI sensibles et les données sensibles au sens de la loi précitée.'
+  requirements: []
+- code: ACTIF--CLASSIF-MES
+  domain: DOMAIN-4
+  title:
+    en: Mesures de protection des informations
+    fr: Mesures de protection des informations
+  description:
+    en: 'Sur la base des résultats de ces classifications, chaque entité ou IIV doit mettre en place les mesures de sécurité proportionnelles à la sensibilité des actifs et les formaliser dans une procédure de classification des actifs informationnels.
+
+
+      L''entité ou l''IIV doit également se conformer aux dispositions pertinentes de la loi nº 05-20 relative à la cybersécurité et son décret d''application et appliquer les mesures de protection définies dans les référentiels élaborés par la DGSSI.'
+    fr: 'Sur la base des résultats de ces classifications, chaque entité ou IIV doit mettre en place les mesures de sécurité proportionnelles à la sensibilité des actifs et les formaliser dans une procédure de classification des actifs informationnels.
+
+
+      L''entité ou l''IIV doit également se conformer aux dispositions pertinentes de la loi nº 05-20 relative à la cybersécurité et son décret d''application et appliquer les mesures de protection définies dans les référentiels élaborés par la DGSSI.'
+  guidance:
+    en: 'Sur la base des résultats de ces classifications, chaque entité ou IIV doit mettre en place les mesures de sécurité proportionnelles à la sensibilité des actifs et les formaliser dans une procédure de classification des actifs informationnels.
+
+
+      L''entité ou l''IIV doit également se conformer aux dispositions pertinentes de la loi nº 05-20 relative à la cybersécurité et son décret d''application et appliquer les mesures de protection définies dans les référentiels élaborés par la DGSSI.'
+    fr: 'Sur la base des résultats de ces classifications, chaque entité ou IIV doit mettre en place les mesures de sécurité proportionnelles à la sensibilité des actifs et les formaliser dans une procédure de classification des actifs informationnels.
+
+
+      L''entité ou l''IIV doit également se conformer aux dispositions pertinentes de la loi nº 05-20 relative à la cybersécurité et son décret d''application et appliquer les mesures de protection définies dans les référentiels élaborés par la DGSSI.'
+  requirements: []
+- code: ACTIF--CLASSIF--EXAM
+  domain: DOMAIN-4
+  title:
+    en: Examen de la classification
+    fr: Examen de la classification
+  description:
+    en: Chaque entité ou IIV doit revoir la classification de ses actifs informationnels et de ses SI au moins une fois tous les trois ans et à chaque fois que nécessaire. Les mesures de protection doivent évoluer en fonction de la nouvelle classification.
+    fr: Chaque entité ou IIV doit revoir la classification de ses actifs informationnels et de ses SI au moins une fois tous les trois ans et à chaque fois que nécessaire. Les mesures de protection doivent évoluer en fonction de la nouvelle classification.
+  guidance:
+    en: Chaque entité ou IIV doit revoir la classification de ses actifs informationnels et de ses SI au moins une fois tous les trois ans et à chaque fois que nécessaire. Les mesures de protection doivent évoluer en fonction de la nouvelle classification.
+    fr: Chaque entité ou IIV doit revoir la classification de ses actifs informationnels et de ses SI au moins une fois tous les trois ans et à chaque fois que nécessaire. Les mesures de protection doivent évoluer en fonction de la nouvelle classification.
+  requirements: []
+- code: ACTIF-SUP-AMOV
+  domain: DOMAIN-4
+  title:
+    en: Gestion des supports amovibles
+    fr: Gestion des supports amovibles
+  description:
+    en: 'Chaque entité ou IIV doit mettre en place des mesures appropriées pour la gestion des supports amovibles notamment :
+
+
+      - la désactivation de leur exécution automatique, sauf dans des cas exceptionnels liés à des impératifs de service ;
+
+
+      - leur conservation dans des locaux protégés et l''adoption de mesures adaptées tel que le chiffrement, le contrôle anti-virus, etc. surtout lorsqu''ils contiennent des données sensibles ;'
+    fr: 'Chaque entité ou IIV doit mettre en place des mesures appropriées pour la gestion des supports amovibles notamment :
+
+
+      - la désactivation de leur exécution automatique, sauf dans des cas exceptionnels liés à des impératifs de service ;
+
+
+      - leur conservation dans des locaux protégés et l''adoption de mesures adaptées tel que le chiffrement, le contrôle anti-virus, etc. surtout lorsqu''ils contiennent des données sensibles ;'
+  guidance:
+    en: 'Chaque entité ou IIV doit mettre en place des mesures appropriées pour la gestion des supports amovibles notamment :
+
+
+      - la désactivation de leur exécution automatique, sauf dans des cas exceptionnels liés à des impératifs de service ;
+
+
+      - leur conservation dans des locaux protégés et l''adoption de mesures adaptées tel que le chiffrement, le contrôle anti-virus, etc. surtout lorsqu''ils contiennent des données sensibles ;'
+    fr: 'Chaque entité ou IIV doit mettre en place des mesures appropriées pour la gestion des supports amovibles notamment :
+
+
+      - la désactivation de leur exécution automatique, sauf dans des cas exceptionnels liés à des impératifs de service ;
+
+
+      - leur conservation dans des locaux protégés et l''adoption de mesures adaptées tel que le chiffrement, le contrôle anti-virus, etc. surtout lorsqu''ils contiennent des données sensibles ;'
+  requirements: []
+- code: ACTIF-SUP-MOBIL
+  domain: DOMAIN-4
+  title:
+    en: Politique en matière d'appareils mobiles
+    fr: Politique en matière d'appareils mobiles
+  description:
+    en: Les règles de sécurité destinées à gérer les risques découlant de l'utilisation des appareils mobiles doivent faire partie intégrante de la politique de sécurité des SI de l'entité ou de l'IIV.
+    fr: Les règles de sécurité destinées à gérer les risques découlant de l'utilisation des appareils mobiles doivent faire partie intégrante de la politique de sécurité des SI de l'entité ou de l'IIV.
+  guidance:
+    en: Les règles de sécurité destinées à gérer les risques découlant de l'utilisation des appareils mobiles doivent faire partie intégrante de la politique de sécurité des SI de l'entité ou de l'IIV.
+    fr: Les règles de sécurité destinées à gérer les risques découlant de l'utilisation des appareils mobiles doivent faire partie intégrante de la politique de sécurité des SI de l'entité ou de l'IIV.
+  requirements: []
+- code: ACTIF-SUP-NOMAD
+  domain: DOMAIN-4
+  title:
+    en: Postes nomades
+    fr: Postes nomades
+  description:
+    en: 'Les postes nomades doivent être tous soumis aux mêmes mesures de sécurité que les autres équipements du parc en termes de mise à jour régulière de l''antivirus, application des correctifs, contrôle de conformité et interdiction des téléchargements à caractère non conforme à la charte d''utilisation du SI.
+
+
+      En cas d''utilisation de ces postes hors des locaux de travail (mission, conférence, réunion, etc.), une procédure formalisée doit être prévue pour leur protection.'
+    fr: 'Les postes nomades doivent être tous soumis aux mêmes mesures de sécurité que les autres équipements du parc en termes de mise à jour régulière de l''antivirus, application des correctifs, contrôle de conformité et interdiction des téléchargements à caractère non conforme à la charte d''utilisation du SI.
+
+
+      En cas d''utilisation de ces postes hors des locaux de travail (mission, conférence, réunion, etc.), une procédure formalisée doit être prévue pour leur protection.'
+  guidance:
+    en: 'Les postes nomades doivent être tous soumis aux mêmes mesures de sécurité que les autres équipements du parc en termes de mise à jour régulière de l''antivirus, application des correctifs, contrôle de conformité et interdiction des téléchargements à caractère non conforme à la charte d''utilisation du SI.
+
+
+      En cas d''utilisation de ces postes hors des locaux de travail (mission, conférence, réunion, etc.), une procédure formalisée doit être prévue pour leur protection.'
+    fr: 'Les postes nomades doivent être tous soumis aux mêmes mesures de sécurité que les autres équipements du parc en termes de mise à jour régulière de l''antivirus, application des correctifs, contrôle de conformité et interdiction des téléchargements à caractère non conforme à la charte d''utilisation du SI.
+
+
+      En cas d''utilisation de ces postes hors des locaux de travail (mission, conférence, réunion, etc.), une procédure formalisée doit être prévue pour leur protection.'
+  requirements: []
+- code: ACTIF-SUP-REB
+  domain: DOMAIN-4
+  title:
+    en: Mise au rebut ou recyclage des supports
+    fr: Mise au rebut ou recyclage des supports
+  description:
+    en: 'Une procédure de mise au rebut ou de recyclage des supports doit être mise en place afin d''effacer de manière sécurisée les données présentes sur tous type de support (les disques durs, les mémoires intégrées, ... ).
+
+
+      Dans le cas de données sensibles, la destruction du support ou sa démagnétisation si applicable, peut s''avérer nécessaire de manière à empêcher toute tentative de récupération.'
+    fr: 'Une procédure de mise au rebut ou de recyclage des supports doit être mise en place afin d''effacer de manière sécurisée les données présentes sur tous type de support (les disques durs, les mémoires intégrées, ... ).
+
+
+      Dans le cas de données sensibles, la destruction du support ou sa démagnétisation si applicable, peut s''avérer nécessaire de manière à empêcher toute tentative de récupération.'
+  guidance:
+    en: 'Une procédure de mise au rebut ou de recyclage des supports doit être mise en place afin d''effacer de manière sécurisée les données présentes sur tous type de support (les disques durs, les mémoires intégrées, ... ).
+
+
+      Dans le cas de données sensibles, la destruction du support ou sa démagnétisation si applicable, peut s''avérer nécessaire de manière à empêcher toute tentative de récupération.'
+    fr: 'Une procédure de mise au rebut ou de recyclage des supports doit être mise en place afin d''effacer de manière sécurisée les données présentes sur tous type de support (les disques durs, les mémoires intégrées, ... ).
+
+
+      Dans le cas de données sensibles, la destruction du support ou sa démagnétisation si applicable, peut s''avérer nécessaire de manière à empêcher toute tentative de récupération.'
+  requirements: []
+- code: ACC-EXIG-POL
+  domain: DOMAIN-5
+  title:
+    en: Politique de contrôle d'accès
+    fr: Politique de contrôle d'accès
+  description:
+    en: Chaque entité ou IIV est tenue d'établir, de documenter et de revoir une politique de contrôle d'accès aux systèmes, réseaux et services sur la base des exigences métier et de sécurité de l'information en respectant le principe du moindre privilège.
+    fr: Chaque entité ou IIV est tenue d'établir, de documenter et de revoir une politique de contrôle d'accès aux systèmes, réseaux et services sur la base des exigences métier et de sécurité de l'information en respectant le principe du moindre privilège.
+  guidance:
+    en: Chaque entité ou IIV est tenue d'établir, de documenter et de revoir une politique de contrôle d'accès aux systèmes, réseaux et services sur la base des exigences métier et de sécurité de l'information en respectant le principe du moindre privilège.
+    fr: Chaque entité ou IIV est tenue d'établir, de documenter et de revoir une politique de contrôle d'accès aux systèmes, réseaux et services sur la base des exigences métier et de sécurité de l'information en respectant le principe du moindre privilège.
+  requirements: []
+- code: ACC-UTILIS-ENREGIS/DESINSCRI
+  domain: DOMAIN-5
+  title:
+    en: Enregistrement et désinscription des utilisateurs
+    fr: Enregistrement et désinscription des utilisateurs
+  description:
+    en: 'Chaque entité ou IIV doit mettre en œuvre une procédure formelle d''enregistrement et de désinscription des utilisateurs destinée à permettre l''attribution de droits d''accès.
+
+
+      Cette procédure impose notamment :
+
+
+      - la création d''identifiants utilisateurs uniques ;
+
+
+      - la suppression ou le blocage immédiats des identifiants des utilisateurs qui ont quitté l''organisation ;
+
+
+      - la détection périodique des identifiants utilisateurs redondants, suivie de leur suppression ou de leur blocage ;
+
+
+      - l''assurance que des identifiants utilisateurs redondants ne sont pas attribués à d''autres utilisateurs.'
+    fr: 'Chaque entité ou IIV doit mettre en œuvre une procédure formelle d''enregistrement et de désinscription des utilisateurs destinée à permettre l''attribution de droits d''accès.
+
+
+      Cette procédure impose notamment :
+
+
+      - la création d''identifiants utilisateurs uniques ;
+
+
+      - la suppression ou le blocage immédiats des identifiants des utilisateurs qui ont quitté l''organisation ;
+
+
+      - la détection périodique des identifiants utilisateurs redondants, suivie de leur suppression ou de leur blocage ;
+
+
+      - l''assurance que des identifiants utilisateurs redondants ne sont pas attribués à d''autres utilisateurs.'
+  guidance:
+    en: 'Chaque entité ou IIV doit mettre en œuvre une procédure formelle d''enregistrement et de désinscription des utilisateurs destinée à permettre l''attribution de droits d''accès.
+
+
+      Cette procédure impose notamment :
+
+
+      - la création d''identifiants utilisateurs uniques ;
+
+
+      - la suppression ou le blocage immédiats des identifiants des utilisateurs qui ont quitté l''organisation ;
+
+
+      - la détection périodique des identifiants utilisateurs redondants, suivie de leur suppression ou de leur blocage ;
+
+
+      - l''assurance que des identifiants utilisateurs redondants ne sont pas attribués à d''autres utilisateurs.'
+    fr: 'Chaque entité ou IIV doit mettre en œuvre une procédure formelle d''enregistrement et de désinscription des utilisateurs destinée à permettre l''attribution de droits d''accès.
+
+
+      Cette procédure impose notamment :
+
+
+      - la création d''identifiants utilisateurs uniques ;
+
+
+      - la suppression ou le blocage immédiats des identifiants des utilisateurs qui ont quitté l''organisation ;
+
+
+      - la détection périodique des identifiants utilisateurs redondants, suivie de leur suppression ou de leur blocage ;
+
+
+      - l''assurance que des identifiants utilisateurs redondants ne sont pas attribués à d''autres utilisateurs.'
+  requirements: []
+- code: ACC-UTILIS-IDF/AUTH
+  domain: DOMAIN-5
+  title:
+    en: Identification et authentification
+    fr: Identification et authentification
+  description:
+    en: 'L''accès des utilisateurs aux ressources (réseaux, système d''exploitation ou applications informatiques) passe obligatoirement par une identification et une authentification individuelle.
+
+
+      Les droits particuliers (super-utilisateur, Administrateur systèmes et réseaux, ... ) doivent être parfaitement identifiés, limités (nombre et droits) et justifiés.'
+    fr: 'L''accès des utilisateurs aux ressources (réseaux, système d''exploitation ou applications informatiques) passe obligatoirement par une identification et une authentification individuelle.
+
+
+      Les droits particuliers (super-utilisateur, Administrateur systèmes et réseaux, ... ) doivent être parfaitement identifiés, limités (nombre et droits) et justifiés.'
+  guidance:
+    en: 'L''accès des utilisateurs aux ressources (réseaux, système d''exploitation ou applications informatiques) passe obligatoirement par une identification et une authentification individuelle.
+
+
+      Les droits particuliers (super-utilisateur, Administrateur systèmes et réseaux, ... ) doivent être parfaitement identifiés, limités (nombre et droits) et justifiés.'
+    fr: 'L''accès des utilisateurs aux ressources (réseaux, système d''exploitation ou applications informatiques) passe obligatoirement par une identification et une authentification individuelle.
+
+
+      Les droits particuliers (super-utilisateur, Administrateur systèmes et réseaux, ... ) doivent être parfaitement identifiés, limités (nombre et droits) et justifiés.'
+  requirements: []
+- code: ACC-UTILIS-HABILIT
+  domain: DOMAIN-5
+  title:
+    en: Gestion des habilitations
+    fr: Gestion des habilitations
+  description:
+    en: Chaque entité ou IIV est tenue de mettre en place une matrice d'habilitations qui précise pour chaque utilisateur ses droits d'accès sur les différents systèmes et services du SI.
+    fr: Chaque entité ou IIV est tenue de mettre en place une matrice d'habilitations qui précise pour chaque utilisateur ses droits d'accès sur les différents systèmes et services du SI.
+  guidance:
+    en: Chaque entité ou IIV est tenue de mettre en place une matrice d'habilitations qui précise pour chaque utilisateur ses droits d'accès sur les différents systèmes et services du SI.
+    fr: Chaque entité ou IIV est tenue de mettre en place une matrice d'habilitations qui précise pour chaque utilisateur ses droits d'accès sur les différents systèmes et services du SI.
+  requirements: []
+- code: ACC-UTILIS-GENERIQ
+  domain: DOMAIN-5
+  title:
+    en: Gestion des comptes génériques
+    fr: Gestion des comptes génériques
+  description:
+    en: 'Chaque entité ou IIV est tenue de créer des comptes nominatifs pour les utilisateurs permettant de les relier à leurs actions et de les leur imputer.
+
+
+      Lorsque les aspects opérationnels liés à l''activité de l''entité ou de l''IIV exigent l''utilisation de comptes génériques, ces comptes doivent être approuvés, documentés et inventoriés.'
+    fr: 'Chaque entité ou IIV est tenue de créer des comptes nominatifs pour les utilisateurs permettant de les relier à leurs actions et de les leur imputer.
+
+
+      Lorsque les aspects opérationnels liés à l''activité de l''entité ou de l''IIV exigent l''utilisation de comptes génériques, ces comptes doivent être approuvés, documentés et inventoriés.'
+  guidance:
+    en: 'Chaque entité ou IIV est tenue de créer des comptes nominatifs pour les utilisateurs permettant de les relier à leurs actions et de les leur imputer.
+
+
+      Lorsque les aspects opérationnels liés à l''activité de l''entité ou de l''IIV exigent l''utilisation de comptes génériques, ces comptes doivent être approuvés, documentés et inventoriés.'
+    fr: 'Chaque entité ou IIV est tenue de créer des comptes nominatifs pour les utilisateurs permettant de les relier à leurs actions et de les leur imputer.
+
+
+      Lorsque les aspects opérationnels liés à l''activité de l''entité ou de l''IIV exigent l''utilisation de comptes génériques, ces comptes doivent être approuvés, documentés et inventoriés.'
+  requirements: []
+- code: ACC-UTILIS-REVUE
+  domain: DOMAIN-5
+  title:
+    en: Revue des droits d'accès
+    fr: Revue des droits d'accès
+  description:
+    en: 'Une revue périodique des droits attribués est nécessaire, au moins une fois par an, en s''appuyant sur l''inventaire des applications et des ressources utilisées, ainsi que sur la matrice des habilitations.
+
+
+      Suite à cet examen, les corrections nécessaires doivent être apportées.'
+    fr: 'Une revue périodique des droits attribués est nécessaire, au moins une fois par an, en s''appuyant sur l''inventaire des applications et des ressources utilisées, ainsi que sur la matrice des habilitations.
+
+
+      Suite à cet examen, les corrections nécessaires doivent être apportées.'
+  guidance:
+    en: 'Une revue périodique des droits attribués est nécessaire, au moins une fois par an, en s''appuyant sur l''inventaire des applications et des ressources utilisées, ainsi que sur la matrice des habilitations.
+
+
+      Suite à cet examen, les corrections nécessaires doivent être apportées.'
+    fr: 'Une revue périodique des droits attribués est nécessaire, au moins une fois par an, en s''appuyant sur l''inventaire des applications et des ressources utilisées, ainsi que sur la matrice des habilitations.
+
+
+      Suite à cet examen, les corrections nécessaires doivent être apportées.'
+  requirements: []
+- code: ACC-SYS/APP-ACC
+  domain: DOMAIN-5
+  title:
+    en: Accès aux systèmes et applications
+    fr: Accès aux systèmes et applications
+  description:
+    en: Les systèmes et applications doivent être protégés par des mécanismes adaptés de restriction des accès (login/mot de passe, authentification forte, règles de filtrage et d'accès, plages horaires de connexions) conformément à la politique de contrôle d'accès de l'entité ou de l'IIV.
+    fr: Les systèmes et applications doivent être protégés par des mécanismes adaptés de restriction des accès (login/mot de passe, authentification forte, règles de filtrage et d'accès, plages horaires de connexions) conformément à la politique de contrôle d'accès de l'entité ou de l'IIV.
+  guidance:
+    en: Les systèmes et applications doivent être protégés par des mécanismes adaptés de restriction des accès (login/mot de passe, authentification forte, règles de filtrage et d'accès, plages horaires de connexions) conformément à la politique de contrôle d'accès de l'entité ou de l'IIV.
+    fr: Les systèmes et applications doivent être protégés par des mécanismes adaptés de restriction des accès (login/mot de passe, authentification forte, règles de filtrage et d'accès, plages horaires de connexions) conformément à la politique de contrôle d'accès de l'entité ou de l'IIV.
+  requirements: []
+- code: ACC-SYS/APP-PRIVIL
+  domain: DOMAIN-5
+  title:
+    en: Gestion des accès à privilèges
+    fr: Gestion des accès à privilèges
+  description:
+    en: 'L''accès aux outils et interfaces d''administration doit être strictement limité aux personnes habilitées, selon une procédure formelle d''autorisation d''accès.
+
+
+      L''inventaire des comptes à privilège doit être tenu à jour.'
+    fr: 'L''accès aux outils et interfaces d''administration doit être strictement limité aux personnes habilitées, selon une procédure formelle d''autorisation d''accès.
+
+
+      L''inventaire des comptes à privilège doit être tenu à jour.'
+  guidance:
+    en: 'L''accès aux outils et interfaces d''administration doit être strictement limité aux personnes habilitées, selon une procédure formelle d''autorisation d''accès.
+
+
+      L''inventaire des comptes à privilège doit être tenu à jour.'
+    fr: 'L''accès aux outils et interfaces d''administration doit être strictement limité aux personnes habilitées, selon une procédure formelle d''autorisation d''accès.
+
+
+      L''inventaire des comptes à privilège doit être tenu à jour.'
+  requirements: []
+- code: ACC-SYS/APP-MDP
+  domain: DOMAIN-5
+  title:
+    en: Gestion des mots de passe
+    fr: Gestion des mots de passe
+  description:
+    en: 'Chaque entité ou IIV est tenue de formaliser une politique de gestion des mots de passe qui définit les règles applicables aux mots de passe, en particulier :
+
+
+      - la structure (complexité minimale) ;
+
+
+      - le changement périodique ;
+
+
+      - la suppression en cas de suspicion de compromission ;
+
+
+      - la réinitialisation ;
+
+
+      Un processus de contrôle de l''application de ces règles doit être déployé.'
+    fr: 'Chaque entité ou IIV est tenue de formaliser une politique de gestion des mots de passe qui définit les règles applicables aux mots de passe, en particulier :
+
+
+      - la structure (complexité minimale) ;
+
+
+      - le changement périodique ;
+
+
+      - la suppression en cas de suspicion de compromission ;
+
+
+      - la réinitialisation ;
+
+
+      Un processus de contrôle de l''application de ces règles doit être déployé.'
+  guidance:
+    en: 'Chaque entité ou IIV est tenue de formaliser une politique de gestion des mots de passe qui définit les règles applicables aux mots de passe, en particulier :
+
+
+      - la structure (complexité minimale) ;
+
+
+      - le changement périodique ;
+
+
+      - la suppression en cas de suspicion de compromission ;
+
+
+      - la réinitialisation ;
+
+
+      Un processus de contrôle de l''application de ces règles doit être déployé.'
+    fr: 'Chaque entité ou IIV est tenue de formaliser une politique de gestion des mots de passe qui définit les règles applicables aux mots de passe, en particulier :
+
+
+      - la structure (complexité minimale) ;
+
+
+      - le changement périodique ;
+
+
+      - la suppression en cas de suspicion de compromission ;
+
+
+      - la réinitialisation ;
+
+
+      Un processus de contrôle de l''application de ces règles doit être déployé.'
+  requirements: []
+- code: CRYPTO-MES-POL
+  domain: DOMAIN-6
+  title:
+    en: Politique d'utilisation des mesures cryptographiques
+    fr: Politique d'utilisation des mesures cryptographiques
+  description:
+    en: 'En cas de recours à la cryptographie, l''entité ou l''IIV doit élaborer et mettre en œuvre une politique d''utilisation de mesures cryptographiques en vue de protéger l''information.
+
+
+      Cette politique doit spécifier notamment les exigences en matière de certificats de signature ou de chiffrement (délai maximum de validité, algorithme, longueurs de clés, etc .. ) ou en matière de connexions chiffrées (protocoles autorisés).'
+    fr: 'En cas de recours à la cryptographie, l''entité ou l''IIV doit élaborer et mettre en œuvre une politique d''utilisation de mesures cryptographiques en vue de protéger l''information.
+
+
+      Cette politique doit spécifier notamment les exigences en matière de certificats de signature ou de chiffrement (délai maximum de validité, algorithme, longueurs de clés, etc .. ) ou en matière de connexions chiffrées (protocoles autorisés).'
+  guidance:
+    en: 'En cas de recours à la cryptographie, l''entité ou l''IIV doit élaborer et mettre en œuvre une politique d''utilisation de mesures cryptographiques en vue de protéger l''information.
+
+
+      Cette politique doit spécifier notamment les exigences en matière de certificats de signature ou de chiffrement (délai maximum de validité, algorithme, longueurs de clés, etc .. ) ou en matière de connexions chiffrées (protocoles autorisés).'
+    fr: 'En cas de recours à la cryptographie, l''entité ou l''IIV doit élaborer et mettre en œuvre une politique d''utilisation de mesures cryptographiques en vue de protéger l''information.
+
+
+      Cette politique doit spécifier notamment les exigences en matière de certificats de signature ou de chiffrement (délai maximum de validité, algorithme, longueurs de clés, etc .. ) ou en matière de connexions chiffrées (protocoles autorisés).'
+  requirements: []
+- code: CRYPTO-MES-GESTCLE
+  domain: DOMAIN-6
+  title:
+    en: Gestion des clés cryptographiques
+    fr: Gestion des clés cryptographiques
+  description:
+    en: Chaque entité ou IIV utilisant des clés cryptographiques doit élaborer et mettre en œuvre une procédure encadrant leur utilisation et leur protection tout au long de leur cycle de vie (génération, stockage, archivage, extraction, attribution, retrait et destruction).
+    fr: Chaque entité ou IIV utilisant des clés cryptographiques doit élaborer et mettre en œuvre une procédure encadrant leur utilisation et leur protection tout au long de leur cycle de vie (génération, stockage, archivage, extraction, attribution, retrait et destruction).
+  guidance:
+    en: Chaque entité ou IIV utilisant des clés cryptographiques doit élaborer et mettre en œuvre une procédure encadrant leur utilisation et leur protection tout au long de leur cycle de vie (génération, stockage, archivage, extraction, attribution, retrait et destruction).
+    fr: Chaque entité ou IIV utilisant des clés cryptographiques doit élaborer et mettre en œuvre une procédure encadrant leur utilisation et leur protection tout au long de leur cycle de vie (génération, stockage, archivage, extraction, attribution, retrait et destruction).
+  requirements: []
+- code: PHYS-ZONE-DELIMIT
+  domain: DOMAIN-7
+  title:
+    en: Délimitation des zones
+    fr: Délimitation des zones
+  description:
+    en: 'Des zones physiques de sécurité doivent être délimitées pour protéger les SI et les moyens de traitement associés. Cette délimitation peut se faire selon la typologie suivante :
+
+
+      - zones publiques : autorisées à toute personne.
+
+
+      - zones internes : autorisées uniquement au personnel de l''entité ou de l''IIV, aux tiers autorisés ou aux visiteurs accompagnés.
+
+
+      - zones restreintes : accessibles uniquement aux personnes de l''entité ou de l''IIV habilitées à consulter, à traiter et manipuler des informations ou des équipements classifiés, et le cas échéant aux tiers autorisés et accompagnés.'
+    fr: 'Des zones physiques de sécurité doivent être délimitées pour protéger les SI et les moyens de traitement associés. Cette délimitation peut se faire selon la typologie suivante :
+
+
+      - zones publiques : autorisées à toute personne.
+
+
+      - zones internes : autorisées uniquement au personnel de l''entité ou de l''IIV, aux tiers autorisés ou aux visiteurs accompagnés.
+
+
+      - zones restreintes : accessibles uniquement aux personnes de l''entité ou de l''IIV habilitées à consulter, à traiter et manipuler des informations ou des équipements classifiés, et le cas échéant aux tiers autorisés et accompagnés.'
+  guidance:
+    en: 'Des zones physiques de sécurité doivent être délimitées pour protéger les SI et les moyens de traitement associés. Cette délimitation peut se faire selon la typologie suivante :
+
+
+      - zones publiques : autorisées à toute personne.
+
+
+      - zones internes : autorisées uniquement au personnel de l''entité ou de l''IIV, aux tiers autorisés ou aux visiteurs accompagnés.
+
+
+      - zones restreintes : accessibles uniquement aux personnes de l''entité ou de l''IIV habilitées à consulter, à traiter et manipuler des informations ou des équipements classifiés, et le cas échéant aux tiers autorisés et accompagnés.'
+    fr: 'Des zones physiques de sécurité doivent être délimitées pour protéger les SI et les moyens de traitement associés. Cette délimitation peut se faire selon la typologie suivante :
+
+
+      - zones publiques : autorisées à toute personne.
+
+
+      - zones internes : autorisées uniquement au personnel de l''entité ou de l''IIV, aux tiers autorisés ou aux visiteurs accompagnés.
+
+
+      - zones restreintes : accessibles uniquement aux personnes de l''entité ou de l''IIV habilitées à consulter, à traiter et manipuler des informations ou des équipements classifiés, et le cas échéant aux tiers autorisés et accompagnés.'
+  requirements: []
+- code: PHYS-ZONE-PROC
+  domain: DOMAIN-7
+  title:
+    en: Procédures de contrôle d'accès
+    fr: Procédures de contrôle d'accès
+  description:
+    en: Chaque entité ou IIV doit formaliser les procédures de contrôle d'accès physique à ses locaux en mettant en place les mécanismes nécessaires pour leur application. Ces procédures doivent être validées par la hiérarchie et le personnel doit être tenu au courant de leurs contenus.
+    fr: Chaque entité ou IIV doit formaliser les procédures de contrôle d'accès physique à ses locaux en mettant en place les mécanismes nécessaires pour leur application. Ces procédures doivent être validées par la hiérarchie et le personnel doit être tenu au courant de leurs contenus.
+  guidance:
+    en: Chaque entité ou IIV doit formaliser les procédures de contrôle d'accès physique à ses locaux en mettant en place les mécanismes nécessaires pour leur application. Ces procédures doivent être validées par la hiérarchie et le personnel doit être tenu au courant de leurs contenus.
+    fr: Chaque entité ou IIV doit formaliser les procédures de contrôle d'accès physique à ses locaux en mettant en place les mécanismes nécessaires pour leur application. Ces procédures doivent être validées par la hiérarchie et le personnel doit être tenu au courant de leurs contenus.
+  requirements: []
+- code: PHYS-ZONE-DISPO
+  domain: DOMAIN-7
+  title:
+    en: Dispositif de contrôle d'accès
+    fr: Dispositif de contrôle d'accès
+  description:
+    en: 'Les entités ou les IIV sont tenues de mettre en place un dispositif de contrôle d''accès physique individualisé dans les zones restreintes.
+
+
+      Ce dispositif doit assurer la traçabilité des accès du personnel et des tiers autorisés et accompagnés aux zones restreintes, et conserver les enregistrements pour une durée d''au moins trois mois.'
+    fr: 'Les entités ou les IIV sont tenues de mettre en place un dispositif de contrôle d''accès physique individualisé dans les zones restreintes.
+
+
+      Ce dispositif doit assurer la traçabilité des accès du personnel et des tiers autorisés et accompagnés aux zones restreintes, et conserver les enregistrements pour une durée d''au moins trois mois.'
+  guidance:
+    en: 'Les entités ou les IIV sont tenues de mettre en place un dispositif de contrôle d''accès physique individualisé dans les zones restreintes.
+
+
+      Ce dispositif doit assurer la traçabilité des accès du personnel et des tiers autorisés et accompagnés aux zones restreintes, et conserver les enregistrements pour une durée d''au moins trois mois.'
+    fr: 'Les entités ou les IIV sont tenues de mettre en place un dispositif de contrôle d''accès physique individualisé dans les zones restreintes.
+
+
+      Ce dispositif doit assurer la traçabilité des accès du personnel et des tiers autorisés et accompagnés aux zones restreintes, et conserver les enregistrements pour une durée d''au moins trois mois.'
+  requirements: []
+- code: PHYS-ZONE--VIDEOPROT
+  domain: DOMAIN-7
+  title:
+    en: Vidéo protection
+    fr: Vidéo protection
+  description:
+    en: Les zones à sécuriser doivent être couvertes par une vidéo protection. Les enregistrements ne doivent être manipulés que par un nombre limité de personnes habilitées à cet effet.
+    fr: Les zones à sécuriser doivent être couvertes par une vidéo protection. Les enregistrements ne doivent être manipulés que par un nombre limité de personnes habilitées à cet effet.
+  guidance:
+    en: Les zones à sécuriser doivent être couvertes par une vidéo protection. Les enregistrements ne doivent être manipulés que par un nombre limité de personnes habilitées à cet effet.
+    fr: Les zones à sécuriser doivent être couvertes par une vidéo protection. Les enregistrements ne doivent être manipulés que par un nombre limité de personnes habilitées à cet effet.
+  requirements: []
+- code: PHYS-ZONE-INCEN
+  domain: DOMAIN-7
+  title:
+    en: Sécurité incendie
+    fr: Sécurité incendie
+  description:
+    en: Les zones abritant des systèmes de traitement de l'information doivent être équipées de systèmes adaptés pour la détection et l'extinction d'incendies.
+    fr: Les zones abritant des systèmes de traitement de l'information doivent être équipées de systèmes adaptés pour la détection et l'extinction d'incendies.
+  guidance:
+    en: Les zones abritant des systèmes de traitement de l'information doivent être équipées de systèmes adaptés pour la détection et l'extinction d'incendies.
+    fr: Les zones abritant des systèmes de traitement de l'information doivent être équipées de systèmes adaptés pour la détection et l'extinction d'incendies.
+  requirements: []
+- code: PHYS-ZONE-EAU
+  domain: DOMAIN-7
+  title:
+    en: Dégâts des eaux
+    fr: Dégâts des eaux
+  description:
+    en: Les moyens de traitement de l'information doivent être placés dans des locaux à l'abri des risques des dégâts des eaux.
+    fr: Les moyens de traitement de l'information doivent être placés dans des locaux à l'abri des risques des dégâts des eaux.
+  guidance:
+    en: Les moyens de traitement de l'information doivent être placés dans des locaux à l'abri des risques des dégâts des eaux.
+    fr: Les moyens de traitement de l'information doivent être placés dans des locaux à l'abri des risques des dégâts des eaux.
+  requirements: []
+- code: PHYS-MAT--CABL
+  domain: DOMAIN-7
+  title:
+    en: Sécurité du câblage
+    fr: Sécurité du câblage
+  description:
+    en: Les câbles électriques et de transmission de données (courant fort et courant faible), connectés aux infrastructures de traitement de l'information doivent être identifiés (étiquetés), documentés et séparés. Les câbles doivent être déroulés en faisceaux clairs et non emmêlés.
+    fr: Les câbles électriques et de transmission de données (courant fort et courant faible), connectés aux infrastructures de traitement de l'information doivent être identifiés (étiquetés), documentés et séparés. Les câbles doivent être déroulés en faisceaux clairs et non emmêlés.
+  guidance:
+    en: Les câbles électriques et de transmission de données (courant fort et courant faible), connectés aux infrastructures de traitement de l'information doivent être identifiés (étiquetés), documentés et séparés. Les câbles doivent être déroulés en faisceaux clairs et non emmêlés.
+    fr: Les câbles électriques et de transmission de données (courant fort et courant faible), connectés aux infrastructures de traitement de l'information doivent être identifiés (étiquetés), documentés et séparés. Les câbles doivent être déroulés en faisceaux clairs et non emmêlés.
+  requirements: []
+- code: PHYS-MAT-OND
+  domain: DOMAIN-7
+  title:
+    en: Onduleurs
+    fr: Onduleurs
+  description:
+    en: Les équipements de traitement de l'information doivent être protégés des variations et des microcoupures d'électricité par des onduleurs à capacité adaptée.
+    fr: Les équipements de traitement de l'information doivent être protégés des variations et des microcoupures d'électricité par des onduleurs à capacité adaptée.
+  guidance:
+    en: Les équipements de traitement de l'information doivent être protégés des variations et des microcoupures d'électricité par des onduleurs à capacité adaptée.
+    fr: Les équipements de traitement de l'information doivent être protégés des variations et des microcoupures d'électricité par des onduleurs à capacité adaptée.
+  requirements: []
+- code: PHYS-MAT-ELECTROG
+  domain: DOMAIN-7
+  title:
+    en: Groupe électrogène
+    fr: Groupe électrogène
+  description:
+    en: En cas de besoins accrus de disponibilité des SI, l'entité ou l'IIV peut faire recours à un groupe électrogène pour pallier les interruptions prolongées du courant électrique.
+    fr: En cas de besoins accrus de disponibilité des SI, l'entité ou l'IIV peut faire recours à un groupe électrogène pour pallier les interruptions prolongées du courant électrique.
+  guidance:
+    en: En cas de besoins accrus de disponibilité des SI, l'entité ou l'IIV peut faire recours à un groupe électrogène pour pallier les interruptions prolongées du courant électrique.
+    fr: En cas de besoins accrus de disponibilité des SI, l'entité ou l'IIV peut faire recours à un groupe électrogène pour pallier les interruptions prolongées du courant électrique.
+  requirements: []
+- code: PHYS-MAT-CLIM
+  domain: DOMAIN-7
+  title:
+    en: Climatisation
+    fr: Climatisation
+  description:
+    en: Les zones abritant des moyens de traitement de l'information (salles des machines, datacenter ... etc.) doivent être équipées de systèmes de climatisation pour réguler au besoin la température et l'humidité.
+    fr: Les zones abritant des moyens de traitement de l'information (salles des machines, datacenter ... etc.) doivent être équipées de systèmes de climatisation pour réguler au besoin la température et l'humidité.
+  guidance:
+    en: Les zones abritant des moyens de traitement de l'information (salles des machines, datacenter ... etc.) doivent être équipées de systèmes de climatisation pour réguler au besoin la température et l'humidité.
+    fr: Les zones abritant des moyens de traitement de l'information (salles des machines, datacenter ... etc.) doivent être équipées de systèmes de climatisation pour réguler au besoin la température et l'humidité.
+  requirements: []
+- code: PHYS-MAT-EQUIP
+  domain: DOMAIN-7
+  title:
+    en: Entretien des équipements de sécurité environnementale
+    fr: Entretien des équipements de sécurité environnementale
+  description:
+    en: 'Les équipements de sécurité environnementale (extincteurs, climatisations, détecteurs d''incendie, onduleurs, groupes électrogènes, etc.) doivent être correctement entretenus pour assurer leur bon fonctionnement.
+
+
+      Un délai d''intervention adapté en cas de défaillance doit être précisé dans les contrats de maintenance des équipements de sécurité environnementale.'
+    fr: 'Les équipements de sécurité environnementale (extincteurs, climatisations, détecteurs d''incendie, onduleurs, groupes électrogènes, etc.) doivent être correctement entretenus pour assurer leur bon fonctionnement.
+
+
+      Un délai d''intervention adapté en cas de défaillance doit être précisé dans les contrats de maintenance des équipements de sécurité environnementale.'
+  guidance:
+    en: 'Les équipements de sécurité environnementale (extincteurs, climatisations, détecteurs d''incendie, onduleurs, groupes électrogènes, etc.) doivent être correctement entretenus pour assurer leur bon fonctionnement.
+
+
+      Un délai d''intervention adapté en cas de défaillance doit être précisé dans les contrats de maintenance des équipements de sécurité environnementale.'
+    fr: 'Les équipements de sécurité environnementale (extincteurs, climatisations, détecteurs d''incendie, onduleurs, groupes électrogènes, etc.) doivent être correctement entretenus pour assurer leur bon fonctionnement.
+
+
+      Un délai d''intervention adapté en cas de défaillance doit être précisé dans les contrats de maintenance des équipements de sécurité environnementale.'
+  requirements: []
+- code: PHYS-MAT-HORSLOC
+  domain: DOMAIN-7
+  title:
+    en: Sécurité du matériel et des actifs hors les locaux
+    fr: Sécurité du matériel et des actifs hors les locaux
+  description:
+    en: Chaque entité ou IIV doit appliquer des mesures de sécurité à tous types d'équipements informatiques et supports destinés à être transportés et utilisés hors des lieux de travail habituel, afin de les protéger notamment contre les risques de vol, d'endommagement ou d'intrusion.
+    fr: Chaque entité ou IIV doit appliquer des mesures de sécurité à tous types d'équipements informatiques et supports destinés à être transportés et utilisés hors des lieux de travail habituel, afin de les protéger notamment contre les risques de vol, d'endommagement ou d'intrusion.
+  guidance:
+    en: Chaque entité ou IIV doit appliquer des mesures de sécurité à tous types d'équipements informatiques et supports destinés à être transportés et utilisés hors des lieux de travail habituel, afin de les protéger notamment contre les risques de vol, d'endommagement ou d'intrusion.
+    fr: Chaque entité ou IIV doit appliquer des mesures de sécurité à tous types d'équipements informatiques et supports destinés à être transportés et utilisés hors des lieux de travail habituel, afin de les protéger notamment contre les risques de vol, d'endommagement ou d'intrusion.
+  requirements: []
+- code: EXP-PROC-CHANG
+  domain: DOMAIN-8
+  title:
+    en: Gestion des changements
+    fr: Gestion des changements
+  description:
+    en: 'Tout changement apporté au SI doit suivre une procédure formelle respectant le cycle : demande, validation, application et contrôle à posteriori.
+
+
+      En effet, chaque entité ou IIV doit contrôler tout changement qui influe sur la sécurité du SI, en tenant compte des éléments suivants :
+
+
+      - L''identification et la planification des changements significatifs ;
+
+
+      - L''appréciation des incidences potentielles de ces changements sur la sécurité de l''information ;
+
+
+      - L''autorisation formelle des changements proposés ;
+
+
+      - La transmission des informations détaillées sur les changements apportés à toutes les personnes concernées.'
+    fr: 'Tout changement apporté au SI doit suivre une procédure formelle respectant le cycle : demande, validation, application et contrôle à posteriori.
+
+
+      En effet, chaque entité ou IIV doit contrôler tout changement qui influe sur la sécurité du SI, en tenant compte des éléments suivants :
+
+
+      - L''identification et la planification des changements significatifs ;
+
+
+      - L''appréciation des incidences potentielles de ces changements sur la sécurité de l''information ;
+
+
+      - L''autorisation formelle des changements proposés ;
+
+
+      - La transmission des informations détaillées sur les changements apportés à toutes les personnes concernées.'
+  guidance:
+    en: 'Tout changement apporté au SI doit suivre une procédure formelle respectant le cycle : demande, validation, application et contrôle à posteriori.
+
+
+      En effet, chaque entité ou IIV doit contrôler tout changement qui influe sur la sécurité du SI, en tenant compte des éléments suivants :
+
+
+      - L''identification et la planification des changements significatifs ;
+
+
+      - L''appréciation des incidences potentielles de ces changements sur la sécurité de l''information ;
+
+
+      - L''autorisation formelle des changements proposés ;
+
+
+      - La transmission des informations détaillées sur les changements apportés à toutes les personnes concernées.'
+    fr: 'Tout changement apporté au SI doit suivre une procédure formelle respectant le cycle : demande, validation, application et contrôle à posteriori.
+
+
+      En effet, chaque entité ou IIV doit contrôler tout changement qui influe sur la sécurité du SI, en tenant compte des éléments suivants :
+
+
+      - L''identification et la planification des changements significatifs ;
+
+
+      - L''appréciation des incidences potentielles de ces changements sur la sécurité de l''information ;
+
+
+      - L''autorisation formelle des changements proposés ;
+
+
+      - La transmission des informations détaillées sur les changements apportés à toutes les personnes concernées.'
+  requirements: []
+- code: EXP--PROC-CAP
+  domain: DOMAIN-8
+  title:
+    en: Gestion des capacités
+    fr: Gestion des capacités
+  description:
+    en: Des analyses régulières du bon dimensionnement des systèmes et des réseaux (capacité mémoire, bande passante, temps de réponse, ... ) doivent être réalisées dans le but de mener les actions de redimensionnement à même de garantir ou d'améliorer la disponibilité du SI.
+    fr: Des analyses régulières du bon dimensionnement des systèmes et des réseaux (capacité mémoire, bande passante, temps de réponse, ... ) doivent être réalisées dans le but de mener les actions de redimensionnement à même de garantir ou d'améliorer la disponibilité du SI.
+  guidance:
+    en: Des analyses régulières du bon dimensionnement des systèmes et des réseaux (capacité mémoire, bande passante, temps de réponse, ... ) doivent être réalisées dans le but de mener les actions de redimensionnement à même de garantir ou d'améliorer la disponibilité du SI.
+    fr: Des analyses régulières du bon dimensionnement des systèmes et des réseaux (capacité mémoire, bande passante, temps de réponse, ... ) doivent être réalisées dans le but de mener les actions de redimensionnement à même de garantir ou d'améliorer la disponibilité du SI.
+  requirements: []
+- code: EXP-PROC-ENVIR
+  domain: DOMAIN-8
+  title:
+    en: Séparation des environnements
+    fr: Séparation des environnements
+  description:
+    en: Les environnements de développement, de test et de production doivent être séparés pour réduire notamment les risques d'accès ou de changements non autorisés dans les trois environnements.
+    fr: Les environnements de développement, de test et de production doivent être séparés pour réduire notamment les risques d'accès ou de changements non autorisés dans les trois environnements.
+  guidance:
+    en: Les environnements de développement, de test et de production doivent être séparés pour réduire notamment les risques d'accès ou de changements non autorisés dans les trois environnements.
+    fr: Les environnements de développement, de test et de production doivent être séparés pour réduire notamment les risques d'accès ou de changements non autorisés dans les trois environnements.
+  requirements: []
+- code: EXP-PROTEC-MALVEIL
+  domain: DOMAIN-8
+  title:
+    en: Protection contre les logiciels malveillants
+    fr: Protection contre les logiciels malveillants
+  description:
+    en: Des solutions de protection contre les logiciels malveillants doivent être installées et mises à jour sur l'ensemble des serveurs, postes de travail et appareils mobiles.
+    fr: Des solutions de protection contre les logiciels malveillants doivent être installées et mises à jour sur l'ensemble des serveurs, postes de travail et appareils mobiles.
+  guidance:
+    en: Des solutions de protection contre les logiciels malveillants doivent être installées et mises à jour sur l'ensemble des serveurs, postes de travail et appareils mobiles.
+    fr: Des solutions de protection contre les logiciels malveillants doivent être installées et mises à jour sur l'ensemble des serveurs, postes de travail et appareils mobiles.
+  requirements: []
+- code: EXP-SAUV-PROC
+  domain: DOMAIN-8
+  title:
+    en: Procédures de sauvegarde
+    fr: Procédures de sauvegarde
+  description:
+    en: 'Chaque entité ou IIV doit mettre en place des procédures de sauvegarde qui précisent pour chaque système d''information :
+
+
+      - la nature des sauvegardes (complète, incrémentale, déduplication, ... ) ;
+
+
+      - la fréquence (journalière, hebdomadaire, mensuelle, ... ) ;
+
+
+      - le type de support (sur disque, sur bande) ;
+
+
+      - Les données sensibles devant être sauvegardées de manière chiffrée.'
+    fr: 'Chaque entité ou IIV doit mettre en place des procédures de sauvegarde qui précisent pour chaque système d''information :
+
+
+      - la nature des sauvegardes (complète, incrémentale, déduplication, ... ) ;
+
+
+      - la fréquence (journalière, hebdomadaire, mensuelle, ... ) ;
+
+
+      - le type de support (sur disque, sur bande) ;
+
+
+      - Les données sensibles devant être sauvegardées de manière chiffrée.'
+  guidance:
+    en: 'Chaque entité ou IIV doit mettre en place des procédures de sauvegarde qui précisent pour chaque système d''information :
+
+
+      - la nature des sauvegardes (complète, incrémentale, déduplication, ... ) ;
+
+
+      - la fréquence (journalière, hebdomadaire, mensuelle, ... ) ;
+
+
+      - le type de support (sur disque, sur bande) ;
+
+
+      - Les données sensibles devant être sauvegardées de manière chiffrée.'
+    fr: 'Chaque entité ou IIV doit mettre en place des procédures de sauvegarde qui précisent pour chaque système d''information :
+
+
+      - la nature des sauvegardes (complète, incrémentale, déduplication, ... ) ;
+
+
+      - la fréquence (journalière, hebdomadaire, mensuelle, ... ) ;
+
+
+      - le type de support (sur disque, sur bande) ;
+
+
+      - Les données sensibles devant être sauvegardées de manière chiffrée.'
+  requirements: []
+- code: EXP-SAUV-RESTAUR
+  domain: DOMAIN-8
+  title:
+    en: Restauration
+    fr: Restauration
+  description:
+    en: Chaque entité ou IIV doit tester régulièrement les supports de sauvegarde en s'assurant que les données sauvegardées peuvent être restaurées en temps voulu conformément à une procédure de restauration documentée.
+    fr: Chaque entité ou IIV doit tester régulièrement les supports de sauvegarde en s'assurant que les données sauvegardées peuvent être restaurées en temps voulu conformément à une procédure de restauration documentée.
+  guidance:
+    en: Chaque entité ou IIV doit tester régulièrement les supports de sauvegarde en s'assurant que les données sauvegardées peuvent être restaurées en temps voulu conformément à une procédure de restauration documentée.
+    fr: Chaque entité ou IIV doit tester régulièrement les supports de sauvegarde en s'assurant que les données sauvegardées peuvent être restaurées en temps voulu conformément à une procédure de restauration documentée.
+  requirements: []
+- code: EXP-SAUV-SEC
+  domain: DOMAIN-8
+  title:
+    en: Sécurité des sauvegardes
+    fr: Sécurité des sauvegardes
+  description:
+    en: Chaque entité ou IIV doit protéger physiquement les supports de sauvegarde en les plaçant à un endroit protégé (Armoire ignifuge) ou en les externalisant sur un site suffisamment distant du site principal.
+    fr: Chaque entité ou IIV doit protéger physiquement les supports de sauvegarde en les plaçant à un endroit protégé (Armoire ignifuge) ou en les externalisant sur un site suffisamment distant du site principal.
+  guidance:
+    en: Chaque entité ou IIV doit protéger physiquement les supports de sauvegarde en les plaçant à un endroit protégé (Armoire ignifuge) ou en les externalisant sur un site suffisamment distant du site principal.
+    fr: Chaque entité ou IIV doit protéger physiquement les supports de sauvegarde en les plaçant à un endroit protégé (Armoire ignifuge) ou en les externalisant sur un site suffisamment distant du site principal.
+  requirements: []
+- code: EXP--JOURN/SURV-JOURNAL
+  domain: DOMAIN-8
+  title:
+    en: Journalisation des événements
+    fr: Journalisation des événements
+  description:
+    en: 'Chaque entité ou IIV doit mener une étude pour identifier les journaux à collecter des différentes sources (serveurs, équipements de sécurité, équipements réseaux, applications, postes de travail, etc.) en fonction des risques et incidents redoutés par l''entité ou par l''IIV. Elle doit mettre en place un journal répertoriant les événements de sécurité à collecter. Ces journaux doivent être analysés périodiquement et les actions à mener doivent être bien définies.
+
+
+      Ces journaux doivent être centralisés et protégés contre les risques de falsification ou d''accès non autorisé. Ils doivent être conservés pour une durée minimale de six mois.'
+    fr: 'Chaque entité ou IIV doit mener une étude pour identifier les journaux à collecter des différentes sources (serveurs, équipements de sécurité, équipements réseaux, applications, postes de travail, etc.) en fonction des risques et incidents redoutés par l''entité ou par l''IIV. Elle doit mettre en place un journal répertoriant les événements de sécurité à collecter. Ces journaux doivent être analysés périodiquement et les actions à mener doivent être bien définies.
+
+
+      Ces journaux doivent être centralisés et protégés contre les risques de falsification ou d''accès non autorisé. Ils doivent être conservés pour une durée minimale de six mois.'
+  guidance:
+    en: 'Chaque entité ou IIV doit mener une étude pour identifier les journaux à collecter des différentes sources (serveurs, équipements de sécurité, équipements réseaux, applications, postes de travail, etc.) en fonction des risques et incidents redoutés par l''entité ou par l''IIV. Elle doit mettre en place un journal répertoriant les événements de sécurité à collecter. Ces journaux doivent être analysés périodiquement et les actions à mener doivent être bien définies.
+
+
+      Ces journaux doivent être centralisés et protégés contre les risques de falsification ou d''accès non autorisé. Ils doivent être conservés pour une durée minimale de six mois.'
+    fr: 'Chaque entité ou IIV doit mener une étude pour identifier les journaux à collecter des différentes sources (serveurs, équipements de sécurité, équipements réseaux, applications, postes de travail, etc.) en fonction des risques et incidents redoutés par l''entité ou par l''IIV. Elle doit mettre en place un journal répertoriant les événements de sécurité à collecter. Ces journaux doivent être analysés périodiquement et les actions à mener doivent être bien définies.
+
+
+      Ces journaux doivent être centralisés et protégés contre les risques de falsification ou d''accès non autorisé. Ils doivent être conservés pour une durée minimale de six mois.'
+  requirements: []
+- code: EXP--JOURN/SURV-PRIVIL
+  domain: DOMAIN-8
+  title:
+    en: Traçabilité des actions des comptes à privilège
+    fr: Traçabilité des actions des comptes à privilège
+  description:
+    en: Les actions des administrateurs système et des opérateurs système doivent être tracées. Pour cela leurs comptes doivent être nominatifs pour assurer l'imputabilité de leurs actions.
+    fr: Les actions des administrateurs système et des opérateurs système doivent être tracées. Pour cela leurs comptes doivent être nominatifs pour assurer l'imputabilité de leurs actions.
+  guidance:
+    en: Les actions des administrateurs système et des opérateurs système doivent être tracées. Pour cela leurs comptes doivent être nominatifs pour assurer l'imputabilité de leurs actions.
+    fr: Les actions des administrateurs système et des opérateurs système doivent être tracées. Pour cela leurs comptes doivent être nominatifs pour assurer l'imputabilité de leurs actions.
+  requirements: []
+- code: EXP-JOURN/SURV-MAINT
+  domain: DOMAIN-8
+  title:
+    en: Traçabilité des actions de maintenance
+    fr: Traçabilité des actions de maintenance
+  description:
+    en: Les interventions de maintenance sur les ressources informatiques de l'entité ou de l'IIV doivent être tracées par le service informatique. Ces traces sont à conserver pendant une durée d'au moins trois mois et ce tout en déployant les mesures nécessaires pour assurer leur intégrité.
+    fr: Les interventions de maintenance sur les ressources informatiques de l'entité ou de l'IIV doivent être tracées par le service informatique. Ces traces sont à conserver pendant une durée d'au moins trois mois et ce tout en déployant les mesures nécessaires pour assurer leur intégrité.
+  guidance:
+    en: Les interventions de maintenance sur les ressources informatiques de l'entité ou de l'IIV doivent être tracées par le service informatique. Ces traces sont à conserver pendant une durée d'au moins trois mois et ce tout en déployant les mesures nécessaires pour assurer leur intégrité.
+    fr: Les interventions de maintenance sur les ressources informatiques de l'entité ou de l'IIV doivent être tracées par le service informatique. Ces traces sont à conserver pendant une durée d'au moins trois mois et ce tout en déployant les mesures nécessaires pour assurer leur intégrité.
+  requirements: []
+- code: EXP--JOURN/SURV-SYNCHRON
+  domain: DOMAIN-8
+  title:
+    en: Synchronisation des horloges
+    fr: Synchronisation des horloges
+  description:
+    en: 'Pour assurer la précision des journaux d''événements qui peuvent être utilisés lors des investigations, les actifs doivent être synchronisés sur la même base de temps, à savoir : le service NTP de confiance (Network Time Protocol).'
+    fr: 'Pour assurer la précision des journaux d''événements qui peuvent être utilisés lors des investigations, les actifs doivent être synchronisés sur la même base de temps, à savoir : le service NTP de confiance (Network Time Protocol).'
+  guidance:
+    en: 'Pour assurer la précision des journaux d''événements qui peuvent être utilisés lors des investigations, les actifs doivent être synchronisés sur la même base de temps, à savoir : le service NTP de confiance (Network Time Protocol).'
+    fr: 'Pour assurer la précision des journaux d''événements qui peuvent être utilisés lors des investigations, les actifs doivent être synchronisés sur la même base de temps, à savoir : le service NTP de confiance (Network Time Protocol).'
+  requirements: []
+- code: EXP--JOURN/SURV--DIST
+  domain: DOMAIN-8
+  title:
+    en: Administration à distance
+    fr: Administration à distance
+  description:
+    en: Les actions d'administration à distance sur les ressources locales doivent s'appuyer sur des protocoles d'administration sécurisés. Des mesures de sécurité spécifiques doivent être définies et respectées.
+    fr: Les actions d'administration à distance sur les ressources locales doivent s'appuyer sur des protocoles d'administration sécurisés. Des mesures de sécurité spécifiques doivent être définies et respectées.
+  guidance:
+    en: Les actions d'administration à distance sur les ressources locales doivent s'appuyer sur des protocoles d'administration sécurisés. Des mesures de sécurité spécifiques doivent être définies et respectées.
+    fr: Les actions d'administration à distance sur les ressources locales doivent s'appuyer sur des protocoles d'administration sécurisés. Des mesures de sécurité spécifiques doivent être définies et respectées.
+  requirements: []
+- code: EXP--JOURN/SURV---CENTR
+  domain: DOMAIN-8
+  title:
+    en: Centralisation
+    fr: Centralisation
+  description:
+    en: L'entité ou l'IIV doit mettre en place de manière centralisée les moyens appropriés de supervision et de détection pour le traitement continu des événements de sécurité prévus par la loi nº05-20 relative à la cybersécurité.
+    fr: L'entité ou l'IIV doit mettre en place de manière centralisée les moyens appropriés de supervision et de détection pour le traitement continu des événements de sécurité prévus par la loi nº05-20 relative à la cybersécurité.
+  guidance:
+    en: L'entité ou l'IIV doit mettre en place de manière centralisée les moyens appropriés de supervision et de détection pour le traitement continu des événements de sécurité prévus par la loi nº05-20 relative à la cybersécurité.
+    fr: L'entité ou l'IIV doit mettre en place de manière centralisée les moyens appropriés de supervision et de détection pour le traitement continu des événements de sécurité prévus par la loi nº05-20 relative à la cybersécurité.
+  requirements: []
+- code: EXP-SYS-CONFIG
+  domain: DOMAIN-8
+  title:
+    en: Configuration système
+    fr: Configuration système
+  description:
+    en: 'Chaque entité ou IIV doit documenter les procédures d''administration et de configuration sécurisée des actifs du système d''information, les rendre disponibles, les expliquer à toute personne ayant besoin de les connaître et les maintenir à jour.
+
+
+      Les configurations doivent être sauvegardées en lieu sûr après chaque changement.'
+    fr: 'Chaque entité ou IIV doit documenter les procédures d''administration et de configuration sécurisée des actifs du système d''information, les rendre disponibles, les expliquer à toute personne ayant besoin de les connaître et les maintenir à jour.
+
+
+      Les configurations doivent être sauvegardées en lieu sûr après chaque changement.'
+  guidance:
+    en: 'Chaque entité ou IIV doit documenter les procédures d''administration et de configuration sécurisée des actifs du système d''information, les rendre disponibles, les expliquer à toute personne ayant besoin de les connaître et les maintenir à jour.
+
+
+      Les configurations doivent être sauvegardées en lieu sûr après chaque changement.'
+    fr: 'Chaque entité ou IIV doit documenter les procédures d''administration et de configuration sécurisée des actifs du système d''information, les rendre disponibles, les expliquer à toute personne ayant besoin de les connaître et les maintenir à jour.
+
+
+      Les configurations doivent être sauvegardées en lieu sûr après chaque changement.'
+  requirements: []
+- code: EXP-SYS-DURC
+  domain: DOMAIN-8
+  title:
+    en: Durcissement des configurations
+    fr: Durcissement des configurations
+  description:
+    en: 'Les configurations des équipements et systèmes doivent être durcies notamment par rapport aux versions natives des fournisseurs (le changement des mots de passe par défaut et des certificats, la fermeture des services et des ports non nécessaires, etc .. ).
+
+
+      Les procédures et guides de durcissement pour les différents types d''actifs doivent être documentés et tenus à jours.'
+    fr: 'Les configurations des équipements et systèmes doivent être durcies notamment par rapport aux versions natives des fournisseurs (le changement des mots de passe par défaut et des certificats, la fermeture des services et des ports non nécessaires, etc .. ).
+
+
+      Les procédures et guides de durcissement pour les différents types d''actifs doivent être documentés et tenus à jours.'
+  guidance:
+    en: 'Les configurations des équipements et systèmes doivent être durcies notamment par rapport aux versions natives des fournisseurs (le changement des mots de passe par défaut et des certificats, la fermeture des services et des ports non nécessaires, etc .. ).
+
+
+      Les procédures et guides de durcissement pour les différents types d''actifs doivent être documentés et tenus à jours.'
+    fr: 'Les configurations des équipements et systèmes doivent être durcies notamment par rapport aux versions natives des fournisseurs (le changement des mots de passe par défaut et des certificats, la fermeture des services et des ports non nécessaires, etc .. ).
+
+
+      Les procédures et guides de durcissement pour les différents types d''actifs doivent être documentés et tenus à jours.'
+  requirements: []
+- code: EXP-VULN-INSTALL
+  domain: DOMAIN-8
+  title:
+    en: Restrictions liées à l'installation de logiciels
+    fr: Restrictions liées à l'installation de logiciels
+  description:
+    en: Chaque entité ou IIV doit définir et mettre en place un processus de contrôle des logiciels que les utilisateurs peuvent installer ainsi que des privilèges qui leurs sont accordés en tenant compte de leurs fonctions.
+    fr: Chaque entité ou IIV doit définir et mettre en place un processus de contrôle des logiciels que les utilisateurs peuvent installer ainsi que des privilèges qui leurs sont accordés en tenant compte de leurs fonctions.
+  guidance:
+    en: Chaque entité ou IIV doit définir et mettre en place un processus de contrôle des logiciels que les utilisateurs peuvent installer ainsi que des privilèges qui leurs sont accordés en tenant compte de leurs fonctions.
+    fr: Chaque entité ou IIV doit définir et mettre en place un processus de contrôle des logiciels que les utilisateurs peuvent installer ainsi que des privilèges qui leurs sont accordés en tenant compte de leurs fonctions.
+  requirements: []
+- code: EXP-VULN-GEST
+  domain: DOMAIN-8
+  title:
+    en: Gestion des vulnérabilités techniques
+    fr: Gestion des vulnérabilités techniques
+  description:
+    en: 'Chaque entité ou IIV doit être tenue informée en temps voulu des vulnérabilités techniques des systèmes d''information en exploitation, d''évaluer son exposition à ces vulnérabilités et de prendre les mesures appropriées pour traiter le risque associé.
+
+
+      Une procédure de gestion des vulnérabilités doit être mise en place en prenant en compte principalement les éléments suivants :
+
+
+      - L''inventaire des actifs informationnels en service ;
+
+
+      - Les rôles et responsabilités associés à la gestion des vulnérabilités ;
+
+
+      - Les délais d''intervention ;
+
+
+      - Les modalités de corrections (Application de correctifs, cloisonnement, ... ).
+
+
+      - Les vulnérabilités jugées critiques doivent être portées à la connaissance de la DGSSI.'
+    fr: 'Chaque entité ou IIV doit être tenue informée en temps voulu des vulnérabilités techniques des systèmes d''information en exploitation, d''évaluer son exposition à ces vulnérabilités et de prendre les mesures appropriées pour traiter le risque associé.
+
+
+      Une procédure de gestion des vulnérabilités doit être mise en place en prenant en compte principalement les éléments suivants :
+
+
+      - L''inventaire des actifs informationnels en service ;
+
+
+      - Les rôles et responsabilités associés à la gestion des vulnérabilités ;
+
+
+      - Les délais d''intervention ;
+
+
+      - Les modalités de corrections (Application de correctifs, cloisonnement, ... ).
+
+
+      - Les vulnérabilités jugées critiques doivent être portées à la connaissance de la DGSSI.'
+  guidance:
+    en: 'Chaque entité ou IIV doit être tenue informée en temps voulu des vulnérabilités techniques des systèmes d''information en exploitation, d''évaluer son exposition à ces vulnérabilités et de prendre les mesures appropriées pour traiter le risque associé.
+
+
+      Une procédure de gestion des vulnérabilités doit être mise en place en prenant en compte principalement les éléments suivants :
+
+
+      - L''inventaire des actifs informationnels en service ;
+
+
+      - Les rôles et responsabilités associés à la gestion des vulnérabilités ;
+
+
+      - Les délais d''intervention ;
+
+
+      - Les modalités de corrections (Application de correctifs, cloisonnement, ... ).
+
+
+      - Les vulnérabilités jugées critiques doivent être portées à la connaissance de la DGSSI.'
+    fr: 'Chaque entité ou IIV doit être tenue informée en temps voulu des vulnérabilités techniques des systèmes d''information en exploitation, d''évaluer son exposition à ces vulnérabilités et de prendre les mesures appropriées pour traiter le risque associé.
+
+
+      Une procédure de gestion des vulnérabilités doit être mise en place en prenant en compte principalement les éléments suivants :
+
+
+      - L''inventaire des actifs informationnels en service ;
+
+
+      - Les rôles et responsabilités associés à la gestion des vulnérabilités ;
+
+
+      - Les délais d''intervention ;
+
+
+      - Les modalités de corrections (Application de correctifs, cloisonnement, ... ).
+
+
+      - Les vulnérabilités jugées critiques doivent être portées à la connaissance de la DGSSI.'
+  requirements: []
+- code: EXP-VULN-CORRECT
+  domain: DOMAIN-8
+  title:
+    en: Gestion des correctifs
+    fr: Gestion des correctifs
+  description:
+    en: 'Chaque entité ou IIV doit définir et mettre en œuvre une politique de suivi et d''application des correctifs de sécurité.
+
+
+      Un processus de gestion des correctifs propre à chaque système ou applicatif doit être défini et adapté suivant les contraintes et le niveau d''exposition du système.'
+    fr: 'Chaque entité ou IIV doit définir et mettre en œuvre une politique de suivi et d''application des correctifs de sécurité.
+
+
+      Un processus de gestion des correctifs propre à chaque système ou applicatif doit être défini et adapté suivant les contraintes et le niveau d''exposition du système.'
+  guidance:
+    en: 'Chaque entité ou IIV doit définir et mettre en œuvre une politique de suivi et d''application des correctifs de sécurité.
+
+
+      Un processus de gestion des correctifs propre à chaque système ou applicatif doit être défini et adapté suivant les contraintes et le niveau d''exposition du système.'
+    fr: 'Chaque entité ou IIV doit définir et mettre en œuvre une politique de suivi et d''application des correctifs de sécurité.
+
+
+      Un processus de gestion des correctifs propre à chaque système ou applicatif doit être défini et adapté suivant les contraintes et le niveau d''exposition du système.'
+  requirements: []
+- code: EXP-AUDIT-MES
+  domain: DOMAIN-8
+  title:
+    en: Mesures relatives à l'audit du système d'information
+    fr: Mesures relatives à l'audit du système d'information
+  description:
+    en: 'Les modalités de déroulement des opérations d''audit déployées par l''entité ou par l''IIV doivent être bien définies (accès aux équipements, contrôles et traitements admis, consultation des données, habilitation des auditeurs, etc.).
+
+
+      Les exigences et activités d''audit impliquant des vérifications sur des systèmes en exploitation doivent être prévues avec soin et validées afin de réduire au minimum les perturbations qui pourraient être subies par les processus métier.
+
+
+      Certaines règles applicables à l''audit des systèmes d''information sensibles sont définies par la loi nº 05-20 et ses textes d''application.'
+    fr: 'Les modalités de déroulement des opérations d''audit déployées par l''entité ou par l''IIV doivent être bien définies (accès aux équipements, contrôles et traitements admis, consultation des données, habilitation des auditeurs, etc.).
+
+
+      Les exigences et activités d''audit impliquant des vérifications sur des systèmes en exploitation doivent être prévues avec soin et validées afin de réduire au minimum les perturbations qui pourraient être subies par les processus métier.
+
+
+      Certaines règles applicables à l''audit des systèmes d''information sensibles sont définies par la loi nº 05-20 et ses textes d''application.'
+  guidance:
+    en: 'Les modalités de déroulement des opérations d''audit déployées par l''entité ou par l''IIV doivent être bien définies (accès aux équipements, contrôles et traitements admis, consultation des données, habilitation des auditeurs, etc.).
+
+
+      Les exigences et activités d''audit impliquant des vérifications sur des systèmes en exploitation doivent être prévues avec soin et validées afin de réduire au minimum les perturbations qui pourraient être subies par les processus métier.
+
+
+      Certaines règles applicables à l''audit des systèmes d''information sensibles sont définies par la loi nº 05-20 et ses textes d''application.'
+    fr: 'Les modalités de déroulement des opérations d''audit déployées par l''entité ou par l''IIV doivent être bien définies (accès aux équipements, contrôles et traitements admis, consultation des données, habilitation des auditeurs, etc.).
+
+
+      Les exigences et activités d''audit impliquant des vérifications sur des systèmes en exploitation doivent être prévues avec soin et validées afin de réduire au minimum les perturbations qui pourraient être subies par les processus métier.
+
+
+      Certaines règles applicables à l''audit des systèmes d''information sensibles sont définies par la loi nº 05-20 et ses textes d''application.'
+  requirements: []
+- code: COM-MANAG-CLOISON
+  domain: DOMAIN-9
+  title:
+    en: Cloisonnement du réseau
+    fr: Cloisonnement du réseau
+  description:
+    en: Chaque entité ou IIV est tenue de cloisonner son réseau en zones (zone publique, zone utilisateurs, zone serveurs, etc.) selon la classification et les niveaux de sensibilité des actifs informationnels connectés.
+    fr: Chaque entité ou IIV est tenue de cloisonner son réseau en zones (zone publique, zone utilisateurs, zone serveurs, etc.) selon la classification et les niveaux de sensibilité des actifs informationnels connectés.
+  guidance:
+    en: Chaque entité ou IIV est tenue de cloisonner son réseau en zones (zone publique, zone utilisateurs, zone serveurs, etc.) selon la classification et les niveaux de sensibilité des actifs informationnels connectés.
+    fr: Chaque entité ou IIV est tenue de cloisonner son réseau en zones (zone publique, zone utilisateurs, zone serveurs, etc.) selon la classification et les niveaux de sensibilité des actifs informationnels connectés.
+  requirements: []
+- code: COM-MANAG-FILTRAGE
+  domain: DOMAIN-9
+  title:
+    en: Filtrage des flux
+    fr: Filtrage des flux
+  description:
+    en: 'Le trafic entrant et sortant de chaque zone réseau doit être soumis à des règles strictes de filtrage conformément à la politique de contrôle d''accès et à la classification des données traitées.
+
+
+      La liste des règles de filtrage doit être documentée et tenue à jour.'
+    fr: 'Le trafic entrant et sortant de chaque zone réseau doit être soumis à des règles strictes de filtrage conformément à la politique de contrôle d''accès et à la classification des données traitées.
+
+
+      La liste des règles de filtrage doit être documentée et tenue à jour.'
+  guidance:
+    en: 'Le trafic entrant et sortant de chaque zone réseau doit être soumis à des règles strictes de filtrage conformément à la politique de contrôle d''accès et à la classification des données traitées.
+
+
+      La liste des règles de filtrage doit être documentée et tenue à jour.'
+    fr: 'Le trafic entrant et sortant de chaque zone réseau doit être soumis à des règles strictes de filtrage conformément à la politique de contrôle d''accès et à la classification des données traitées.
+
+
+      La liste des règles de filtrage doit être documentée et tenue à jour.'
+  requirements: []
+- code: COM-MANAG-SYSAUT
+  domain: DOMAIN-9
+  title:
+    en: Systèmes autorisés sur le réseau
+    fr: Systèmes autorisés sur le réseau
+  description:
+    en: L'entité ou l'IIV doit mettre en place les moyens et mécanismes nécessaires pour s'assurer que seuls les équipements autorisés peuvent être connectés au réseau interne de l'entité ou de l'IIV.
+    fr: L'entité ou l'IIV doit mettre en place les moyens et mécanismes nécessaires pour s'assurer que seuls les équipements autorisés peuvent être connectés au réseau interne de l'entité ou de l'IIV.
+  guidance:
+    en: L'entité ou l'IIV doit mettre en place les moyens et mécanismes nécessaires pour s'assurer que seuls les équipements autorisés peuvent être connectés au réseau interne de l'entité ou de l'IIV.
+    fr: L'entité ou l'IIV doit mettre en place les moyens et mécanismes nécessaires pour s'assurer que seuls les équipements autorisés peuvent être connectés au réseau interne de l'entité ou de l'IIV.
+  requirements: []
+- code: COM-MANAG-DISTANT
+  domain: DOMAIN-9
+  title:
+    en: Accès distants
+    fr: Accès distants
+  description:
+    en: 'L''accès distant ne doit être réalisable que par des personnes autorisées et bien définies et à partir de moyens maitrisés.
+
+
+      Des mesures d''authentification adaptées et l''usage de protocoles sécurisés pour ce type de connexions sont nécessaires.'
+    fr: 'L''accès distant ne doit être réalisable que par des personnes autorisées et bien définies et à partir de moyens maitrisés.
+
+
+      Des mesures d''authentification adaptées et l''usage de protocoles sécurisés pour ce type de connexions sont nécessaires.'
+  guidance:
+    en: 'L''accès distant ne doit être réalisable que par des personnes autorisées et bien définies et à partir de moyens maitrisés.
+
+
+      Des mesures d''authentification adaptées et l''usage de protocoles sécurisés pour ce type de connexions sont nécessaires.'
+    fr: 'L''accès distant ne doit être réalisable que par des personnes autorisées et bien définies et à partir de moyens maitrisés.
+
+
+      Des mesures d''authentification adaptées et l''usage de protocoles sécurisés pour ce type de connexions sont nécessaires.'
+  requirements: []
+- code: COM-MANAG-TUNEL
+  domain: DOMAIN-9
+  title:
+    en: Tunnelisation chiffrée
+    fr: Tunnelisation chiffrée
+  description:
+    en: Chaque entité ou IIV doit mettre en place des mécanismes de chiffrement pour la protection des tunnels de connexion à distance lorsque l'accès se fait à travers un réseau public.
+    fr: Chaque entité ou IIV doit mettre en place des mécanismes de chiffrement pour la protection des tunnels de connexion à distance lorsque l'accès se fait à travers un réseau public.
+  guidance:
+    en: Chaque entité ou IIV doit mettre en place des mécanismes de chiffrement pour la protection des tunnels de connexion à distance lorsque l'accès se fait à travers un réseau public.
+    fr: Chaque entité ou IIV doit mettre en place des mécanismes de chiffrement pour la protection des tunnels de connexion à distance lorsque l'accès se fait à travers un réseau public.
+  requirements: []
+- code: COM-MANAG-RSF
+  domain: DOMAIN-9
+  title:
+    en: Sécurité des réseaux sans fil
+    fr: Sécurité des réseaux sans fil
+  description:
+    en: 'Le déploiement du réseau sans fil doit faire l''objet d''une étude de sécurité spécifique.
+
+
+      Le réseau sans fil doit être cloisonné du reste du réseau : une passerelle maîtrisée doit être mise en place permettant de tracer les accès et de restreindre les échanges aux seuls flux nécessaires.
+
+
+      Des moyens d''authentification adaptés doivent être mis en place pour limiter l''accès aux réseaux sans fil aux seules personnes autorisées.'
+    fr: 'Le déploiement du réseau sans fil doit faire l''objet d''une étude de sécurité spécifique.
+
+
+      Le réseau sans fil doit être cloisonné du reste du réseau : une passerelle maîtrisée doit être mise en place permettant de tracer les accès et de restreindre les échanges aux seuls flux nécessaires.
+
+
+      Des moyens d''authentification adaptés doivent être mis en place pour limiter l''accès aux réseaux sans fil aux seules personnes autorisées.'
+  guidance:
+    en: 'Le déploiement du réseau sans fil doit faire l''objet d''une étude de sécurité spécifique.
+
+
+      Le réseau sans fil doit être cloisonné du reste du réseau : une passerelle maîtrisée doit être mise en place permettant de tracer les accès et de restreindre les échanges aux seuls flux nécessaires.
+
+
+      Des moyens d''authentification adaptés doivent être mis en place pour limiter l''accès aux réseaux sans fil aux seules personnes autorisées.'
+    fr: 'Le déploiement du réseau sans fil doit faire l''objet d''une étude de sécurité spécifique.
+
+
+      Le réseau sans fil doit être cloisonné du reste du réseau : une passerelle maîtrisée doit être mise en place permettant de tracer les accès et de restreindre les échanges aux seuls flux nécessaires.
+
+
+      Des moyens d''authentification adaptés doivent être mis en place pour limiter l''accès aux réseaux sans fil aux seules personnes autorisées.'
+  requirements: []
+- code: COM-TRANS-FICHIER
+  domain: DOMAIN-9
+  title:
+    en: Usage des transferts par fichiers
+    fr: Usage des transferts par fichiers
+  description:
+    en: Des moyens adaptés doivent être mis en place pour la protection des informations qui transitent à travers tout type de moyens de communication (serveurs de fichier, partage ou stockage Cloud, etc.) contre l'interception, la reproduction, la modification, les erreurs d'acheminement ou la destruction.
+    fr: Des moyens adaptés doivent être mis en place pour la protection des informations qui transitent à travers tout type de moyens de communication (serveurs de fichier, partage ou stockage Cloud, etc.) contre l'interception, la reproduction, la modification, les erreurs d'acheminement ou la destruction.
+  guidance:
+    en: Des moyens adaptés doivent être mis en place pour la protection des informations qui transitent à travers tout type de moyens de communication (serveurs de fichier, partage ou stockage Cloud, etc.) contre l'interception, la reproduction, la modification, les erreurs d'acheminement ou la destruction.
+    fr: Des moyens adaptés doivent être mis en place pour la protection des informations qui transitent à travers tout type de moyens de communication (serveurs de fichier, partage ou stockage Cloud, etc.) contre l'interception, la reproduction, la modification, les erreurs d'acheminement ou la destruction.
+  requirements: []
+- code: COM-TRANS-MESS
+  domain: DOMAIN-9
+  title:
+    en: Usage de la messagerie électronique
+    fr: Usage de la messagerie électronique
+  description:
+    en: 'Chaque entité ou IIV doit formaliser et mettre en œuvre les règles de bon usage nécessaires pour la sécurité de la messagerie électronique notamment :
+
+
+      - le chiffrement et la signature des messages sensibles par des moyens adaptés ;
+
+
+      - l''accès à distance à la messagerie professionnelle via un canal sécurisé ;
+
+
+      - la vérification de la source des courriers électroniques avant d''ouvrir les pièces jointes;
+
+
+      - l''interdiction de l''usage de la messagerie professionnelle à des fins personnelles ;
+
+
+      - l''interdiction du renvoi automatique vers une messagerie non maîtrisée, sauf autorisation expresse pour des raisons exceptionnelles.'
+    fr: 'Chaque entité ou IIV doit formaliser et mettre en œuvre les règles de bon usage nécessaires pour la sécurité de la messagerie électronique notamment :
+
+
+      - le chiffrement et la signature des messages sensibles par des moyens adaptés ;
+
+
+      - l''accès à distance à la messagerie professionnelle via un canal sécurisé ;
+
+
+      - la vérification de la source des courriers électroniques avant d''ouvrir les pièces jointes;
+
+
+      - l''interdiction de l''usage de la messagerie professionnelle à des fins personnelles ;
+
+
+      - l''interdiction du renvoi automatique vers une messagerie non maîtrisée, sauf autorisation expresse pour des raisons exceptionnelles.'
+  guidance:
+    en: 'Chaque entité ou IIV doit formaliser et mettre en œuvre les règles de bon usage nécessaires pour la sécurité de la messagerie électronique notamment :
+
+
+      - le chiffrement et la signature des messages sensibles par des moyens adaptés ;
+
+
+      - l''accès à distance à la messagerie professionnelle via un canal sécurisé ;
+
+
+      - la vérification de la source des courriers électroniques avant d''ouvrir les pièces jointes;
+
+
+      - l''interdiction de l''usage de la messagerie professionnelle à des fins personnelles ;
+
+
+      - l''interdiction du renvoi automatique vers une messagerie non maîtrisée, sauf autorisation expresse pour des raisons exceptionnelles.'
+    fr: 'Chaque entité ou IIV doit formaliser et mettre en œuvre les règles de bon usage nécessaires pour la sécurité de la messagerie électronique notamment :
+
+
+      - le chiffrement et la signature des messages sensibles par des moyens adaptés ;
+
+
+      - l''accès à distance à la messagerie professionnelle via un canal sécurisé ;
+
+
+      - la vérification de la source des courriers électroniques avant d''ouvrir les pièces jointes;
+
+
+      - l''interdiction de l''usage de la messagerie professionnelle à des fins personnelles ;
+
+
+      - l''interdiction du renvoi automatique vers une messagerie non maîtrisée, sauf autorisation expresse pour des raisons exceptionnelles.'
+  requirements: []
+- code: COM-TRANS-FILTR
+  domain: DOMAIN-9
+  title:
+    en: Filtrage des mails
+    fr: Filtrage des mails
+  description:
+    en: 'Chaque entité ou IIV doit veiller à l''application des mécanismes de filtrage du courrier électronique émis et reçu notamment par :
+
+
+      - le contrôle antiviral des pièces jointes, leurs tailles et natures ;
+
+
+      - la protection anti-spam ;
+
+
+      - le contrôle des entêtes SMTP.'
+    fr: 'Chaque entité ou IIV doit veiller à l''application des mécanismes de filtrage du courrier électronique émis et reçu notamment par :
+
+
+      - le contrôle antiviral des pièces jointes, leurs tailles et natures ;
+
+
+      - la protection anti-spam ;
+
+
+      - le contrôle des entêtes SMTP.'
+  guidance:
+    en: 'Chaque entité ou IIV doit veiller à l''application des mécanismes de filtrage du courrier électronique émis et reçu notamment par :
+
+
+      - le contrôle antiviral des pièces jointes, leurs tailles et natures ;
+
+
+      - la protection anti-spam ;
+
+
+      - le contrôle des entêtes SMTP.'
+    fr: 'Chaque entité ou IIV doit veiller à l''application des mécanismes de filtrage du courrier électronique émis et reçu notamment par :
+
+
+      - le contrôle antiviral des pièces jointes, leurs tailles et natures ;
+
+
+      - la protection anti-spam ;
+
+
+      - le contrôle des entêtes SMTP.'
+  requirements: []
+- code: DEV-EXIG-PROJET
+  domain: DOMAIN-10
+  title:
+    en: Sécurité de l'information dans la gestion de projet
+    fr: Sécurité de l'information dans la gestion de projet
+  description:
+    en: 'Chaque entité ou IIV doit traiter la sécurité de l''information dans la gestion de tous types de projets SI. A ce titre, la sécurité doit être intégrée à toutes les phases du cycle de vie du projet de manière à s''assurer notamment que :
+
+
+      - une appréciation du risque, liée à la sécurité de l''information, soit effectuée au commencement du projet pour identifier les exigences de sécurité ;
+
+
+      - les objectifs en matière de sécurité de l''information soient intégrés aux objectifs du projet et pris en compte dès la conception ;
+
+
+      - la vérification de la sécurité soit intégrée dans les tests d''acceptation.'
+    fr: 'Chaque entité ou IIV doit traiter la sécurité de l''information dans la gestion de tous types de projets SI. A ce titre, la sécurité doit être intégrée à toutes les phases du cycle de vie du projet de manière à s''assurer notamment que :
+
+
+      - une appréciation du risque, liée à la sécurité de l''information, soit effectuée au commencement du projet pour identifier les exigences de sécurité ;
+
+
+      - les objectifs en matière de sécurité de l''information soient intégrés aux objectifs du projet et pris en compte dès la conception ;
+
+
+      - la vérification de la sécurité soit intégrée dans les tests d''acceptation.'
+  guidance:
+    en: 'Chaque entité ou IIV doit traiter la sécurité de l''information dans la gestion de tous types de projets SI. A ce titre, la sécurité doit être intégrée à toutes les phases du cycle de vie du projet de manière à s''assurer notamment que :
+
+
+      - une appréciation du risque, liée à la sécurité de l''information, soit effectuée au commencement du projet pour identifier les exigences de sécurité ;
+
+
+      - les objectifs en matière de sécurité de l''information soient intégrés aux objectifs du projet et pris en compte dès la conception ;
+
+
+      - la vérification de la sécurité soit intégrée dans les tests d''acceptation.'
+    fr: 'Chaque entité ou IIV doit traiter la sécurité de l''information dans la gestion de tous types de projets SI. A ce titre, la sécurité doit être intégrée à toutes les phases du cycle de vie du projet de manière à s''assurer notamment que :
+
+
+      - une appréciation du risque, liée à la sécurité de l''information, soit effectuée au commencement du projet pour identifier les exigences de sécurité ;
+
+
+      - les objectifs en matière de sécurité de l''information soient intégrés aux objectifs du projet et pris en compte dès la conception ;
+
+
+      - la vérification de la sécurité soit intégrée dans les tests d''acceptation.'
+  requirements: []
+- code: DEV-EXIG-TRANSAC
+  domain: DOMAIN-10
+  title:
+    en: Protection des transactions liées aux services d'application
+    fr: Protection des transactions liées aux services d'application
+  description:
+    en: Chaque entité ou IIV doit identifier les fichiers et les transactions devant être protégés par des solutions de chiffrement et/ou de signature électronique au niveau de l'architecture applicative.
+    fr: Chaque entité ou IIV doit identifier les fichiers et les transactions devant être protégés par des solutions de chiffrement et/ou de signature électronique au niveau de l'architecture applicative.
+  guidance:
+    en: Chaque entité ou IIV doit identifier les fichiers et les transactions devant être protégés par des solutions de chiffrement et/ou de signature électronique au niveau de l'architecture applicative.
+    fr: Chaque entité ou IIV doit identifier les fichiers et les transactions devant être protégés par des solutions de chiffrement et/ou de signature électronique au niveau de l'architecture applicative.
+  requirements: []
+- code: DEV-PROC-POL
+  domain: DOMAIN-10
+  title:
+    en: Politique de développement sécurisé
+    fr: Politique de développement sécurisé
+  description:
+    en: 'Chaque entité ou IIV doit élaborer et mettre en place, conformément aux guides et référentiels élaborés par la DGSSI, une politique de développement sécurisé des logiciels et des systèmes, qui définit notamment :
+
+
+      - les exigences de sécurité de l''environnement de développement ;
+
+
+      - les exigences de sécurité dans la phase de conception ;
+
+
+      - les points de contrôle de la sécurité aux différentes étapes clés du projet ;
+
+
+      - les référentiels de développement sécurisé à utiliser ;
+
+
+      - les règles de protection du code source et le contrôle des versions.'
+    fr: 'Chaque entité ou IIV doit élaborer et mettre en place, conformément aux guides et référentiels élaborés par la DGSSI, une politique de développement sécurisé des logiciels et des systèmes, qui définit notamment :
+
+
+      - les exigences de sécurité de l''environnement de développement ;
+
+
+      - les exigences de sécurité dans la phase de conception ;
+
+
+      - les points de contrôle de la sécurité aux différentes étapes clés du projet ;
+
+
+      - les référentiels de développement sécurisé à utiliser ;
+
+
+      - les règles de protection du code source et le contrôle des versions.'
+  guidance:
+    en: 'Chaque entité ou IIV doit élaborer et mettre en place, conformément aux guides et référentiels élaborés par la DGSSI, une politique de développement sécurisé des logiciels et des systèmes, qui définit notamment :
+
+
+      - les exigences de sécurité de l''environnement de développement ;
+
+
+      - les exigences de sécurité dans la phase de conception ;
+
+
+      - les points de contrôle de la sécurité aux différentes étapes clés du projet ;
+
+
+      - les référentiels de développement sécurisé à utiliser ;
+
+
+      - les règles de protection du code source et le contrôle des versions.'
+    fr: 'Chaque entité ou IIV doit élaborer et mettre en place, conformément aux guides et référentiels élaborés par la DGSSI, une politique de développement sécurisé des logiciels et des systèmes, qui définit notamment :
+
+
+      - les exigences de sécurité de l''environnement de développement ;
+
+
+      - les exigences de sécurité dans la phase de conception ;
+
+
+      - les points de contrôle de la sécurité aux différentes étapes clés du projet ;
+
+
+      - les référentiels de développement sécurisé à utiliser ;
+
+
+      - les règles de protection du code source et le contrôle des versions.'
+  requirements: []
+- code: DEV-PROC-CHANG
+  domain: DOMAIN-10
+  title:
+    en: Contrôle des changements apportés au système dans le cycle de développement
+    fr: Contrôle des changements apportés au système dans le cycle de développement
+  description:
+    en: 'Les changements apportés au SI dans le cycle de développement doivent être contrôlés en utilisant des procédures formelles.
+
+
+      A cet effet, chaque entité ou IIV doit mener une appréciation du risque pour analyser les incidences des changements apportés au SI dans le cycle de développement et se limiter aux changements nécessaires.
+
+
+      Lorsque les changements sont apportés, chaque entité ou IIV doit revoir et tester les applications métiers critiques afin de vérifier tout impact sur l''activité ou sur la sécurité.'
+    fr: 'Les changements apportés au SI dans le cycle de développement doivent être contrôlés en utilisant des procédures formelles.
+
+
+      A cet effet, chaque entité ou IIV doit mener une appréciation du risque pour analyser les incidences des changements apportés au SI dans le cycle de développement et se limiter aux changements nécessaires.
+
+
+      Lorsque les changements sont apportés, chaque entité ou IIV doit revoir et tester les applications métiers critiques afin de vérifier tout impact sur l''activité ou sur la sécurité.'
+  guidance:
+    en: 'Les changements apportés au SI dans le cycle de développement doivent être contrôlés en utilisant des procédures formelles.
+
+
+      A cet effet, chaque entité ou IIV doit mener une appréciation du risque pour analyser les incidences des changements apportés au SI dans le cycle de développement et se limiter aux changements nécessaires.
+
+
+      Lorsque les changements sont apportés, chaque entité ou IIV doit revoir et tester les applications métiers critiques afin de vérifier tout impact sur l''activité ou sur la sécurité.'
+    fr: 'Les changements apportés au SI dans le cycle de développement doivent être contrôlés en utilisant des procédures formelles.
+
+
+      A cet effet, chaque entité ou IIV doit mener une appréciation du risque pour analyser les incidences des changements apportés au SI dans le cycle de développement et se limiter aux changements nécessaires.
+
+
+      Lorsque les changements sont apportés, chaque entité ou IIV doit revoir et tester les applications métiers critiques afin de vérifier tout impact sur l''activité ou sur la sécurité.'
+  requirements: []
+- code: DEV-PROC-ENVIR
+  domain: DOMAIN-10
+  title:
+    en: Environnement de développement sécurisé
+    fr: Environnement de développement sécurisé
+  description:
+    en: 'Chaque entité ou IIV doit veiller à ce que les environnements de développement soient sécurisés, de manière à tenir compte notamment de :
+
+
+      - la sensibilité des données traitées, stockées et en transit ;
+
+
+      - les exigences internes et externes découlant des politiques et référentiels en vigueur ;
+
+
+      - le niveau de fiabilité du personnel travaillant dans l''environnement ;
+
+
+      - le contrôle d''accès aux environnements ;
+
+
+      - la séparation des différents environnements de développement ;
+
+
+      - le degré d''externalisation associée à la tâche de développement.'
+    fr: 'Chaque entité ou IIV doit veiller à ce que les environnements de développement soient sécurisés, de manière à tenir compte notamment de :
+
+
+      - la sensibilité des données traitées, stockées et en transit ;
+
+
+      - les exigences internes et externes découlant des politiques et référentiels en vigueur ;
+
+
+      - le niveau de fiabilité du personnel travaillant dans l''environnement ;
+
+
+      - le contrôle d''accès aux environnements ;
+
+
+      - la séparation des différents environnements de développement ;
+
+
+      - le degré d''externalisation associée à la tâche de développement.'
+  guidance:
+    en: 'Chaque entité ou IIV doit veiller à ce que les environnements de développement soient sécurisés, de manière à tenir compte notamment de :
+
+
+      - la sensibilité des données traitées, stockées et en transit ;
+
+
+      - les exigences internes et externes découlant des politiques et référentiels en vigueur ;
+
+
+      - le niveau de fiabilité du personnel travaillant dans l''environnement ;
+
+
+      - le contrôle d''accès aux environnements ;
+
+
+      - la séparation des différents environnements de développement ;
+
+
+      - le degré d''externalisation associée à la tâche de développement.'
+    fr: 'Chaque entité ou IIV doit veiller à ce que les environnements de développement soient sécurisés, de manière à tenir compte notamment de :
+
+
+      - la sensibilité des données traitées, stockées et en transit ;
+
+
+      - les exigences internes et externes découlant des politiques et référentiels en vigueur ;
+
+
+      - le niveau de fiabilité du personnel travaillant dans l''environnement ;
+
+
+      - le contrôle d''accès aux environnements ;
+
+
+      - la séparation des différents environnements de développement ;
+
+
+      - le degré d''externalisation associée à la tâche de développement.'
+  requirements: []
+- code: DEV-PROC-TEST
+  domain: DOMAIN-10
+  title:
+    en: Test de la sécurité du système
+    fr: Test de la sécurité du système
+  description:
+    en: Chaque entité ou IIV doit assurer la réalisation des tests de la sécurité durant le cycle de développement conformément à la politique de développement sécurisé de l'entité ou de l'IIV et aux guides et référentiels élaborés par la DGSSI.
+    fr: Chaque entité ou IIV doit assurer la réalisation des tests de la sécurité durant le cycle de développement conformément à la politique de développement sécurisé de l'entité ou de l'IIV et aux guides et référentiels élaborés par la DGSSI.
+  guidance:
+    en: Chaque entité ou IIV doit assurer la réalisation des tests de la sécurité durant le cycle de développement conformément à la politique de développement sécurisé de l'entité ou de l'IIV et aux guides et référentiels élaborés par la DGSSI.
+    fr: Chaque entité ou IIV doit assurer la réalisation des tests de la sécurité durant le cycle de développement conformément à la politique de développement sécurisé de l'entité ou de l'IIV et aux guides et référentiels élaborés par la DGSSI.
+  requirements: []
+- code: DEV-PROC-CODE
+  domain: DOMAIN-10
+  title:
+    en: Protection du code source des programmes
+    fr: Protection du code source des programmes
+  description:
+    en: Un contrôle strict de l'accès au code source des programmes et aux éléments associés tels que les exigences de conception, les spécifications, les programmes de vérification et de validation, doit être mis en place.
+    fr: Un contrôle strict de l'accès au code source des programmes et aux éléments associés tels que les exigences de conception, les spécifications, les programmes de vérification et de validation, doit être mis en place.
+  guidance:
+    en: Un contrôle strict de l'accès au code source des programmes et aux éléments associés tels que les exigences de conception, les spécifications, les programmes de vérification et de validation, doit être mis en place.
+    fr: Un contrôle strict de l'accès au code source des programmes et aux éléments associés tels que les exigences de conception, les spécifications, les programmes de vérification et de validation, doit être mis en place.
+  requirements: []
+- code: DEV-PROC-DONNEE
+  domain: DOMAIN-10
+  title:
+    en: Protection des données de test
+    fr: Protection des données de test
+  description:
+    en: 'Lorsque des données d''exploitation sont utilisées pour les besoins d''un test, il est nécessaire notamment de :
+
+
+      - respecter les procédures d''accès qui s''appliquent aux systèmes d''applications en exploitation ;
+
+
+      - obtenir une autorisation pour copier des informations d''exploitation dans un environnement de test ;
+
+
+      - effacer les informations d''exploitation d''un environnement de test immédiatement après la fin des tests ;
+
+
+      - journaliser toute reproduction et utilisation de l''information d''exploitation.
+
+
+      En outre, lorsque les données d''exploitation sont de nature sensible, elles ne doivent pas être utilisées sans qu''il ne soit procédé à leur anonymisation.'
+    fr: 'Lorsque des données d''exploitation sont utilisées pour les besoins d''un test, il est nécessaire notamment de :
+
+
+      - respecter les procédures d''accès qui s''appliquent aux systèmes d''applications en exploitation ;
+
+
+      - obtenir une autorisation pour copier des informations d''exploitation dans un environnement de test ;
+
+
+      - effacer les informations d''exploitation d''un environnement de test immédiatement après la fin des tests ;
+
+
+      - journaliser toute reproduction et utilisation de l''information d''exploitation.
+
+
+      En outre, lorsque les données d''exploitation sont de nature sensible, elles ne doivent pas être utilisées sans qu''il ne soit procédé à leur anonymisation.'
+  guidance:
+    en: 'Lorsque des données d''exploitation sont utilisées pour les besoins d''un test, il est nécessaire notamment de :
+
+
+      - respecter les procédures d''accès qui s''appliquent aux systèmes d''applications en exploitation ;
+
+
+      - obtenir une autorisation pour copier des informations d''exploitation dans un environnement de test ;
+
+
+      - effacer les informations d''exploitation d''un environnement de test immédiatement après la fin des tests ;
+
+
+      - journaliser toute reproduction et utilisation de l''information d''exploitation.
+
+
+      En outre, lorsque les données d''exploitation sont de nature sensible, elles ne doivent pas être utilisées sans qu''il ne soit procédé à leur anonymisation.'
+    fr: 'Lorsque des données d''exploitation sont utilisées pour les besoins d''un test, il est nécessaire notamment de :
+
+
+      - respecter les procédures d''accès qui s''appliquent aux systèmes d''applications en exploitation ;
+
+
+      - obtenir une autorisation pour copier des informations d''exploitation dans un environnement de test ;
+
+
+      - effacer les informations d''exploitation d''un environnement de test immédiatement après la fin des tests ;
+
+
+      - journaliser toute reproduction et utilisation de l''information d''exploitation.
+
+
+      En outre, lorsque les données d''exploitation sont de nature sensible, elles ne doivent pas être utilisées sans qu''il ne soit procédé à leur anonymisation.'
+  requirements: []
+- code: FOURNIS-REL-RISQ
+  domain: DOMAIN-11
+  title:
+    en: Risques émanant des fournisseurs
+    fr: Risques émanant des fournisseurs
+  description:
+    en: 'Chaque entité ou IIV doit identifier les risques de sécurité liés aux interventions des fournisseurs et des prestataires. FOURNIS-REL-POL : Politique de sécurité de l''information dans les relations avec les fournisseurs
+
+
+      Chaque entité ou IIV doit mettre en place une politique qui définit les mesures de sécurité spécifiques applicables aux fournisseurs et aux prestataires.'
+    fr: 'Chaque entité ou IIV doit identifier les risques de sécurité liés aux interventions des fournisseurs et des prestataires. FOURNIS-REL-POL : Politique de sécurité de l''information dans les relations avec les fournisseurs
+
+
+      Chaque entité ou IIV doit mettre en place une politique qui définit les mesures de sécurité spécifiques applicables aux fournisseurs et aux prestataires.'
+  guidance:
+    en: 'Chaque entité ou IIV doit identifier les risques de sécurité liés aux interventions des fournisseurs et des prestataires. FOURNIS-REL-POL : Politique de sécurité de l''information dans les relations avec les fournisseurs
+
+
+      Chaque entité ou IIV doit mettre en place une politique qui définit les mesures de sécurité spécifiques applicables aux fournisseurs et aux prestataires.'
+    fr: 'Chaque entité ou IIV doit identifier les risques de sécurité liés aux interventions des fournisseurs et des prestataires. FOURNIS-REL-POL : Politique de sécurité de l''information dans les relations avec les fournisseurs
+
+
+      Chaque entité ou IIV doit mettre en place une politique qui définit les mesures de sécurité spécifiques applicables aux fournisseurs et aux prestataires.'
+  requirements: []
+- code: FOURNIS-REL-POL
+  domain: DOMAIN-11
+  title:
+    en: Politique de sécurité de l’information dans les relations avec les fournisseurs
+    fr: Politique de sécurité de l’information dans les relations avec les fournisseurs
+  description:
+    en: 'Chaque entité ou IIV doit mettre en place une politique qui définit les mesures de sécurité spécifiques applicables
+
+      aux fournisseurs et aux prestataires.'
+    fr: 'Chaque entité ou IIV doit mettre en place une politique qui définit les mesures de sécurité spécifiques applicables
+
+      aux fournisseurs et aux prestataires.'
+  guidance:
+    en: 'Chaque entité ou IIV doit mettre en place une politique qui définit les mesures de sécurité spécifiques applicables
+
+      aux fournisseurs et aux prestataires.'
+    fr: 'Chaque entité ou IIV doit mettre en place une politique qui définit les mesures de sécurité spécifiques applicables
+
+      aux fournisseurs et aux prestataires.'
+  requirements: []
+- code: FOURNIS-REL-EXIG
+  domain: DOMAIN-11
+  title:
+    en: Exigences contractuelles
+    fr: Exigences contractuelles
+  description:
+    en: 'Les contrats conclus doivent prévoir les exigences de l’entité ou de l’IIV en termes de sécurité et de niveaux de
+
+      service. Les fournisseurs et les prestataires sont tenus conformément aux contrats conclus de respecter la politique
+
+      de sécurité des SI de l’entité ou de l’IIV.
+
+      Des clauses d’auditabilité et de réversibilité sont à prévoir lorsqu’il s’agit de contrats d’externalisation, et ce
+
+      conformément aux dispositions de la loi n°05-20 relative à la cybersécurité.'
+    fr: 'Les contrats conclus doivent prévoir les exigences de l’entité ou de l’IIV en termes de sécurité et de niveaux de
+
+      service. Les fournisseurs et les prestataires sont tenus conformément aux contrats conclus de respecter la politique
+
+      de sécurité des SI de l’entité ou de l’IIV.
+
+      Des clauses d’auditabilité et de réversibilité sont à prévoir lorsqu’il s’agit de contrats d’externalisation, et ce
+
+      conformément aux dispositions de la loi n°05-20 relative à la cybersécurité.'
+  guidance:
+    en: 'Les contrats conclus doivent prévoir les exigences de l’entité ou de l’IIV en termes de sécurité et de niveaux de
+
+      service. Les fournisseurs et les prestataires sont tenus conformément aux contrats conclus de respecter la politique
+
+      de sécurité des SI de l’entité ou de l’IIV.
+
+      Des clauses d’auditabilité et de réversibilité sont à prévoir lorsqu’il s’agit de contrats d’externalisation, et ce
+
+      conformément aux dispositions de la loi n°05-20 relative à la cybersécurité.'
+    fr: 'Les contrats conclus doivent prévoir les exigences de l’entité ou de l’IIV en termes de sécurité et de niveaux de
+
+      service. Les fournisseurs et les prestataires sont tenus conformément aux contrats conclus de respecter la politique
+
+      de sécurité des SI de l’entité ou de l’IIV.
+
+      Des clauses d’auditabilité et de réversibilité sont à prévoir lorsqu’il s’agit de contrats d’externalisation, et ce
+
+      conformément aux dispositions de la loi n°05-20 relative à la cybersécurité.'
+  requirements: []
+- code: FOURNIS-GEST-SURVEIL
+  domain: DOMAIN-11
+  title:
+    en: Surveillance et revue des services des fournisseurs
+    fr: Surveillance et revue des services des fournisseurs
+  description:
+    en: 'Chaque entité ou IIV doit surveiller, revoir et auditer à intervalles réguliers les prestations assurées par les
+
+      fournisseurs, afin de s’assurer que les clauses portant sur la sécurité de l’information prévues dans les contrats sont
+
+      respectées et que les éventuels incidents sont correctement gérés.'
+    fr: 'Chaque entité ou IIV doit surveiller, revoir et auditer à intervalles réguliers les prestations assurées par les
+
+      fournisseurs, afin de s’assurer que les clauses portant sur la sécurité de l’information prévues dans les contrats sont
+
+      respectées et que les éventuels incidents sont correctement gérés.'
+  guidance:
+    en: 'Chaque entité ou IIV doit surveiller, revoir et auditer à intervalles réguliers les prestations assurées par les
+
+      fournisseurs, afin de s’assurer que les clauses portant sur la sécurité de l’information prévues dans les contrats sont
+
+      respectées et que les éventuels incidents sont correctement gérés.'
+    fr: 'Chaque entité ou IIV doit surveiller, revoir et auditer à intervalles réguliers les prestations assurées par les
+
+      fournisseurs, afin de s’assurer que les clauses portant sur la sécurité de l’information prévues dans les contrats sont
+
+      respectées et que les éventuels incidents sont correctement gérés.'
+  requirements: []
+- code: INCID-GEST--PROC
+  domain: DOMAIN-12
+  title:
+    en: Procédures et responsabilités en matière de gestion des incidents
+    fr: Procédures et responsabilités en matière de gestion des incidents
+  description:
+    en: 'Les procédures de gestion d''incidents doivent couvrir les différents types d’incidents affectant la sécurité ou le
+
+      fonctionnement du système (erreurs, dysfonctionnement, sinistres naturels, malveillances, dénis de service,
+
+      infections virales, intrusion, sabotage, saturation, etc.) et définir les moyens de signalement et de suivi d’incidents.
+
+      Les responsabilités de gestion des incidents de cybersécurité doivent être définies pour garantir que lesdites
+
+      procédures soient développées et communiquées au sein de l’entité ou de l’IIV.'
+    fr: 'Les procédures de gestion d''incidents doivent couvrir les différents types d’incidents affectant la sécurité ou le
+
+      fonctionnement du système (erreurs, dysfonctionnement, sinistres naturels, malveillances, dénis de service,
+
+      infections virales, intrusion, sabotage, saturation, etc.) et définir les moyens de signalement et de suivi d’incidents.
+
+      Les responsabilités de gestion des incidents de cybersécurité doivent être définies pour garantir que lesdites
+
+      procédures soient développées et communiquées au sein de l’entité ou de l’IIV.'
+  guidance:
+    en: 'Les procédures de gestion d''incidents doivent couvrir les différents types d’incidents affectant la sécurité ou le
+
+      fonctionnement du système (erreurs, dysfonctionnement, sinistres naturels, malveillances, dénis de service,
+
+      infections virales, intrusion, sabotage, saturation, etc.) et définir les moyens de signalement et de suivi d’incidents.
+
+      Les responsabilités de gestion des incidents de cybersécurité doivent être définies pour garantir que lesdites
+
+      procédures soient développées et communiquées au sein de l’entité ou de l’IIV.'
+    fr: 'Les procédures de gestion d''incidents doivent couvrir les différents types d’incidents affectant la sécurité ou le
+
+      fonctionnement du système (erreurs, dysfonctionnement, sinistres naturels, malveillances, dénis de service,
+
+      infections virales, intrusion, sabotage, saturation, etc.) et définir les moyens de signalement et de suivi d’incidents.
+
+      Les responsabilités de gestion des incidents de cybersécurité doivent être définies pour garantir que lesdites
+
+      procédures soient développées et communiquées au sein de l’entité ou de l’IIV.'
+  requirements: []
+- code: INCID-GEST-CAT
+  domain: DOMAIN-12
+  title:
+    en: Catégorisation et classification des incidents
+    fr: Catégorisation et classification des incidents
+  description:
+    en: 'Chaque entité ou IIV doit définir les différentes catégories d’incidents susceptibles d’affecter la sécurité du SI ainsi
+
+      que l’échelle de classification de ces incidents selon l’impact induit.'
+    fr: 'Chaque entité ou IIV doit définir les différentes catégories d’incidents susceptibles d’affecter la sécurité du SI ainsi
+
+      que l’échelle de classification de ces incidents selon l’impact induit.'
+  guidance:
+    en: 'Chaque entité ou IIV doit définir les différentes catégories d’incidents susceptibles d’affecter la sécurité du SI ainsi
+
+      que l’échelle de classification de ces incidents selon l’impact induit.'
+    fr: 'Chaque entité ou IIV doit définir les différentes catégories d’incidents susceptibles d’affecter la sécurité du SI ainsi
+
+      que l’échelle de classification de ces incidents selon l’impact induit.'
+  requirements: []
+- code: INCID-GEST-SIGNAL
+  domain: DOMAIN-12
+  title:
+    en: Signalement des événements
+    fr: Signalement des événements
+  description:
+    en: 'L’ensemble des personnes impliquées dans la maintenance, l’exploitation, l’administration ou l’utilisation du
+
+      système doivent être en mesure de noter et signaler dans les meilleurs délais tout dysfonctionnement observé ou
+
+      soupçonné dans l’usage normal du système et pouvant porter atteinte aux données ou au système lui-même.
+
+      La procédure de gestion des incidents doit garantir que le signalement soit remonté aux autorités compétentes
+
+      selon les exigences législatives et réglementaires en vigueur.'
+    fr: 'L’ensemble des personnes impliquées dans la maintenance, l’exploitation, l’administration ou l’utilisation du
+
+      système doivent être en mesure de noter et signaler dans les meilleurs délais tout dysfonctionnement observé ou
+
+      soupçonné dans l’usage normal du système et pouvant porter atteinte aux données ou au système lui-même.
+
+      La procédure de gestion des incidents doit garantir que le signalement soit remonté aux autorités compétentes
+
+      selon les exigences législatives et réglementaires en vigueur.'
+  guidance:
+    en: 'L’ensemble des personnes impliquées dans la maintenance, l’exploitation, l’administration ou l’utilisation du
+
+      système doivent être en mesure de noter et signaler dans les meilleurs délais tout dysfonctionnement observé ou
+
+      soupçonné dans l’usage normal du système et pouvant porter atteinte aux données ou au système lui-même.
+
+      La procédure de gestion des incidents doit garantir que le signalement soit remonté aux autorités compétentes
+
+      selon les exigences législatives et réglementaires en vigueur.'
+    fr: 'L’ensemble des personnes impliquées dans la maintenance, l’exploitation, l’administration ou l’utilisation du
+
+      système doivent être en mesure de noter et signaler dans les meilleurs délais tout dysfonctionnement observé ou
+
+      soupçonné dans l’usage normal du système et pouvant porter atteinte aux données ou au système lui-même.
+
+      La procédure de gestion des incidents doit garantir que le signalement soit remonté aux autorités compétentes
+
+      selon les exigences législatives et réglementaires en vigueur.'
+  requirements: []
+- code: INCID-GEST-QUALIF
+  domain: DOMAIN-12
+  title:
+    en: Qualification des événements
+    fr: Qualification des événements
+  description:
+    en: 'Chaque entité ou IIV doit pouvoir évaluer chaque évènement afin de pouvoir décider s’il s’agit d’un incident lié à la
+
+      sécurité du SI et de déterminer sa catégorie. Dans ce cas, la criticité de cet incident doit être appréciée selon une
+
+      échelle de classification des incidents de cybersécurité basée sur la sensibilité du service impacté et sur l’impact
+
+      induit.'
+    fr: 'Chaque entité ou IIV doit pouvoir évaluer chaque évènement afin de pouvoir décider s’il s’agit d’un incident lié à la
+
+      sécurité du SI et de déterminer sa catégorie. Dans ce cas, la criticité de cet incident doit être appréciée selon une
+
+      échelle de classification des incidents de cybersécurité basée sur la sensibilité du service impacté et sur l’impact
+
+      induit.'
+  guidance:
+    en: 'Chaque entité ou IIV doit pouvoir évaluer chaque évènement afin de pouvoir décider s’il s’agit d’un incident lié à la
+
+      sécurité du SI et de déterminer sa catégorie. Dans ce cas, la criticité de cet incident doit être appréciée selon une
+
+      échelle de classification des incidents de cybersécurité basée sur la sensibilité du service impacté et sur l’impact
+
+      induit.'
+    fr: 'Chaque entité ou IIV doit pouvoir évaluer chaque évènement afin de pouvoir décider s’il s’agit d’un incident lié à la
+
+      sécurité du SI et de déterminer sa catégorie. Dans ce cas, la criticité de cet incident doit être appréciée selon une
+
+      échelle de classification des incidents de cybersécurité basée sur la sensibilité du service impacté et sur l’impact
+
+      induit.'
+  requirements: []
+- code: INCID-GEST-REPONSE
+  domain: DOMAIN-12
+  title:
+    en: Réponse aux incidents liés à la sécurité des SI
+    fr: Réponse aux incidents liés à la sécurité des SI
+  description:
+    en: 'Dès qu’un incident de cybersécurité est confirmé, chaque entité ou IIV doit attribuer les rôles et responsabilités aux
+
+      différents membres de l’équipe d’intervention interne, externe ou mixte, et s’assurer que toutes les tâches
+
+      concernant la réponse sont correctement réalisées et journalisées conformément à une procédure de réponse
+
+      formalisée.'
+    fr: 'Dès qu’un incident de cybersécurité est confirmé, chaque entité ou IIV doit attribuer les rôles et responsabilités aux
+
+      différents membres de l’équipe d’intervention interne, externe ou mixte, et s’assurer que toutes les tâches
+
+      concernant la réponse sont correctement réalisées et journalisées conformément à une procédure de réponse
+
+      formalisée.'
+  guidance:
+    en: 'Dès qu’un incident de cybersécurité est confirmé, chaque entité ou IIV doit attribuer les rôles et responsabilités aux
+
+      différents membres de l’équipe d’intervention interne, externe ou mixte, et s’assurer que toutes les tâches
+
+      concernant la réponse sont correctement réalisées et journalisées conformément à une procédure de réponse
+
+      formalisée.'
+    fr: 'Dès qu’un incident de cybersécurité est confirmé, chaque entité ou IIV doit attribuer les rôles et responsabilités aux
+
+      différents membres de l’équipe d’intervention interne, externe ou mixte, et s’assurer que toutes les tâches
+
+      concernant la réponse sont correctement réalisées et journalisées conformément à une procédure de réponse
+
+      formalisée.'
+  requirements: []
+- code: INCID-GEST-ALERT
+  domain: DOMAIN-12
+  title:
+    en: Réaction aux alertes liés à la sécurité des SI
+    fr: Réaction aux alertes liés à la sécurité des SI
+  description:
+    en: 'Chaque entité ou IIV doit mobiliser les ressources internes et/ou externes pour réagir efficacement aux alertes liées
+
+      à la sécurité des SI.
+
+      Ces alertes peuvent provenir soit d’un éditeur ou fournisseur, soit du centre de veille, de détection et de réponses
+
+      aux attaques informatiques (ma-CERT) relevant de la DGSSI.
+
+      Dans ce dernier cas, l’entité ou l’IIV accuse réception de l’alerte et transmet par la suite, si elle est impactée par
+
+      cette alerte, un compte rendu d’exécution à la DGSSI.'
+    fr: 'Chaque entité ou IIV doit mobiliser les ressources internes et/ou externes pour réagir efficacement aux alertes liées
+
+      à la sécurité des SI.
+
+      Ces alertes peuvent provenir soit d’un éditeur ou fournisseur, soit du centre de veille, de détection et de réponses
+
+      aux attaques informatiques (ma-CERT) relevant de la DGSSI.
+
+      Dans ce dernier cas, l’entité ou l’IIV accuse réception de l’alerte et transmet par la suite, si elle est impactée par
+
+      cette alerte, un compte rendu d’exécution à la DGSSI.'
+  guidance:
+    en: 'Chaque entité ou IIV doit mobiliser les ressources internes et/ou externes pour réagir efficacement aux alertes liées
+
+      à la sécurité des SI.
+
+      Ces alertes peuvent provenir soit d’un éditeur ou fournisseur, soit du centre de veille, de détection et de réponses
+
+      aux attaques informatiques (ma-CERT) relevant de la DGSSI.
+
+      Dans ce dernier cas, l’entité ou l’IIV accuse réception de l’alerte et transmet par la suite, si elle est impactée par
+
+      cette alerte, un compte rendu d’exécution à la DGSSI.'
+    fr: 'Chaque entité ou IIV doit mobiliser les ressources internes et/ou externes pour réagir efficacement aux alertes liées
+
+      à la sécurité des SI.
+
+      Ces alertes peuvent provenir soit d’un éditeur ou fournisseur, soit du centre de veille, de détection et de réponses
+
+      aux attaques informatiques (ma-CERT) relevant de la DGSSI.
+
+      Dans ce dernier cas, l’entité ou l’IIV accuse réception de l’alerte et transmet par la suite, si elle est impactée par
+
+      cette alerte, un compte rendu d’exécution à la DGSSI.'
+  requirements: []
+- code: INCID-GEST-REP
+  domain: DOMAIN-12
+  title:
+    en: Répertoire d’incidents
+    fr: Répertoire d’incidents
+  description:
+    en: 'La typologie et la description des incidents de cybersécurité doivent être localement enregistrées dans une base
+
+      permettant un enrichissement progressif ainsi qu''un accès sélectif facile pour effectuer le traitement et le suivi des
+
+      divers incidents futurs.'
+    fr: 'La typologie et la description des incidents de cybersécurité doivent être localement enregistrées dans une base
+
+      permettant un enrichissement progressif ainsi qu''un accès sélectif facile pour effectuer le traitement et le suivi des
+
+      divers incidents futurs.'
+  guidance:
+    en: 'La typologie et la description des incidents de cybersécurité doivent être localement enregistrées dans une base
+
+      permettant un enrichissement progressif ainsi qu''un accès sélectif facile pour effectuer le traitement et le suivi des
+
+      divers incidents futurs.'
+    fr: 'La typologie et la description des incidents de cybersécurité doivent être localement enregistrées dans une base
+
+      permettant un enrichissement progressif ainsi qu''un accès sélectif facile pour effectuer le traitement et le suivi des
+
+      divers incidents futurs.'
+  requirements: []
+- code: INCID-GEST-PREUV
+  domain: DOMAIN-12
+  title:
+    en: Recueil des preuves
+    fr: Recueil des preuves
+  description:
+    en: 'En cas d’attaque suspectée, chaque entité ou IIV doit définir et appliquer les procédures relatives :
+
+      - aux processus de recherche, de reconnaissance et de documentation des preuves potentielles ;
+
+      - au recueil des éléments physiques pouvant contenir des preuves potentielles ;
+
+      - au processus de création de copie de données ;
+
+      - à la protection et la sauvegarde de l’intégrité et l’état d’origine des preuves potentielles.'
+    fr: 'En cas d’attaque suspectée, chaque entité ou IIV doit définir et appliquer les procédures relatives :
+
+      - aux processus de recherche, de reconnaissance et de documentation des preuves potentielles ;
+
+      - au recueil des éléments physiques pouvant contenir des preuves potentielles ;
+
+      - au processus de création de copie de données ;
+
+      - à la protection et la sauvegarde de l’intégrité et l’état d’origine des preuves potentielles.'
+  guidance:
+    en: 'En cas d’attaque suspectée, chaque entité ou IIV doit définir et appliquer les procédures relatives :
+
+      - aux processus de recherche, de reconnaissance et de documentation des preuves potentielles ;
+
+      - au recueil des éléments physiques pouvant contenir des preuves potentielles ;
+
+      - au processus de création de copie de données ;
+
+      - à la protection et la sauvegarde de l’intégrité et l’état d’origine des preuves potentielles.'
+    fr: 'En cas d’attaque suspectée, chaque entité ou IIV doit définir et appliquer les procédures relatives :
+
+      - aux processus de recherche, de reconnaissance et de documentation des preuves potentielles ;
+
+      - au recueil des éléments physiques pouvant contenir des preuves potentielles ;
+
+      - au processus de création de copie de données ;
+
+      - à la protection et la sauvegarde de l’intégrité et l’état d’origine des preuves potentielles.'
+  requirements: []
+- code: CONTINU-BIA
+  domain: DOMAIN-13
+  title:
+    en: Analyse d’impact sur l’activité
+    fr: Analyse d’impact sur l’activité
+  description:
+    en: 'Chaque entité ou IIV est tenue d’établir une analyse d’impacts sur son activité, qui consiste à :
+
+      - identifier les activités et processus critiques ;
+
+      - analyser les risques liés aux activités et processus ;
+
+      - analyser les impacts qui résulteraient d’un arrêt de ces activités et processus critiques ;
+
+      - déterminer comment ces impacts évolueraient dans le temps en cas d’arrêt prolongé ;
+
+      - établir le temps d’arrêt ou d’indisponibilité maximum supportable des activités critiques ;
+
+      - identifier et considérer toute activité critique dépendant d’autres entités ou IIV, des fournisseurs et
+
+      d’autres tiers ;
+
+      - estimer le délai cible de rétablissement des activités après un sinistre ;
+
+      - estimer les ressources humaines, techniques et logistiques que chaque activité critique requiert pour sa
+
+      reprise.'
+    fr: 'Chaque entité ou IIV est tenue d’établir une analyse d’impacts sur son activité, qui consiste à :
+
+      - identifier les activités et processus critiques ;
+
+      - analyser les risques liés aux activités et processus ;
+
+      - analyser les impacts qui résulteraient d’un arrêt de ces activités et processus critiques ;
+
+      - déterminer comment ces impacts évolueraient dans le temps en cas d’arrêt prolongé ;
+
+      - établir le temps d’arrêt ou d’indisponibilité maximum supportable des activités critiques ;
+
+      - identifier et considérer toute activité critique dépendant d’autres entités ou IIV, des fournisseurs et
+
+      d’autres tiers ;
+
+      - estimer le délai cible de rétablissement des activités après un sinistre ;
+
+      - estimer les ressources humaines, techniques et logistiques que chaque activité critique requiert pour sa
+
+      reprise.'
+  guidance:
+    en: 'Chaque entité ou IIV est tenue d’établir une analyse d’impacts sur son activité, qui consiste à :
+
+      - identifier les activités et processus critiques ;
+
+      - analyser les risques liés aux activités et processus ;
+
+      - analyser les impacts qui résulteraient d’un arrêt de ces activités et processus critiques ;
+
+      - déterminer comment ces impacts évolueraient dans le temps en cas d’arrêt prolongé ;
+
+      - établir le temps d’arrêt ou d’indisponibilité maximum supportable des activités critiques ;
+
+      - identifier et considérer toute activité critique dépendant d’autres entités ou IIV, des fournisseurs et
+
+      d’autres tiers ;
+
+      - estimer le délai cible de rétablissement des activités après un sinistre ;
+
+      - estimer les ressources humaines, techniques et logistiques que chaque activité critique requiert pour sa
+
+      reprise.'
+    fr: 'Chaque entité ou IIV est tenue d’établir une analyse d’impacts sur son activité, qui consiste à :
+
+      - identifier les activités et processus critiques ;
+
+      - analyser les risques liés aux activités et processus ;
+
+      - analyser les impacts qui résulteraient d’un arrêt de ces activités et processus critiques ;
+
+      - déterminer comment ces impacts évolueraient dans le temps en cas d’arrêt prolongé ;
+
+      - établir le temps d’arrêt ou d’indisponibilité maximum supportable des activités critiques ;
+
+      - identifier et considérer toute activité critique dépendant d’autres entités ou IIV, des fournisseurs et
+
+      d’autres tiers ;
+
+      - estimer le délai cible de rétablissement des activités après un sinistre ;
+
+      - estimer les ressources humaines, techniques et logistiques que chaque activité critique requiert pour sa
+
+      reprise.'
+  requirements: []
+- code: CONTINU-ACT
+  domain: DOMAIN-13
+  title:
+    en: Plan de Continuité et de Reprise d’Activité (PCA/PRA)
+    fr: Plan de Continuité et de Reprise d’Activité (PCA/PRA)
+  description:
+    en: 'Chaque entité ou IIV doit préparer un plan de continuité et de reprise d’activités intégrant l''ensemble des solutions
+
+      pour pallier les arrêts des processus et applications critiques. Il doit porter notamment sur des solutions de secours
+
+      informatique (sauvegarde, site de secours, bascule, résilience des réseaux, redondance matérielle et logicielle,
+
+      etc.).
+
+      Le PCA/PRA doit décrire de manière précise les rôles et les responsabilités de tous les intervenants en cas de
+
+      sinistre.'
+    fr: 'Chaque entité ou IIV doit préparer un plan de continuité et de reprise d’activités intégrant l''ensemble des solutions
+
+      pour pallier les arrêts des processus et applications critiques. Il doit porter notamment sur des solutions de secours
+
+      informatique (sauvegarde, site de secours, bascule, résilience des réseaux, redondance matérielle et logicielle,
+
+      etc.).
+
+      Le PCA/PRA doit décrire de manière précise les rôles et les responsabilités de tous les intervenants en cas de
+
+      sinistre.'
+  guidance:
+    en: 'Chaque entité ou IIV doit préparer un plan de continuité et de reprise d’activités intégrant l''ensemble des solutions
+
+      pour pallier les arrêts des processus et applications critiques. Il doit porter notamment sur des solutions de secours
+
+      informatique (sauvegarde, site de secours, bascule, résilience des réseaux, redondance matérielle et logicielle,
+
+      etc.).
+
+      Le PCA/PRA doit décrire de manière précise les rôles et les responsabilités de tous les intervenants en cas de
+
+      sinistre.'
+    fr: 'Chaque entité ou IIV doit préparer un plan de continuité et de reprise d’activités intégrant l''ensemble des solutions
+
+      pour pallier les arrêts des processus et applications critiques. Il doit porter notamment sur des solutions de secours
+
+      informatique (sauvegarde, site de secours, bascule, résilience des réseaux, redondance matérielle et logicielle,
+
+      etc.).
+
+      Le PCA/PRA doit décrire de manière précise les rôles et les responsabilités de tous les intervenants en cas de
+
+      sinistre.'
+  requirements: []
+- code: CONTINU-PLAN
+  domain: DOMAIN-13
+  title:
+    en: Mise à l’essai des PCA/PRA
+    fr: Mise à l’essai des PCA/PRA
+  description:
+    en: 'Un plan de test technique (tests de restauration des systèmes, des applications, des données ou des
+
+      communications, etc.) doit être mis en œuvre annuellement.'
+    fr: 'Un plan de test technique (tests de restauration des systèmes, des applications, des données ou des
+
+      communications, etc.) doit être mis en œuvre annuellement.'
+  guidance:
+    en: 'Un plan de test technique (tests de restauration des systèmes, des applications, des données ou des
+
+      communications, etc.) doit être mis en œuvre annuellement.'
+    fr: 'Un plan de test technique (tests de restauration des systèmes, des applications, des données ou des
+
+      communications, etc.) doit être mis en œuvre annuellement.'
+  requirements: []
+- code: CONTINU-EXERCICE
+  domain: DOMAIN-13
+  title:
+    en: Exercices et Scenarios
+    fr: Exercices et Scenarios
+  description:
+    en: Chaque entité ou IIV est tenue d’organiser de manière régulière des exercices de crise afin de tester le PCA/PRA.
+    fr: Chaque entité ou IIV est tenue d’organiser de manière régulière des exercices de crise afin de tester le PCA/PRA.
+  guidance:
+    en: Chaque entité ou IIV est tenue d’organiser de manière régulière des exercices de crise afin de tester le PCA/PRA.
+    fr: Chaque entité ou IIV est tenue d’organiser de manière régulière des exercices de crise afin de tester le PCA/PRA.
+  requirements: []
+- code: CONF-OBLIG-IDF
+  domain: DOMAIN-14
+  title:
+    en: Identification de la législation en vigueur
+    fr: Identification de la législation en vigueur
+  description:
+    en: 'L’arsenal légal, réglementaire, normatif et contractuel auquel l’entité ou l’IIV est soumise doit être clairement
+
+      identifié. La politique de sécurité des SI doit faire référence à cet arsenal et mettre l’accent sur l’obligation de s’y
+
+      conformer.'
+    fr: 'L’arsenal légal, réglementaire, normatif et contractuel auquel l’entité ou l’IIV est soumise doit être clairement
+
+      identifié. La politique de sécurité des SI doit faire référence à cet arsenal et mettre l’accent sur l’obligation de s’y
+
+      conformer.'
+  guidance:
+    en: 'L’arsenal légal, réglementaire, normatif et contractuel auquel l’entité ou l’IIV est soumise doit être clairement
+
+      identifié. La politique de sécurité des SI doit faire référence à cet arsenal et mettre l’accent sur l’obligation de s’y
+
+      conformer.'
+    fr: 'L’arsenal légal, réglementaire, normatif et contractuel auquel l’entité ou l’IIV est soumise doit être clairement
+
+      identifié. La politique de sécurité des SI doit faire référence à cet arsenal et mettre l’accent sur l’obligation de s’y
+
+      conformer.'
+  requirements: []
+- code: CONF-OBLIG-CYBERSEC
+  domain: DOMAIN-14
+  title:
+    en: Conformité à la réglementation liée à la cybersécurité
+    fr: Conformité à la réglementation liée à la cybersécurité
+  description:
+    en: 'Chaque entité ou IIV doit veiller à ce que la gestion de la sécurité ses SI soit conforme au cadre juridique applicable
+
+      en matière de cybersécurité notamment la loi n° 05-20 relative à la cybersécurité et le décret n° 2-21-406 pris pour
+
+      son application.'
+    fr: 'Chaque entité ou IIV doit veiller à ce que la gestion de la sécurité ses SI soit conforme au cadre juridique applicable
+
+      en matière de cybersécurité notamment la loi n° 05-20 relative à la cybersécurité et le décret n° 2-21-406 pris pour
+
+      son application.'
+  guidance:
+    en: 'Chaque entité ou IIV doit veiller à ce que la gestion de la sécurité ses SI soit conforme au cadre juridique applicable
+
+      en matière de cybersécurité notamment la loi n° 05-20 relative à la cybersécurité et le décret n° 2-21-406 pris pour
+
+      son application.'
+    fr: 'Chaque entité ou IIV doit veiller à ce que la gestion de la sécurité ses SI soit conforme au cadre juridique applicable
+
+      en matière de cybersécurité notamment la loi n° 05-20 relative à la cybersécurité et le décret n° 2-21-406 pris pour
+
+      son application.'
+  requirements: []
+- code: CONF-OBLIG-INTELLECT
+  domain: DOMAIN-14
+  title:
+    en: Droits de propriété intellectuelle
+    fr: Droits de propriété intellectuelle
+  description:
+    en: 'Chaque entité ou IIV doit veiller au respect des droits de propriété intellectuelle notamment en interdisant
+
+      l’utilisation de tout logiciel non doté d''une licence d’utilisation valide.'
+    fr: 'Chaque entité ou IIV doit veiller au respect des droits de propriété intellectuelle notamment en interdisant
+
+      l’utilisation de tout logiciel non doté d''une licence d’utilisation valide.'
+  guidance:
+    en: 'Chaque entité ou IIV doit veiller au respect des droits de propriété intellectuelle notamment en interdisant
+
+      l’utilisation de tout logiciel non doté d''une licence d’utilisation valide.'
+    fr: 'Chaque entité ou IIV doit veiller au respect des droits de propriété intellectuelle notamment en interdisant
+
+      l’utilisation de tout logiciel non doté d''une licence d’utilisation valide.'
+  requirements: []
+- code: CONF-OBLIG-PERSO
+  domain: DOMAIN-14
+  title:
+    en: Protection des données personnelles
+    fr: Protection des données personnelles
+  description:
+    en: 'Chaque entité ou IIV doit veiller au respect de la législation relative à la protection des données à caractère
+
+      personnel notamment la loi n° 09-08 relative à la protection des personnes physiques à l''égard du traitement des
+
+      données à caractère personnel et les textes pris pour son application.'
+    fr: 'Chaque entité ou IIV doit veiller au respect de la législation relative à la protection des données à caractère
+
+      personnel notamment la loi n° 09-08 relative à la protection des personnes physiques à l''égard du traitement des
+
+      données à caractère personnel et les textes pris pour son application.'
+  guidance:
+    en: 'Chaque entité ou IIV doit veiller au respect de la législation relative à la protection des données à caractère
+
+      personnel notamment la loi n° 09-08 relative à la protection des personnes physiques à l''égard du traitement des
+
+      données à caractère personnel et les textes pris pour son application.'
+    fr: 'Chaque entité ou IIV doit veiller au respect de la législation relative à la protection des données à caractère
+
+      personnel notamment la loi n° 09-08 relative à la protection des personnes physiques à l''égard du traitement des
+
+      données à caractère personnel et les textes pris pour son application.'
+  requirements: []
+- code: CONF-OBLIG-CRYPTO
+  domain: DOMAIN-14
+  title:
+    en: Réglementation relative aux mesures cryptographiques
+    fr: Réglementation relative aux mesures cryptographiques
+  description:
+    en: 'Chaque entité ou IIV doit veiller au respect des dispositions légales, réglementaires et normatives se rapportant au
+
+      recours à des mesures cryptographiques.'
+    fr: 'Chaque entité ou IIV doit veiller au respect des dispositions légales, réglementaires et normatives se rapportant au
+
+      recours à des mesures cryptographiques.'
+  guidance:
+    en: 'Chaque entité ou IIV doit veiller au respect des dispositions légales, réglementaires et normatives se rapportant au
+
+      recours à des mesures cryptographiques.'
+    fr: 'Chaque entité ou IIV doit veiller au respect des dispositions légales, réglementaires et normatives se rapportant au
+
+      recours à des mesures cryptographiques.'
+  requirements: []
+- code: CONF-REVU-SSI
+  domain: DOMAIN-14
+  title:
+    en: Vérification de la conformité de la sécurité des SI
+    fr: Vérification de la conformité de la sécurité des SI
+  description:
+    en: 'Chaque entité ou IIV doit auditer régulièrement la conformité de la sécurité de ses systèmes d’information.
+
+      Chaque opération d’audit doit donner lieu à des recommandations. Celles-ci doivent être mises en œuvre dans le
+
+      cadre de plans d’actions en concertation avec les structures concernées.
+
+      A sa demande, les rapports d’audit peuvent être mis à la disposition de la DGSSI.'
+    fr: 'Chaque entité ou IIV doit auditer régulièrement la conformité de la sécurité de ses systèmes d’information.
+
+      Chaque opération d’audit doit donner lieu à des recommandations. Celles-ci doivent être mises en œuvre dans le
+
+      cadre de plans d’actions en concertation avec les structures concernées.
+
+      A sa demande, les rapports d’audit peuvent être mis à la disposition de la DGSSI.'
+  guidance:
+    en: 'Chaque entité ou IIV doit auditer régulièrement la conformité de la sécurité de ses systèmes d’information.
+
+      Chaque opération d’audit doit donner lieu à des recommandations. Celles-ci doivent être mises en œuvre dans le
+
+      cadre de plans d’actions en concertation avec les structures concernées.
+
+      A sa demande, les rapports d’audit peuvent être mis à la disposition de la DGSSI.'
+    fr: 'Chaque entité ou IIV doit auditer régulièrement la conformité de la sécurité de ses systèmes d’information.
+
+      Chaque opération d’audit doit donner lieu à des recommandations. Celles-ci doivent être mises en œuvre dans le
+
+      cadre de plans d’actions en concertation avec les structures concernées.
+
+      A sa demande, les rapports d’audit peuvent être mis à la disposition de la DGSSI.'
+  requirements: []
