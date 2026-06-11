@@ -12,22 +12,88 @@ from library.scoping import (
 from library.localization import LibraryTranslationResolver, get_request_language
 
 
-def _get_resolver_for_reference_control(serializer, reference_control):
+def _get_resolver_for_raw_content(serializer, raw_content):
     cache = serializer.context.setdefault("_library_translation_cache", {})
-    mapping = reference_control.requirement_mappings.select_related(
-        "requirement__framework__loaded_library__stored_library"
-    ).filter(is_deleted=False).first()
-    if mapping is None:
-        return None
-
-    raw_content = (
-        mapping.requirement.framework.loaded_library.stored_library.raw_content or ""
-    )
     resolver = cache.get(raw_content)
     if resolver is None:
         resolver = LibraryTranslationResolver(raw_content)
         cache[raw_content] = resolver
     return resolver
+
+
+def _reference_control_code_candidates(reference_control_code, requirement_code):
+    candidates = []
+    for code in (requirement_code, reference_control_code):
+        if code and code not in candidates:
+            candidates.append(code)
+
+    # Some imported reference controls are namespaced to avoid global code
+    # collisions, while the YAML translation keys keep the framework code.
+    # Example: ReferenceControl "ISO9001-4.1" maps to YAML control "4.1".
+    if reference_control_code and "-" in reference_control_code:
+        suffix = reference_control_code.split("-", 1)[1]
+        if suffix and suffix not in candidates:
+            candidates.append(suffix)
+
+    return candidates
+
+
+def _get_translated_reference_control_content(serializer, reference_control, language):
+    mappings = (
+        limit_requirement_mappings(
+            reference_control.requirement_mappings.filter(is_deleted=False)
+        )
+        .select_related(
+            "requirement__framework__loaded_library__stored_library"
+        )
+        .order_by("requirement__framework__code", "requirement__code")
+    )
+
+    for mapping in mappings:
+        stored_library = mapping.requirement.framework.loaded_library.stored_library
+        raw_content = stored_library.raw_content or ""
+        resolver = _get_resolver_for_raw_content(serializer, raw_content)
+
+        for code in _reference_control_code_candidates(
+            reference_control.code,
+            mapping.requirement.code,
+        ):
+            translated = resolver.translated_requirement_content(code, language)
+            if translated.get("title") or translated.get("description"):
+                return translated
+
+    return {}
+
+
+def _get_translated_unified_control_content(serializer, unified_control, language):
+    reference_mappings = (
+        unified_control.reference_mappings
+        .select_related("reference_control")
+        .filter(
+            reference_control__requirement_mappings__is_deleted=False,
+        )
+        .filter(
+            framework_scope_q(
+                "reference_control__requirement_mappings__requirement__framework__code"
+            )
+        )
+        .order_by(
+            "reference_control__requirement_mappings__requirement__framework__code",
+            "reference_control__code",
+        )
+        .distinct()
+    )
+
+    for mapping in reference_mappings:
+        translated = _get_translated_reference_control_content(
+            serializer,
+            mapping.reference_control,
+            language,
+        )
+        if translated.get("title") or translated.get("description"):
+            return translated
+
+    return {}
 
 
 class ReferenceControlScopeMixin:
@@ -60,12 +126,9 @@ class ReferenceControlScopeMixin:
 class LocalizedReferenceControlSerializerMixin:
     def _localize_reference_control(self, data, reference_control, prefix=""):
         request = self.context.get("request")
-        resolver = _get_resolver_for_reference_control(self, reference_control)
-        if resolver is None:
-            return data
-
-        translated = resolver.translated_requirement_content(
-            reference_control.code,
+        translated = _get_translated_reference_control_content(
+            self,
+            reference_control,
             get_request_language(request),
         )
 
@@ -223,6 +286,23 @@ class UnifiedControlSerializer(serializers.ModelSerializer):
             'created_at', 'updated_at'
         ]
         read_only_fields = ['id', 'created_at', 'updated_at']
+
+    def to_representation(self, instance):
+        data = super().to_representation(instance)
+        translated = _get_translated_unified_control_content(
+            self,
+            instance,
+            get_request_language(self.context.get("request")),
+        )
+
+        if translated.get("title"):
+            data["control_name"] = translated["title"]
+        if translated.get("description"):
+            data["description"] = translated["description"]
+        if translated.get("implementation_guidance"):
+            data["implementation_guidance"] = translated["implementation_guidance"]
+
+        return data
     
     def get_framework_coverage(self, obj):
         """Get frameworks this control satisfies"""

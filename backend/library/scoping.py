@@ -8,6 +8,12 @@ ALLOWED_FRAMEWORK_CODE_PREFIXES = (
     "ISO9001",
     "ISO-9001",
     "ISO 9001",
+    "ISO42001",
+    "ISO-42001",
+    "ISO 42001",
+    "ISO/IEC 42001",
+    "DNSSI",
+    "DNSSI-2023-2",
 )
 
 
