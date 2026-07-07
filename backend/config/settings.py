@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'controls',
     'evidence',
     'risk',
+    'processes',
     'compliance',
     'audit',
 ]

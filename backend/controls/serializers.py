@@ -96,6 +96,22 @@ def _get_translated_unified_control_content(serializer, unified_control, languag
     return {}
 
 
+def _get_effective_unified_control(applied_control):
+    if applied_control.unified_control_id:
+        return applied_control.unified_control
+
+    if not applied_control.reference_control_id:
+        return None
+
+    mapping = (
+        applied_control.reference_control.unified_mappings
+        .select_related("unified_control")
+        .order_by("-coverage_percentage", "id")
+        .first()
+    )
+    return mapping.unified_control if mapping else None
+
+
 class ReferenceControlScopeMixin:
     def _get_requirement_mappings(self, obj):
         queryset = limit_requirement_mappings(
@@ -384,6 +400,9 @@ class AppliedControlSerializer(
     LocalizedReferenceControlSerializerMixin,
     serializers.ModelSerializer,
 ):
+    unified_control_code = serializers.SerializerMethodField()
+    unified_control_name = serializers.SerializerMethodField()
+    unified_control_description = serializers.SerializerMethodField()
     reference_control_code = serializers.CharField(
         source="reference_control.code", read_only=True
     )
@@ -420,7 +439,9 @@ class AppliedControlSerializer(
     class Meta:
         model = AppliedControl
         fields = [
-            "id", "reference_control",
+            "id", "reference_control", "unified_control",
+            "unified_control_code", "unified_control_name",
+            "unified_control_description",
             "reference_control_code", "reference_control_name",
             "reference_control_description", "reference_control_family",
             "reference_control_type",
@@ -451,6 +472,34 @@ class AppliedControlSerializer(
     def get_is_overdue(self, obj):
         return obj.is_overdue_for_review()
 
+    def get_unified_control_code(self, obj):
+        unified_control = _get_effective_unified_control(obj)
+        return unified_control.control_code if unified_control else None
+
+    def get_unified_control_name(self, obj):
+        unified_control = _get_effective_unified_control(obj)
+        if not unified_control:
+            return None
+
+        translated = _get_translated_unified_control_content(
+            self,
+            unified_control,
+            get_request_language(self.context.get("request")),
+        )
+        return translated.get("title") or unified_control.control_name
+
+    def get_unified_control_description(self, obj):
+        unified_control = _get_effective_unified_control(obj)
+        if not unified_control:
+            return None
+
+        translated = _get_translated_unified_control_content(
+            self,
+            unified_control,
+            get_request_language(self.context.get("request")),
+        )
+        return translated.get("description") or unified_control.description
+
     def get_frameworks(self, obj):
         return list(
             limit_requirement_mappings(
@@ -463,9 +512,10 @@ class AppliedControlSerializer(
 
     def get_frameworks_satisfied(self, obj):
         framework_codes = set(self.get_frameworks(obj))
-        if obj.unified_control_id:
+        unified_control = _get_effective_unified_control(obj)
+        if unified_control:
             framework_codes.update(
-                limit_framework_coverage(obj.unified_control.get_framework_coverage()).keys()
+                limit_framework_coverage(unified_control.get_framework_coverage()).keys()
             )
         return sorted(framework_codes)
 
@@ -539,6 +589,8 @@ class AppliedControlListSerializer(
 ):
     """Lighter serializer for list views."""
 
+    unified_control_code = serializers.SerializerMethodField()
+    unified_control_name = serializers.SerializerMethodField()
     reference_control_code = serializers.CharField(
         source="reference_control.code", read_only=True
     )
@@ -572,7 +624,8 @@ class AppliedControlListSerializer(
     class Meta:
         model = AppliedControl
         fields = [
-            "id", "reference_control",
+            "id", "reference_control", "unified_control",
+            "unified_control_code", "unified_control_name",
             "reference_control_code", "reference_control_name",
             "reference_control_family", "reference_control_type",
             "department", "department_name",
@@ -596,6 +649,22 @@ class AppliedControlListSerializer(
     def get_is_overdue(self, obj):
         return obj.is_overdue_for_review()
 
+    def get_unified_control_code(self, obj):
+        unified_control = _get_effective_unified_control(obj)
+        return unified_control.control_code if unified_control else None
+
+    def get_unified_control_name(self, obj):
+        unified_control = _get_effective_unified_control(obj)
+        if not unified_control:
+            return None
+
+        translated = _get_translated_unified_control_content(
+            self,
+            unified_control,
+            get_request_language(self.context.get("request")),
+        )
+        return translated.get("title") or unified_control.control_name
+
     def get_frameworks(self, obj):
         return list(
             limit_requirement_mappings(
@@ -608,9 +677,10 @@ class AppliedControlListSerializer(
 
     def get_frameworks_satisfied(self, obj):
         framework_codes = set(self.get_frameworks(obj))
-        if obj.unified_control_id:
+        unified_control = _get_effective_unified_control(obj)
+        if unified_control:
             framework_codes.update(
-                limit_framework_coverage(obj.unified_control.get_framework_coverage()).keys()
+                limit_framework_coverage(unified_control.get_framework_coverage()).keys()
             )
         return sorted(framework_codes)
 

@@ -44,6 +44,7 @@ urlpatterns = [
     path('api/evidence/', include('evidence.urls')),
     path('api/compliance/', include('compliance.urls')),
     path('api/risk/', include('risk.urls')),
+    path('api/processes/', include('processes.urls')),
     path('api/audit/', include('audit.urls')),
 ]
 

@@ -109,6 +109,13 @@ class ControlApplicationService:
         ).first()
         
         if existing:
+            if (
+                unified_mapping
+                and unified_mapping.unified_control_id
+                and existing.unified_control_id != unified_mapping.unified_control_id
+            ):
+                existing.unified_control = unified_mapping.unified_control
+                existing.save(update_fields=['unified_control', 'updated_at'])
             return existing, False
 
         # Reuse an existing tenant implementation for the same unified control so

@@ -164,11 +164,19 @@ export function ControlList() {
                         <td className="px-4 py-3">
                           <div>
                             <p className="font-medium text-gray-900">
-                              {control.reference_control_code}
+                              {control.unified_control_code ||
+                                control.reference_control_code}
                             </p>
                             <p className="max-w-xs truncate text-sm text-gray-500">
-                              {control.reference_control_name}
+                              {control.unified_control_name ||
+                                control.reference_control_name}
                             </p>
+                            {control.unified_control_code &&
+                              control.reference_control_code && (
+                                <p className="mt-0.5 text-xs text-gray-400">
+                                  {control.reference_control_code}
+                                </p>
+                              )}
                           </div>
                         </td>
                         <td className="px-4 py-3 text-sm text-gray-600">

@@ -34,6 +34,8 @@ import { FrameworkList } from "./features/library/FrameworkList";
 import { DepartmentList } from "./features/organizations/DepartmentList";
 import { DepartmentTree } from "./features/organizations/DepartmentTree";
 import { Profile } from "./features/profile/Profile";
+import { ProcessDetail } from "./features/processes/ProcessDetail";
+import { ProcessList } from "./features/processes/ProcessList";
 import { RiskDetail } from "./features/risk/RiskDetail";
 import { RiskHeatMap } from "./features/risk/RiskHeatMap";
 import { RiskRegister } from "./features/risk/RiskRegister";
@@ -122,6 +124,11 @@ function AppRoutes() {
             <Route index element={<RiskRegister />} />
             <Route path="heat-map" element={<RiskHeatMap />} />
             <Route path=":id" element={<RiskDetail />} />
+          </Route>
+
+          <Route path="processes">
+            <Route index element={<ProcessList />} />
+            <Route path=":id" element={<ProcessDetail />} />
           </Route>
 
           <Route path="compliance">

@@ -607,6 +607,13 @@ export function ControlDetail() {
   const statusInfo =
     CONTROL_STATUS[control.status as keyof typeof CONTROL_STATUS];
   const frameworks: string[] = control.frameworks ?? [];
+  const displayControlCode =
+    control.unified_control_code || control.reference_control_code;
+  const displayControlName =
+    control.unified_control_name || control.reference_control_name;
+  const displayControlDescription =
+    control.unified_control_description ||
+    control.reference_control_description;
   const isOwnedControl = !!user && control.control_owner === user.id;
   const canEditControl =
     isOwnerOrAdmin() || (isOwnedControl && hasPermission("update_own"));
@@ -653,13 +660,18 @@ export function ControlDetail() {
           <div>
             <div className="flex items-center gap-3 flex-wrap">
               <h1 className="text-3xl font-bold text-gray-900">
-                {control.reference_control_code}
+                {displayControlCode}
               </h1>
               {frameworks.map((framework) => (
                 <FrameworkBadge key={framework} code={framework} />
               ))}
             </div>
-            <p className="text-gray-600 mt-1">{control.reference_control_name}</p>
+            <p className="text-gray-600 mt-1">{displayControlName}</p>
+            {control.unified_control_code && control.reference_control_code && (
+              <p className="text-xs text-gray-400 mt-0.5">
+                {control.reference_control_code}
+              </p>
+            )}
             {frameworks.length > 1 && (
               <p className="text-xs text-gray-400 mt-0.5 flex items-center gap-1">
                 <Layers className="h-3 w-3" />
@@ -792,8 +804,7 @@ export function ControlDetail() {
           <CardHeader>
             <CardTitle>{t("controls.detail.controlDetails")}</CardTitle>
             <CardDescription className="whitespace-pre-wrap">
-              {control.reference_control_description ||
-                t("controls.detail.noDescription")}
+              {displayControlDescription || t("controls.detail.noDescription")}
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-4">

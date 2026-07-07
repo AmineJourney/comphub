@@ -784,3 +784,4 @@ class RiskTreatmentAction(TenantMixin, TimeStampedModel, SoftDeleteModel):
         
         from django.utils import timezone
         return timezone.now().date() > self.due_date
+

@@ -57,7 +57,7 @@ export interface UnifiedControl {
   tags?: string[];
 
   is_active: boolean;
-  framework_coverage?: string[];
+  framework_coverage?: string[] | Record<string, unknown>;
   implementation_count?: number;
 
   created_at: string;
@@ -110,6 +110,7 @@ export interface AppliedControl {
   unified_control?: string;
   unified_control_code?: string;
   unified_control_name?: string;
+  unified_control_description?: string;
 
   status: string;
   validation_status?: "draft" | "submitted" | "approved" | "rejected";

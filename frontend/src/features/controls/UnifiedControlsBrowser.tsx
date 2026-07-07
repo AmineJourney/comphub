@@ -37,6 +37,12 @@ export function UnifiedControlBrowser() {
   }, [controls]);
 
   const items = controls?.results ?? [];
+  const getFrameworkCoverageCodes = (
+    coverage: string[] | Record<string, unknown> | undefined,
+  ) => {
+    if (!coverage) return [];
+    return Array.isArray(coverage) ? coverage : Object.keys(coverage);
+  };
 
   if (isLoading) {
     return <LoadingSpinner />;
@@ -103,34 +109,41 @@ export function UnifiedControlBrowser() {
         </Card>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {items.map((control) => (
-            <Card key={control.id} className="hover:shadow-lg transition-shadow">
-              <CardHeader>
-                <div className="flex justify-between items-start gap-3">
-                  <div className="min-w-0">
-                    <CardTitle className="text-lg">
-                      {control.control_code}
-                    </CardTitle>
-                    <p className="text-sm text-gray-600 mt-1 truncate">
-                      {control.control_name}
-                    </p>
-                  </div>
-                  <Badge variant="outline">{control.domain}</Badge>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <p className="text-sm text-gray-700 mb-4 line-clamp-3">
-                  {control.description}
-                </p>
+          {items.map((control) => {
+            const frameworkCoverageCodes = getFrameworkCoverageCodes(
+              control.framework_coverage,
+            );
 
-                {control.framework_coverage &&
-                  control.framework_coverage.length > 0 && (
+            return (
+              <Card
+                key={control.id}
+                className="hover:shadow-lg transition-shadow"
+              >
+                <CardHeader>
+                  <div className="flex justify-between items-start gap-3">
+                    <div className="min-w-0">
+                      <CardTitle className="text-lg">
+                        {control.control_code}
+                      </CardTitle>
+                      <p className="text-sm text-gray-600 mt-1 truncate">
+                        {control.control_name}
+                      </p>
+                    </div>
+                    <Badge variant="outline">{control.domain}</Badge>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-gray-700 mb-4 line-clamp-3">
+                    {control.description}
+                  </p>
+
+                  {frameworkCoverageCodes.length > 0 && (
                     <div className="mb-4">
                       <p className="text-xs font-medium text-gray-600 mb-2">
                         {t("controls.unified.satisfies")}
                       </p>
                       <div className="flex gap-1 flex-wrap">
-                        {control.framework_coverage.map((framework) => (
+                        {frameworkCoverageCodes.map((framework) => (
                           <Badge
                             key={framework}
                             variant="secondary"
@@ -143,21 +156,24 @@ export function UnifiedControlBrowser() {
                     </div>
                   )}
 
-                <div className="flex justify-between text-xs text-gray-500">
-                  <span>
-                    {t("controls.unified.complexity", {
-                      value: control.implementation_complexity ?? t("common.unknown"),
-                    })}
-                  </span>
-                  <span>
-                    {t("controls.unified.companies", {
-                      count: control.implementation_count ?? 0,
-                    })}
-                  </span>
-                </div>
-              </CardContent>
-            </Card>
-          ))}
+                  <div className="flex justify-between text-xs text-gray-500">
+                    <span>
+                      {t("controls.unified.complexity", {
+                        value:
+                          control.implementation_complexity ??
+                          t("common.unknown"),
+                      })}
+                    </span>
+                    <span>
+                      {t("controls.unified.companies", {
+                        count: control.implementation_count ?? 0,
+                      })}
+                    </span>
+                  </div>
+                </CardContent>
+              </Card>
+            );
+          })}
         </div>
       )}
     </div>

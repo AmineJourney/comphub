@@ -259,3 +259,4 @@ class RiskTreatmentPrioritySerializer(serializers.Serializer):
     control_count     = serializers.IntegerField()
     avg_effectiveness = serializers.FloatField()
     recommendation    = serializers.CharField()
+
