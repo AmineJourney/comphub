@@ -23,6 +23,27 @@ class EvidenceViewSet(viewsets.ModelViewSet):
     
     serializer_class = EvidenceSerializer
     permission_classes = [IsAuthenticated, IsTenantMember, TenantObjectPermission, RolePermission]
+    ownership_fields = ('uploaded_by',)
+    permission_action_map = {
+        'list': 'view_any',
+        'retrieve': 'view_any',
+        'file_content': 'view_any',
+        'download': 'view_any',
+        'access_logs': 'view_any',
+        'versions': 'view_any',
+        'analytics': 'view_any',
+        'storage_quota': 'view_any',
+        'expired': 'view_any',
+        'pending_approval': 'view_any',
+        'unlinked': 'view_any',
+        'create': ('create_any', 'create_evidence'),
+        'update': ('update_any', 'update_own'),
+        'partial_update': ('update_any', 'update_own'),
+        'create_version': ('update_any', 'update_own'),
+        'approve': 'update_any',
+        'reject': 'update_any',
+        'destroy': ('delete_any', 'delete_own'),
+    }
     parser_classes = [MultiPartParser, FormParser]
     filter_backends = [DjangoFilterBackend, SearchFilter, OrderingFilter]
     filterset_fields = [
@@ -214,7 +235,10 @@ class EvidenceViewSet(viewsets.ModelViewSet):
     def access_logs(self, request, pk=None):
         """Get access logs for evidence"""
         evidence = self.get_object()
-        logs = evidence.access_logs.all().order_by('-created_at')[:50]
+        logs = EvidenceAccessLog.all_objects.filter(
+            evidence=evidence,
+            company=request.tenant,
+        ).order_by('-created_at')[:50]
         serializer = EvidenceAccessLogSerializer(logs, many=True)
         return Response(serializer.data)
     

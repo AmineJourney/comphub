@@ -1,10 +1,14 @@
 """
 Business logic services for evidence management
 """
+import logging
+
 from django.db import transaction
 from django.db.models import Count, Q
 from django.utils import timezone
 from .models import Evidence, AppliedControlEvidence, EvidenceAccessLog
+
+logger = logging.getLogger(__name__)
 
 
 class EvidenceService:
@@ -113,14 +117,23 @@ class EvidenceService:
             ip_address = request.META.get('REMOTE_ADDR')
             user_agent = request.META.get('HTTP_USER_AGENT', '')[:500]
         
-        return EvidenceAccessLog.objects.create(
-            company=evidence.company,
-            evidence=evidence,
-            accessed_by=user,
-            access_type=access_type,
-            ip_address=ip_address,
-            user_agent=user_agent
-        )
+        try:
+            return EvidenceAccessLog.all_objects.create(
+                company=evidence.company,
+                evidence=evidence,
+                accessed_by=user,
+                access_type=access_type,
+                ip_address=ip_address,
+                user_agent=user_agent
+            )
+        except Exception:
+            logger.exception(
+                "Failed to log %s access for evidence_id=%s user_id=%s",
+                access_type,
+                getattr(evidence, "id", None),
+                getattr(user, "id", None),
+            )
+            return None
     
     @staticmethod
     def get_evidence_analytics(company):
